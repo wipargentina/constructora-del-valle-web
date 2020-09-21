@@ -1,0 +1,12 @@
+footer {
+  background-color: $gray-800;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  .container {
+    height: 60px;
+    display: flex;
+    align-items: center;
+  }
+}

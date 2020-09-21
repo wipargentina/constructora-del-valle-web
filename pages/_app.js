@@ -1,11 +1,13 @@
-import '../styles/globals.css'
+import Header from '@components/Header'
+import Footer from '@components/Footer'
+import '../styles/styles.scss'
 
 function App({ Component, pageProps }) {
   return (
     <>
-      <header>header</header>
+      <Header />
       <Component {...pageProps} />
-      <footer>footer</footer>
+      <Footer />
     </>
   )
 }

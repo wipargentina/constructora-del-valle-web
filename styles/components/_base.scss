@@ -1,0 +1,15 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 61px;
+}
+
+.section {
+  padding: 100px 0;
+  text-align: center;
+  background-color: $gray-200;
+  margin-bottom: 1px;
+  font-size: 2em;
+}
