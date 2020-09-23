@@ -1,7 +1,8 @@
-const path = require('path')
+const path = require('path');
 
 module.exports = {
+  basePath: '',
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')]
   }
-}
+};

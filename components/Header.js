@@ -36,7 +36,7 @@ export default function Header() {
               </Link>
             </div>
             <div className='nav-item'>
-              <Link href='/ventures'>
+              <Link href='/emprendimientos'>
                 <a className='nav-link'>+ Emprendimientos</a>
               </Link>
             </div>

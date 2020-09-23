@@ -11,7 +11,7 @@ export default function OtherVentures() {
           {ventures.map((venture, index) => (
             <React.Fragment key={index}>
               {venture.status == 'finished' && (
-                <div className='col-md-6'>
+                <div className='col-lg-6'>
                   <Link href={venture.url ? `${venture.url}` : '/'}>
                     <a className='card'>
                       <div className='card-body'>
