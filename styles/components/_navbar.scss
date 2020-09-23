@@ -1,12 +1,17 @@
 .navbar {
   background-color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  .navbar-brand {
+    img {
+      height: 36px;
+    }
+  }
   .navbar-nav {
     text-transform: uppercase;
     .nav-item {
-      // background-color: rgba(red, 0.2);
       padding: 4px;
       .nav-link {
-        // background-color: rgba(blue, 0.2);
         font-size: 14px;
         color: black;
         font-weight: 500;

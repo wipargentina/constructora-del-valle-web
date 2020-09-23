@@ -1,13 +1,15 @@
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import Link from 'next/link';
-import LogoCDV from './LogoCDV';
 export default function Header() {
   return (
     <Navbar expand='lg' sticky='top'>
       <div className='container'>
         <Link href='/'>
           <a className='navbar-brand'>
-            <LogoCDV />
+            <img
+              src='logo-constructora-del-valle.png'
+              alt='constructora del valle'
+            />
           </a>
         </Link>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />

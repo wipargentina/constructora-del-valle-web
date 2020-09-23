@@ -7,14 +7,10 @@ export default function Slides() {
         <div className='container'>
           <Carousel indicators={false}>
             <Carousel.Item>
-              <img
-                className='d-block w-100'
-                src='/home/slide-1.jpg'
-                alt='First slide'
-              />
+              <img src='/home/slide-1.jpg' alt='First slide' />
               <Carousel.Caption>
                 <div className='caption-inner'>
-                  <h1 className='display-4'>Construyendo futuro.</h1>
+                  <h1 className='big-title'>Construyendo futuro.</h1>
                   <p className='lead'>Hablemos de inversión hoy y siempre.</p>
                   <a className='btn btn-primary' href='/'>
                     Ver proyecto de inversión
@@ -31,7 +27,7 @@ export default function Slides() {
 
               <Carousel.Caption>
                 <div className='caption-inner'>
-                  <h1 className='display-4'>Second slide label</h1>
+                  <h1 className='big-title'>Second slide label</h1>
                   <p className='lead'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </p>
