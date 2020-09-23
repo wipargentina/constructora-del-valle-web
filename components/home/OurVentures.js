@@ -1,22 +1,26 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
-export default function OurVentures() {
-  const [ventures, setVentures] = useState([]);
+import data from '../../data/ventures.json';
 
-  useEffect(() => {
-    fetch('http://localhost:3000/api/ventures')
-      .then((res) => res.json())
-      .then(setVentures);
-  }, []);
+export default function OurVentures() {
+  const ventures = data.data;
+  // const [ventures, setVentures] = useState([]);
+
+  // useEffect(() => {
+  //   // fetch('http://localhost:3000/api/ventures')
+  //   fetch('../../data/ventures.json')
+  //     .then((res) => res.json())
+  //     .then(setVentures);
+  // }, []);
 
   return (
     <section className='our-ventures'>
       <div className='container'>
         <h1 className='soft mb-5'>Nuestros Emprendimientos</h1>
         <div className='row'>
-          {ventures.map((venture) => (
-            <div className='col-md-6 col-lg-4'>
+          {ventures.map((venture, index) => (
+            <div key={index} className='col-md-6 col-lg-4'>
               <Link href={`${venture.url}`}>
                 <a className='card'>
                   <div className='card-header'>
