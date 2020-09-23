@@ -31,10 +31,10 @@ export default function Experience() {
               crecer rápidamente su inversión.
             </p>
             <div className='my-4'>
-              <div className='btn btn-outline-dark mr-3'>
+              <div className='btn btn-outline-dark mr-3 mb-3'>
                 Ver Empredimientos de inversión
               </div>
-              <div className='btn btn-link'>Conocer la empresa</div>
+              <div className='btn btn-link mb-3'>Conocer la empresa</div>
             </div>
           </div>
           <div className='col-md-6'>

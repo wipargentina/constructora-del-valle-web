@@ -1,28 +1,114 @@
 {
   "data": [
     {
+      "id": 1,
+      "status": "active",
       "title": "Veneto Village",
-      "text": "Villa Carlos Paz",
+      "location": "Villa Carlos Paz",
+      "summary": "",
       "image": "/demo/building-2.jpg",
       "url": "/veneto-village",
       "badge": "badge badge-warning",
       "badgeText": "Últimas oportunidades"
     },
     {
+      "id": 2,
+      "status": "active",
       "title": "Veneto VIII",
-      "text": "Villa Carlos Paz",
+      "location": "Villa Carlos Paz",
+      "summary": "",
       "image": "/demo/building-1.jpg",
       "url": "/veneto-8",
       "badge": "badge badge-danger",
       "badgeText": "Lanzamiento"
     },
     {
+      "id": 3,
+      "status": "active",
       "title": "Veneto VII",
-      "text": "Villa Carlos Paz",
+      "location": "Villa Carlos Paz",
+      "summary": "",
       "image": "/demo/building-2.jpg",
       "url": "/veneto-7",
       "badge": "badge badge-success",
       "badgeText": "Disponible"
+    },
+    {
+      "id": 4,
+      "status": "active",
+      "title": "Veneto VI",
+      "location": "Villa Carlos Paz",
+      "summary": "",
+      "image": "/demo/building-1.jpg",
+      "url": "/veneto-6",
+      "badge": "badge badge-warning",
+      "badgeText": "Últimas unidades"
+    },
+    {
+      "id": 5,
+      "status": "active",
+      "title": "Veneto V",
+      "location": "Villa Carlos Paz",
+      "summary": "",
+      "image": "/demo/building-2.jpg",
+      "url": "/veneto-5",
+      "badge": "badge badge-warning",
+      "badgeText": "Últimas unidades"
+    },
+    {
+      "id": 6,
+      "status": "active",
+      "title": "Veneto IV",
+      "location": "Villa Carlos Paz",
+      "summary": "",
+      "image": "/demo/building-1.jpg",
+      "url": "/veneto-4",
+      "badge": "badge badge-dark",
+      "badgeText": "Todo vendido"
+    },
+    {
+      "id": 7,
+      "status": "finished",
+      "title": "Veneto III",
+      "location": "Villa Carlos Paz",
+      "summary": "Edificación de 40 unidades, 1/2/3 dormitorios equipados",
+      "image": "/demo/building-1.jpg",
+      "url": "/veneto-3",
+      "badge": "badge badge-dark",
+      "badgeText": "Todo vendido"
+    },
+    {
+      "id": 8,
+      "status": "finished",
+      "title": "Veneto II",
+      "location": "Villa Carlos Paz",
+      "summary": "Edificación de 40 unidades, 1/2/3 dormitorios equipados",
+      "image": "/demo/building-1.jpg",
+      "url": "/veneto-2",
+      "badge": "badge badge-dark",
+      "badgeText": "Todo vendido"
+    },
+    {
+      "id": 9,
+      "status": "finished",
+      "title": "Veneto I",
+      "location": "Villa Carlos Paz",
+      "summary": "Edificación de 40 unidades, 1/2/3 dormitorios equipados",
+      "image": "/demo/building-1.jpg",
+      "url": "/veneto-1",
+      "badge": "badge badge-dark",
+      "badgeText": "Todo vendido"
+    },
+    {
+      "id": 9,
+      "status": "finished",
+      "title": "Veneto",
+      "location": "Villa Carlos Paz",
+      "summary": "Edificación de 40 unidades, 1/2/3 dormitorios equipados",
+      "image": "/demo/building-1.jpg",
+      "url": "",
+      "badge": "badge badge-dark",
+      "badgeText": "Todo vendido"
     }
   ]
 }
