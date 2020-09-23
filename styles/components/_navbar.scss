@@ -1,0 +1,19 @@
+.navbar {
+  background-color: #fff;
+  .navbar-nav {
+    text-transform: uppercase;
+    .nav-item {
+      // background-color: rgba(red, 0.2);
+      padding: 4px;
+      .nav-link {
+        // background-color: rgba(blue, 0.2);
+        font-size: 14px;
+        color: black;
+        font-weight: 500;
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+  }
+}

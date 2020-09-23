@@ -2,6 +2,9 @@
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
 @import './components/base';
+@import './components/types';
 @import './components/header';
+@import './components/navbar';
 @import './components/footer';
-@import './components/slides';
+@import './components/carousel';
+@import './components/pages';
