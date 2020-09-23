@@ -14,10 +14,8 @@ export default function Slides() {
               />
               <Carousel.Caption>
                 <div className='caption-inner'>
-                  <h1 className='display-4'>First slide label</h1>
-                  <p className='lead'>
-                    Nulla vitae elit libero, a pharetra augue mollis interdum.
-                  </p>
+                  <h1 className='display-4'>Construyendo futuro.</h1>
+                  <p className='lead'>Hablemos de inversión hoy y siempre.</p>
                   <a className='btn btn-primary' href='/'>
                     Ver proyecto de inversión
                   </a>
