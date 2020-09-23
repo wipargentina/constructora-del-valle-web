@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "title": "Veneto Village",
+      "text": "Villa Carlos Paz",
+      "status": "warning",
+      "statusText": "Últimas oportunidades"
+    },
+    {
+      "title": "Veneto VIII",
+      "text": "Villa Carlos Paz",
+      "status": "danger",
+      "statusText": "Lanzamiento"
+    },
+    {
+      "title": "Veneto VII",
+      "text": "Villa Carlos Paz",
+      "status": "success",
+      "statusText": "Disponible"
+    }
+  ]
+}

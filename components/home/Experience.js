@@ -40,19 +40,19 @@ export default function Experience() {
           <div className='col-md-6'>
             <div className='grid-container'>
               <div className='grid-item image-1'>
-                <img src='/home/slide-1.jpg' alt='' />
+                <img src='/demo/building-2.jpg' alt='' />
               </div>
               <div className='grid-item image-2'>
-                <img src='/home/slide-1.jpg' alt='' />
+                <img src='/demo/building-2.jpg' alt='' />
               </div>
               <div className='grid-item image-3'>
-                <img src='/home/slide-1.jpg' alt='' />
+                <img src='/demo/building-2.jpg' alt='' />
               </div>
               <div className='grid-item image-4'>
-                <img src='/home/slide-1.jpg' alt='' />
+                <img src='/demo/building-2.jpg' alt='' />
               </div>
               <div className='grid-item image-5'>
-                <img src='/home/slide-1.jpg' alt='' />
+                <img src='/demo/building-2.jpg' alt='' />
               </div>
             </div>
           </div>
