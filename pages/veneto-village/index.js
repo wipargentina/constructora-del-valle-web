@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import CompanyCTA from '@components/commons/CompanyCTA';
-import Contact from '@components/Contact';
+import Contact from '@components/commons/Contact';
 
 export default function VenetoVillage() {
   return (
@@ -14,8 +14,10 @@ export default function VenetoVillage() {
           <h1>Veneto Village</h1>
         </div>
       </section>
-      <CompanyCTA />
-      <Contact />
+      <div className='commons'>
+        <CompanyCTA />
+        <Contact />
+      </div>
     </div>
   );
 }
