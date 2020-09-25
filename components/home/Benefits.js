@@ -6,7 +6,7 @@ export default function Benefits() {
       <div className='container'>
         <h1>¿Por qué invertir en Veneto?</h1>
         <div className='row justify-content-center'>
-          <div className='col-md-8'>
+          <div className='col-xl-8'>
             <ul>
               <li>
                 <p>

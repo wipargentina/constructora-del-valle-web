@@ -3,8 +3,8 @@ import Slides from '@components/home/Slides';
 import Experience from '@components/home/Experience';
 import OurVentures from '@components/home/OurVentures';
 import OtherVentures from '@components/home/OtherVentures';
-import Benefits from '../components/home/Benefits';
-import CompanyCTA from '@components/CompanyCTA';
+import Benefits from '@components/home/Benefits';
+import CompanyCTA from '@components/commons/CompanyCTA';
 import Contact from '@components/Contact';
 
 export default function Home() {
@@ -21,7 +21,9 @@ export default function Home() {
         <OtherVentures />
         <Benefits />
       </div>
-      <CompanyCTA />
+      <div className='commons'>
+        <CompanyCTA />
+      </div>
       <Contact />
     </div>
   );

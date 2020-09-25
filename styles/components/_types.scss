@@ -1,6 +1,7 @@
 // h1
 h1 {
   font-weight: 600;
+  line-height: 3rem;
 }
 .big-title {
   font-size: $font-size-base * 4;
@@ -31,6 +32,7 @@ h2 {
   font-weight: 400;
   font-size: 0.9em;
 }
+
 @media (max-width: 767px) {
   h1 {
     font-weight: 600;
