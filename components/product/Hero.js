@@ -15,13 +15,17 @@ export default function Hero(props) {
               <span>{props.title}</span> <small>{props.location}</small>
             </h1>
           </div>
-          <div className='bookmark'>
-            <div className='bookmark-body'>
-              <IconStar className='icon' />
-              <div className='text'>{props.bookmark}</div>
-            </div>
-            <IconBookmark className='bookmark-footer' />
-          </div>
+          <>
+            {props.bookmark && (
+              <div className='bookmark'>
+                <div className='bookmark-body'>
+                  <IconStar className='icon' />
+                  <div className='text'>{props.bookmark}</div>
+                </div>
+                <IconBookmark className='bookmark-footer' />
+              </div>
+            )}
+          </>
         </div>
       </div>
     </div>
