@@ -3,15 +3,33 @@ $product-hero-heigth-tablet: 445px;
 $product-hero-heigth-mobile: 445px;
 .product {
   .hero {
-    background-color: #000;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.8) 84.37%,
+      #000000 100%
+    );
     position: relative;
     .hero-bg {
       height: $product-hero-heigth-desktop;
       width: 100%;
       object-fit: cover;
+      //opacity: 0.5;
+    }
+    .hero-overlay {
+      height: $product-hero-heigth-desktop;
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      width: 100%;
+      background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 80%,
+        rgba(0, 0, 0, 0.9) 100%
+      );
     }
     .hero-content {
       position: absolute;
+      z-index: 2;
       top: 0;
       width: 100%;
       .container {
@@ -31,7 +49,6 @@ $product-hero-heigth-mobile: 445px;
             letter-spacing: -0.02rem;
           }
           h1 {
-            text-shadow: 0 0 6px #666;
             span {
               text-transform: uppercase;
               font-weight: 700;

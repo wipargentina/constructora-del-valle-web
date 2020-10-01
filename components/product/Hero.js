@@ -5,11 +5,8 @@ import IconBookmark from '@components/icons/IconBookmark';
 export default function Hero(props) {
   return (
     <div className='hero'>
-      <img
-        src='https://images.unsplash.com/photo-1445019980597-93fa8acb246c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1353&q=80'
-        alt='image'
-        className='hero-bg'
-      />
+      <img src='/veneto-8/hero.jpg' alt='image' className='hero-bg' />
+      <div className='hero-overlay'>AS</div>
       <div className='hero-content'>
         <div className='container'>
           <div className='info'>
