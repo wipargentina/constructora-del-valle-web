@@ -2,7 +2,7 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import Link from 'next/link';
 export default function Header() {
   return (
-    <Navbar expand='lg' sticky='top'>
+    <Navbar expand='xl' sticky='top'>
       <div className='container'>
         <Link href='/'>
           <a className='navbar-brand'>
