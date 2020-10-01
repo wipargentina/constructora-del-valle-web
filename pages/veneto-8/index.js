@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import CompanyCTA from '@components/commons/CompanyCTA';
 import Contact from '@components/commons/Contact';
+import Hero from '@components/product/Hero';
 
 export default function Veneto8() {
   return (
@@ -9,11 +10,13 @@ export default function Veneto8() {
         <title>Veneto VIII</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <section className='section'>
-        <div className='container'>
-          <h1>Hero Veneto VIII</h1>
-        </div>
-      </section>
+      <Hero
+        title='Veneto VIII'
+        location='Villa Carlos Paz'
+        status='Lanzamiento'
+        badge='badge badge-danger'
+        bookmark='Oportunidad única por pre lanzamiento'
+      />
       <section className='section'>
         <div className='container'>
           <h1>Info General</h1>
