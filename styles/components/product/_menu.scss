@@ -15,12 +15,15 @@
           display: flex;
           align-items: center;
           font-size: 0.8rem;
+          letter-spacing: -0.02rem;
           color: $gray-800;
           cursor: pointer;
+          padding: 6px 4px 6px 0;
           .icon {
             color: $gray-600;
-            height: 18px;
+            height: 14px;
             margin-right: 0px;
+            margin: 0;
           }
           &:hover,
           &.active {
@@ -55,11 +58,13 @@
   .product {
     position: relative;
     .menu {
+      top: 0;
+      position: relative;
       .nav {
         padding: 0;
         justify-content: center;
         .nav-item {
-          margin: 4px;
+          margin: 3px;
         }
       }
       .status {

@@ -14,7 +14,7 @@ export default function Menu(props) {
         <div className='row'>
           <div className='col-xl-9'>
             <ul className='nav nav-pills'>
-              <li class='nav-item'>
+              <li className='nav-item'>
                 <Scroll
                   to='information'
                   spy={true}
@@ -27,7 +27,7 @@ export default function Menu(props) {
                   Info General
                 </Scroll>
               </li>
-              <li class='nav-item'>
+              <li className='nav-item'>
                 <Scroll
                   to='amenities'
                   spy={true}
@@ -40,7 +40,7 @@ export default function Menu(props) {
                   Amenities
                 </Scroll>
               </li>
-              <li class='nav-item'>
+              <li className='nav-item'>
                 <Scroll
                   to='typologies'
                   spy={true}
@@ -53,7 +53,7 @@ export default function Menu(props) {
                   Tipologías
                 </Scroll>
               </li>
-              <li class='nav-item'>
+              <li className='nav-item'>
                 <Scroll
                   to='investment'
                   spy={true}
@@ -66,7 +66,7 @@ export default function Menu(props) {
                   Inversión
                 </Scroll>
               </li>
-              <li class='nav-item'>
+              <li className='nav-item'>
                 <Scroll
                   to='advances'
                   spy={true}
@@ -79,7 +79,7 @@ export default function Menu(props) {
                   Avance de Obra
                 </Scroll>
               </li>
-              <li class='nav-item'>
+              <li className='nav-item'>
                 <Scroll
                   to='location'
                   spy={true}
@@ -88,7 +88,7 @@ export default function Menu(props) {
                   duration={599}
                   className='nav-link'
                 >
-                  <IconStore className='icon' />
+                  <IconLocation className='icon' />
                   Ubicación
                 </Scroll>
               </li>
