@@ -9,12 +9,15 @@
 @import './components/pages';
 
 // home
-@import './components/home/carousel';
+@import './components/home/slides';
 @import './components/home/experience';
 @import './components/home/our-ventures';
-@import './components/home/other-ventures';
 @import './components/home/benefits';
 
+// product
+@import './components/product/hero';
+
 // commons
+@import './components/commons/projects-finished';
 @import './components/commons/company-cta';
 @import './components/commons/contact';

@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Slides from '@components/home/Slides';
 import Experience from '@components/home/Experience';
 import OurVentures from '@components/home/OurVentures';
-import OtherVentures from '@components/home/OtherVentures';
+import ProjectsFinished from '@components/commons/ProjectsFinished';
 import Benefits from '@components/home/Benefits';
 import CompanyCTA from '@components/commons/CompanyCTA';
 import Contact from '@components/commons/Contact';
@@ -18,10 +18,8 @@ export default function Home() {
         <Slides />
         <Experience />
         <OurVentures />
-        <OtherVentures />
+        <ProjectsFinished />
         <Benefits />
-      </div>
-      <div className='commons'>
         <CompanyCTA />
         <Contact />
       </div>

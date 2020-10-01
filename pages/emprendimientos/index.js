@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Emprendimientos</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <section className='section'>

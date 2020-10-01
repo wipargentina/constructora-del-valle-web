@@ -1,4 +1,4 @@
-import React from 'react';
+import Link from 'next/link';
 
 export default function Experience() {
   return (
@@ -31,10 +31,14 @@ export default function Experience() {
               crecer rápidamente su inversión.
             </p>
             <div className='my-4'>
-              <div className='btn btn-outline-dark mr-3 mb-3'>
-                Ver Empredimientos de inversión
-              </div>
-              <div className='btn btn-link mb-3'>Conocer la empresa</div>
+              <Link href='/emprendimientos'>
+                <a className='btn btn-outline-dark mb-3'>
+                  Ver Empredimientos de inversión
+                </a>
+              </Link>
+              <Link href='/la-empresa'>
+                <a className='btn btn-link mb-3'>Conocer la empresa</a>
+              </Link>
             </div>
           </div>
           <div className='col-md-6'>
