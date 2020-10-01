@@ -19,15 +19,15 @@
           cursor: pointer;
           .icon {
             color: $gray-600;
-            height: 12px;
-            margin-right: 6px;
+            height: 18px;
+            margin-right: 0px;
           }
           &:hover,
           &.active {
             background-color: $primary;
             color: white;
             .icon {
-              color: $gray-400;
+              color: $gray-200;
             }
           }
         }

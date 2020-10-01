@@ -1,5 +1,5 @@
 import React from 'react';
-import IconStar from '@components/icons/IconStart';
+import IconStar from '@components/icons/IconStar';
 import IconBookmark from '@components/icons/IconBookmark';
 
 export default function Hero(props) {

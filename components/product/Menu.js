@@ -1,6 +1,11 @@
 import { Link as Scroll } from 'react-scroll';
-import IconStar from '@components/icons/IconStart';
+import IconRocket from '@components/icons/IconRocket';
 import { ProgressBar } from 'react-bootstrap';
+import IconFile from '@components/icons/IconFile';
+import IconStarLight from '@components/icons/IconStartLight';
+import IconStore from '@components/icons/IconStore';
+import IconCurrencyDollar from '@components/icons/IconCurrencyDollar';
+import IconLocation from '@components/icons/IconLocation';
 
 export default function Menu(props) {
   return (
@@ -18,7 +23,7 @@ export default function Menu(props) {
                   duration={599}
                   className='nav-link'
                 >
-                  <IconStar className='icon' />
+                  <IconFile className='icon' />
                   Info General
                 </Scroll>
               </li>
@@ -31,7 +36,7 @@ export default function Menu(props) {
                   duration={599}
                   className='nav-link'
                 >
-                  <IconStar className='icon' />
+                  <IconStarLight className='icon' />
                   Amenities
                 </Scroll>
               </li>
@@ -44,7 +49,7 @@ export default function Menu(props) {
                   duration={599}
                   className='nav-link'
                 >
-                  <IconStar className='icon' />
+                  <IconStore className='icon' />
                   Tipologías
                 </Scroll>
               </li>
@@ -57,7 +62,7 @@ export default function Menu(props) {
                   duration={599}
                   className='nav-link'
                 >
-                  <IconStar className='icon' />
+                  <IconCurrencyDollar className='icon' />
                   Inversión
                 </Scroll>
               </li>
@@ -70,7 +75,7 @@ export default function Menu(props) {
                   duration={599}
                   className='nav-link'
                 >
-                  <IconStar className='icon' />
+                  <IconRocket className='icon' />
                   Avance de Obra
                 </Scroll>
               </li>
@@ -83,7 +88,7 @@ export default function Menu(props) {
                   duration={599}
                   className='nav-link'
                 >
-                  <IconStar className='icon' />
+                  <IconStore className='icon' />
                   Ubicación
                 </Scroll>
               </li>
