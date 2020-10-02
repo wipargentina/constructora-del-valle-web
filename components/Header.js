@@ -7,7 +7,7 @@ export default function Header() {
         <Link href='/'>
           <a className='navbar-brand'>
             <img
-              src='logo-constructora-del-valle.png'
+              src='/logo-constructora-del-valle.png'
               alt='constructora del valle'
             />
           </a>
