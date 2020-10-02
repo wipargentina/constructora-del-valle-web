@@ -14,23 +14,24 @@
           border: 1px solid $gray-400;
           display: flex;
           align-items: center;
-          font-size: 0.8rem;
-          letter-spacing: -0.02rem;
+          font-size: 0.9rem;
           color: $gray-800;
           cursor: pointer;
-          padding: 6px 4px 6px 0;
+          padding: 8px 6px 8px 2px;
           .icon {
             color: $gray-600;
-            height: 14px;
+            height: 16px;
             margin-right: 0px;
             margin: 0;
           }
           &:hover,
+          &:focus,
           &.active {
-            background-color: $primary;
-            color: white;
+            background-color: #fff;
+            border: 1px solid $primary;
+            color: $primary;
             .icon {
-              color: $gray-200;
+              color: $primary;
             }
           }
         }
@@ -65,6 +66,19 @@
         justify-content: center;
         .nav-item {
           margin: 3px;
+          .nav-link {
+            font-size: 0.8rem;
+            letter-spacing: -0.02rem;
+            color: $gray-800;
+            cursor: pointer;
+            padding: 6px 4px 6px 0;
+            .icon {
+              color: $gray-600;
+              height: 15px;
+              margin-right: 0px;
+              margin: 0;
+            }
+          }
         }
       }
       .status {

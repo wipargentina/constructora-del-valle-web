@@ -5,7 +5,7 @@ import IconBookmark from '@components/icons/IconBookmark';
 export default function Hero(props) {
   return (
     <div className='hero'>
-      <img src='/veneto-8/hero.jpg' alt='image' className='hero-bg' />
+      <img src={props.image} alt='image' className='hero-bg' />
       <div className='hero-overlay'>AS</div>
       <div className='hero-content'>
         <div className='container'>

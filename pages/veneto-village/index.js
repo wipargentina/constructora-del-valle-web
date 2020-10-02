@@ -10,7 +10,7 @@ import Investemt from '@components/product/Investemt';
 import Advances from '@components/product/Advances';
 import Location from '@components/product/Location';
 
-class Veneto8 extends React.Component {
+class VenetoVillage extends React.Component {
   state = {
     informationEnabled: true,
     amenitiesEnabled: true,
@@ -23,23 +23,23 @@ class Veneto8 extends React.Component {
     return (
       <div>
         <Head>
-          <title>Veneto VIII</title>
+          <title>Veneto Village</title>
           <link rel='icon' href='/favicon.ico' />
         </Head>
         <div className='product'>
           <Hero
-            title='Veneto VIII'
+            title='Veneto Village'
             location='Villa Carlos Paz'
-            image='/veneto-8/hero.jpg'
-            status='Lanzamiento'
+            image='/veneto-village/hero.jpg'
+            status='Disponible'
             badge='badge badge-danger'
-            bookmark='Oportunidad única por pre lanzamiento'
+            bookmark='Sistema de Construcción Premium'
           />
           <Menu
             state={this.state}
-            statusText='Lanzamiento'
-            statusColor='danger'
-            statusValue='60'
+            statusText='92% Vendido'
+            statusColor='success'
+            statusValue='92'
           />
           {this.state.informationEnabled && <Information />}
           {this.state.amenitiesEnabled && <Amenities />}
@@ -57,4 +57,4 @@ class Veneto8 extends React.Component {
   }
 }
 
-export default Veneto8;
+export default VenetoVillage;
