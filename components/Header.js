@@ -17,7 +17,7 @@ export default function Header() {
           <Nav className='mx-auto'>
             <div className='nav-item'>
               <Link href='/veneto-village'>
-                <a className='nav-link'>Veneto Village</a>
+                <a className='nav-link disabled'>Veneto Village</a>
               </Link>
             </div>
             <div className='nav-item'>

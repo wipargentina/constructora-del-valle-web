@@ -8,14 +8,20 @@ import IconCurrencyDollar from '@components/icons/IconCurrencyDollar';
 import IconLocation from '@components/icons/IconLocation';
 
 export default function Menu(props) {
-  const state = props.state;
+  const information = props.information;
+  const amenities = props.amenities;
+  const typologies = props.typologies;
+  const investment = props.investment;
+  const advances = props.advances;
+  const location = props.location;
+
   return (
     <section className='menu'>
       <div className='container'>
         <div className='row'>
           <div className='col-xl-9'>
             <ul className='nav nav-pills'>
-              {state.informationEnabled && (
+              {information && (
                 <li className='nav-item'>
                   <Scroll
                     to='information'
@@ -30,7 +36,7 @@ export default function Menu(props) {
                   </Scroll>
                 </li>
               )}
-              {state.amenitiesEnabled && (
+              {amenities && (
                 <li className='nav-item'>
                   <Scroll
                     to='amenities'
@@ -45,7 +51,7 @@ export default function Menu(props) {
                   </Scroll>
                 </li>
               )}
-              {state.typologiesEnabled && (
+              {typologies && (
                 <li className='nav-item'>
                   <Scroll
                     to='typologies'
@@ -60,7 +66,7 @@ export default function Menu(props) {
                   </Scroll>
                 </li>
               )}
-              {state.investmentEnabled && (
+              {investment && (
                 <li className='nav-item'>
                   <Scroll
                     to='investment'
@@ -75,7 +81,7 @@ export default function Menu(props) {
                   </Scroll>
                 </li>
               )}
-              {state.advancesEnabled && (
+              {advances && (
                 <li className='nav-item'>
                   <Scroll
                     to='advances'
@@ -90,7 +96,7 @@ export default function Menu(props) {
                   </Scroll>
                 </li>
               )}
-              {state.locationEnabled && (
+              {location && (
                 <li className='nav-item'>
                   <Scroll
                     to='location'
