@@ -15,7 +15,7 @@ class Veneto8 extends React.Component {
     informationEnabled: true,
     amenitiesEnabled: true,
     typologiesEnabled: true,
-    investmentEnabled: false,
+    investmentEnabled: true,
     advancesEnabled: true,
     locationEnabled: true
   };
