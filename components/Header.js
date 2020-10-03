@@ -1,43 +1,45 @@
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav, NavbarBrand } from 'react-bootstrap';
 import Link from 'next/link';
 export default function Header() {
   return (
-    <Navbar expand='xl' sticky='top'>
+    <Navbar collapseOnSelect expand='xl' sticky='top'>
       <div className='container'>
-        <Link href='/'>
-          <a className='navbar-brand'>
-            <img
-              src='/logo-constructora-del-valle.png'
-              alt='constructora del valle'
-            />
-          </a>
+        <Link href='/' passHref>
+          <Nav.Link className='foo'>
+            <Navbar.Brand>
+              <img
+                src='/logo-constructora-del-valle.png'
+                alt='constructora del valle'
+              />
+            </Navbar.Brand>
+          </Nav.Link>
         </Link>
-        <Navbar.Toggle aria-controls='basic-navbar-nav' />
-        <Navbar.Collapse id='basic-navbar-nav'>
+        <Navbar.Toggle aria-controls='navbar-nav' />
+        <Navbar.Collapse id='navbar-nav'>
           <Nav className='mx-auto'>
             <div className='nav-item'>
-              <Link href='/veneto-village'>
-                <a className='nav-link disabled'>Veneto Village</a>
+              <Link href='/veneto-village' passHref>
+                <Nav.Link>Veneto Village</Nav.Link>
               </Link>
             </div>
             <div className='nav-item'>
-              <Link href='/veneto-8'>
-                <a className='nav-link'>Veneto VIII</a>
+              <Link href='/veneto-8' passHref>
+                <Nav.Link>Veneto VIII</Nav.Link>
               </Link>
             </div>
             <div className='nav-item'>
-              <Link href='/veneto-7'>
-                <a className='nav-link disabled'>Veneto VII</a>
+              <Link href='/veneto-7' passHref>
+                <Nav.Link disabled>Veneto VII</Nav.Link>
               </Link>
             </div>
             <div className='nav-item'>
-              <Link href='/veneto-6'>
-                <a className='nav-link disabled'>Veneto VI</a>
+              <Link href='/veneto-6' passHref>
+                <Nav.Link disabled>Veneto VI</Nav.Link>
               </Link>
             </div>
             <div className='nav-item'>
-              <Link href='/emprendimientos'>
-                <a className='nav-link'>+ Emprendimientos</a>
+              <Link href='/emprendimientos' passHref>
+                <Nav.Link>+ Emprendimientos</Nav.Link>
               </Link>
             </div>
             <div className='nav-item'>
