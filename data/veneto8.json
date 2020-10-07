@@ -28,7 +28,15 @@
     "pdfUrl": "https://www.google.com",
     "type": "Desarrollo en pozo",
     "duration": "12 MESES",
-    "rentability": "15.28%*"
+    "rentability": "15.28%*",
+    "featuredTitle": "GRAN INVERSOR VENETO !",
+    "featuredDescription": "GRANDES DESCUENTOS PARA INVERSORES EN LAS PRIMERAS 40 UNIDADES !",
+    "photo1": "/veneto-8/information-1.jpg",
+    "photo2": "/veneto-8/information-2.jpg",
+    "photo3": "/veneto-8/information-3.jpg"
+  },
+  "featured": {
+    "title": "Featured Json"
   },
   "amenities": {
     "title": "Amenities Json"

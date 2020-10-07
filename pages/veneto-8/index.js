@@ -1,6 +1,5 @@
 import Head from 'next/head';
-import CompanyCTA from '@components/commons/CompanyCTA';
-import Contact from '@components/commons/Contact';
+
 import Hero from '@components/product/Hero';
 import Menu from '@components/product/Menu';
 import Information from '@components/product/Information';
@@ -9,6 +8,9 @@ import Typologies from '@components/product/Typologies';
 import Investemt from '@components/product/Investemt';
 import Advances from '@components/product/Advances';
 import Location from '@components/product/Location';
+
+import CompanyCTA from '@components/commons/CompanyCTA';
+import Contact from '@components/commons/Contact';
 
 import data from 'data/veneto8.json';
 
