@@ -3,24 +3,25 @@ import IconStar from '@components/icons/IconStar';
 import IconBookmark from '@components/icons/IconBookmark';
 
 export default function Hero(props) {
+  const hero = props.data;
   return (
     <div className='hero'>
-      <img src={props.image} alt='image' className='hero-bg' />
+      <img src={hero.image} alt='image' className='hero-bg' />
       <div className='hero-overlay'></div>
       <div className='hero-content'>
         <div className='container'>
           <div className='info'>
-            <div className={props.badge}>{props.status}</div>
+            <div className={hero.badge}>{hero.status}</div>
             <h1 className='big-title'>
-              <span>{props.title}</span> <small>{props.location}</small>
+              <span>{hero.title}</span> <small>{hero.location}</small>
             </h1>
           </div>
           <>
-            {props.bookmark && (
+            {hero.bookmark && (
               <div className='bookmark'>
                 <div className='bookmark-body'>
                   <IconStar className='icon' />
-                  <div className='text'>{props.bookmark}</div>
+                  <div className='text'>{hero.bookmark}</div>
                 </div>
                 <IconBookmark className='bookmark-footer' />
               </div>

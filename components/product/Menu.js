@@ -1,19 +1,10 @@
-import { Link as Scroll } from 'react-scroll';
-import IconRocket from '@components/icons/IconRocket';
+// import { Link as Scroll } from 'react-scroll';
 import { ProgressBar } from 'react-bootstrap';
-import IconFile from '@components/icons/IconFile';
-import IconStarLight from '@components/icons/IconStartLight';
-import IconStore from '@components/icons/IconStore';
-import IconCurrencyDollar from '@components/icons/IconCurrencyDollar';
-import IconLocation from '@components/icons/IconLocation';
+import MenuButton from '@components/product/MenuButton';
 
 export default function Menu(props) {
-  const information = props.information;
-  const amenities = props.amenities;
-  const typologies = props.typologies;
-  const investment = props.investment;
-  const advances = props.advances;
-  const location = props.location;
+  const status = props.status;
+  const menu = props.menu;
 
   return (
     <section className='menu'>
@@ -21,107 +12,68 @@ export default function Menu(props) {
         <div className='row'>
           <div className='col-xl-9'>
             <ul className='nav nav-pills'>
-              {information && (
+              {status.information && (
                 <li className='nav-item'>
-                  <Scroll
+                  <MenuButton
                     to='information'
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={599}
-                    className='nav-link'
-                  >
-                    <IconFile className='icon' />
-                    Info General
-                  </Scroll>
+                    icon='IconFile'
+                    title='Info General'
+                  />
                 </li>
               )}
-              {amenities && (
+              {status.amenities && (
                 <li className='nav-item'>
-                  <Scroll
+                  <MenuButton
                     to='amenities'
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={599}
-                    className='nav-link'
-                  >
-                    <IconStarLight className='icon' />
-                    Amenities
-                  </Scroll>
+                    icon='IconStarLight'
+                    title='Amenities'
+                  />
                 </li>
               )}
-              {typologies && (
+              {status.typologies && (
                 <li className='nav-item'>
-                  <Scroll
+                  <MenuButton
                     to='typologies'
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={599}
-                    className='nav-link'
-                  >
-                    <IconStore className='icon' />
-                    Tipologías
-                  </Scroll>
+                    icon='IconStore'
+                    title='Tipologías'
+                  />
                 </li>
               )}
-              {investment && (
+              {status.investment && (
                 <li className='nav-item'>
-                  <Scroll
+                  <MenuButton
                     to='investment'
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={599}
-                    className='nav-link'
-                  >
-                    <IconCurrencyDollar className='icon' />
-                    Inversión
-                  </Scroll>
+                    icon='IconCurrencyDollar'
+                    title='Inversión'
+                  />
                 </li>
               )}
-              {advances && (
+              {status.advances && (
                 <li className='nav-item'>
-                  <Scroll
+                  <MenuButton
                     to='advances'
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={599}
-                    className='nav-link'
-                  >
-                    <IconRocket className='icon' />
-                    Avance de Obra
-                  </Scroll>
+                    icon='IconRocket'
+                    title='Avance de Obra'
+                  />
                 </li>
               )}
-              {location && (
+              {status.location && (
                 <li className='nav-item'>
-                  <Scroll
+                  <MenuButton
                     to='location'
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={599}
-                    className='nav-link'
-                  >
-                    <IconLocation className='icon' />
-                    Ubicación
-                  </Scroll>
+                    icon='IconLocation'
+                    title='Ubicación'
+                  />
                 </li>
               )}
             </ul>
           </div>
           <div className='col-xl-3'>
             <div className='status'>
-              <span className={`text-${props.statusColor}`}>
-                {props.statusText}
+              <span className={`text-${menu.statusColor}`}>
+                {menu.statusText}
               </span>
-              <ProgressBar
-                variant={props.statusColor}
-                now={props.statusValue}
-              />
+              <ProgressBar variant={menu.statusColor} now={menu.statusValue} />
             </div>
           </div>
         </div>

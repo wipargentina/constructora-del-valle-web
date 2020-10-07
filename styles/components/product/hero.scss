@@ -13,7 +13,6 @@ $product-hero-heigth-mobile: 445px;
       height: $product-hero-heigth-desktop;
       width: 100%;
       object-fit: cover;
-      //opacity: 0.5;
     }
     .hero-overlay {
       height: $product-hero-heigth-desktop;
@@ -127,7 +126,7 @@ $product-hero-heigth-mobile: 445px;
               flex-direction: column;
               span {
                 text-transform: uppercase;
-                line-height: 1.6rem;
+                line-height: 2.4rem;
               }
               small {
                 font-size: 1.4rem;

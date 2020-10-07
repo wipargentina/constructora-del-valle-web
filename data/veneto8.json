@@ -1,0 +1,48 @@
+{
+  "status": {
+    "information": true,
+    "amenities": true,
+    "typologies": true,
+    "investment": true,
+    "advances": true,
+    "location": true
+  },
+  "hero": {
+    "title": "Veneto VIII",
+    "location": "Villa Carlos Paz",
+    "image": "/veneto-8/hero.jpg",
+    "status": "Lanzamiento",
+    "badge": "badge badge-danger",
+    "bookmark": "Oportunidad única por pre lanzamiento"
+  },
+  "menu": {
+    "statusText": "lanzamiento",
+    "statusColor": "danger",
+    "statusValue": "60"
+  },
+  "information": {
+    "title": "Una oportunidad única de inversión",
+    "text": "Un desarrollo inmobiliario residencial y con fines turísticos, ubicado estratégicamente sobre la Calle 9 de Julio, a tan solo 20 metros del nuevo puente peatonal de la Ciudad de **Villa Carlos Paz**.\n\n Esta ubicación privilegiada, propone defender el valor del m2 y generar una alta rentabilidad por ser uno puntos más apetecibles de la ciudad, posicionado entre Centro Nuevo y el Centro Viejo.",
+    "price": "USD 35.000",
+    "observation": "+ cuotas fijas en pesos",
+    "pdfUrl": "https://www.google.com",
+    "type": "Desarrollo en pozo",
+    "duration": "12 MESES",
+    "rentability": "15.28%*"
+  },
+  "amenities": {
+    "title": "Amenities Json"
+  },
+  "typologies": {
+    "title": "Tipologías Json"
+  },
+  "investment": {
+    "title": "Inversión Json"
+  },
+  "advances": {
+    "title": "Avances de Obra Json"
+  },
+  "location": {
+    "title": "Ubicación Json"
+  }
+}
