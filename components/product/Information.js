@@ -5,7 +5,8 @@ import IconTimer from '@components/icons/IconTimer';
 import IconRentability from '@components/icons/IconRentability';
 
 export default function Information(props) {
-  const data = props.data;
+  const information = props.information;
+  const investment = props.investment;
   return (
     <section id='information' className='information'>
       <div className='container'>
@@ -13,15 +14,15 @@ export default function Information(props) {
           <div className='grid-container'>
             <div className='grid-item detail'>
               <div className='detail-body'>
-                <h1>{data.title}</h1>
+                <h1>{information.title}</h1>
                 <div className='text'>
-                  <ReactMarkdown source={data.text} escapeHtml={true} />
+                  <ReactMarkdown source={information.text} escapeHtml={true} />
                 </div>
               </div>
               <div className='detail-footer'>
                 <div>
                   <div className='price'>
-                    <b>{data.price}</b> {data.observation}
+                    <b>{information.price}</b> {information.observation}
                   </div>
                   <Scroll
                     to='investment'
@@ -35,10 +36,10 @@ export default function Information(props) {
                   </Scroll>
                 </div>
                 <div>
-                  {data.pdfUrl && (
+                  {information.pdfUrl && (
                     <a
                       className='btn btn-outline-danger my-3 my-xl-0'
-                      href={data.pdfUrl}
+                      href={information.pdfUrl}
                       target='_blank'
                       rel='noopener noreferrer'
                     >
@@ -58,7 +59,7 @@ export default function Information(props) {
                 </div>
                 <div className='investment-body'>
                   <div className='subtitle'>Tipo</div>
-                  <div className='title'>{data.type}</div>
+                  <div className='title'>{investment.type}</div>
                   <Scroll
                     to='investment'
                     spy={true}
@@ -77,7 +78,7 @@ export default function Information(props) {
                 </div>
                 <div className='investment-body'>
                   <div className='subtitle'>Duración</div>
-                  <div className='title'>{data.duration}</div>
+                  <div className='title'>{investment.duration}</div>
                   <Scroll
                     to='investment'
                     spy={true}
@@ -96,7 +97,7 @@ export default function Information(props) {
                 </div>
                 <div className='investment-body'>
                   <div className='subtitle'>Rentabilidad</div>
-                  <div className='title'>{data.rentability}</div>
+                  <div className='title'>{investment.rentability}</div>
                   <Scroll
                     to='investment'
                     spy={true}
@@ -115,8 +116,10 @@ export default function Information(props) {
       </div>
       <div className='container'>
         <div className='featured'>
-          <div className='featured-title'>{data.featuredTitle}</div>
-          <div className='featured-description'>{data.featuredDescription}</div>
+          <div className='featured-title'>{information.featuredTitle}</div>
+          <div className='featured-description'>
+            {information.featuredDescription}
+          </div>
           <div className='featured-link'>
             <Scroll
               to='investment'
@@ -133,9 +136,9 @@ export default function Information(props) {
       </div>
       <div className='container'>
         <div className='gallery'>
-          <img src={data.photo1} alt={data.title} />
-          <img src={data.photo2} alt={data.title} />
-          <img src={data.photo3} alt={data.title} />
+          <img src={information.photo1} alt={information.title} />
+          <img src={information.photo2} alt={information.title} />
+          <img src={information.photo3} alt={information.title} />
         </div>
       </div>
     </section>

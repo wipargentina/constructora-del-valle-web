@@ -10,7 +10,7 @@ export default function TypologiesItem(props) {
           <ul class='list-group list-group-flush'>
             {typology.features.map((feature, index) => (
               <li key={index} class='list-group-item'>
-                Morbi suspendisse vitae sodales eleifend fermentum.
+                {feature.item}
               </li>
             ))}
           </ul>

@@ -27,9 +27,6 @@
     "price": "USD 35.000",
     "observation": "+ cuotas fijas en pesos",
     "pdfUrl": "https://www.google.com",
-    "type": "Desarrollo en pozo",
-    "duration": "12 MESES",
-    "rentability": "15.28%*",
     "featuredTitle": "GRAN INVERSOR VENETO",
     "featuredDescription": "GRANDES DESCUENTOS PARA INVERSORES EN LAS PRIMERAS 40 UNIDADES",
     "photo1": "/veneto-8/information-1.jpg",
@@ -225,7 +222,12 @@
     }
   ],
   "investment": {
-    "title": "Inversión Json"
+    "type": "Desarrollo en pozo",
+    "typeDescription": "Significa que la edificación está en proceso, y tenés la oportunidad de acceder a una unidad con importantes descuentos.",
+    "duration": "36 MESES",
+    "durationDescription": "Es el tiempo estimado para la concluisión del emprendimiento y la entrega de posesión de tu departamento.",
+    "rentability": "15.28%*",
+    "rentabilityDescription": "El beneficio de un emprendimiento en pozo es que conforme pasen los meses, tu inversión  se revaloriza cada vez  más, y más."
   },
   "advances": {
     "title": "Avances de Obra Json"
