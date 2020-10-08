@@ -1,6 +1,6 @@
 export default function Video() {
   return (
-    <section id='typologies' className='section'>
+    <section className='section'>
       <div className='container'>
         <h1>Video</h1>
       </div>
