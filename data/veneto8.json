@@ -230,7 +230,15 @@
     "rentabilityDescription": "El beneficio de un emprendimiento en pozo es que conforme pasen los meses, tu inversión  se revaloriza cada vez  más, y más."
   },
   "advances": {
-    "title": "Avances de Obra Json"
+    "title": "Avances de Obra Json",
+    "slides": [
+      {
+        "image": "/veneto-8/amenties-detail-image-1.jpg"
+      },
+      {
+        "image": "/veneto-8/amenties-detail-image-2.jpg"
+      }
+    ]
   },
   "location": {
     "title": "Ubicación Json"

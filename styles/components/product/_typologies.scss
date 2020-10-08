@@ -13,6 +13,7 @@
     text-align: left;
     border: 0px;
     background-color: transparent;
+    margin-bottom: 20px;
     .card-header,
     .card-body,
     .list-group-item {
@@ -26,12 +27,21 @@
       letter-spacing: -0.02rem;
     }
     .list-group-item {
-      padding: 4px 0;
+      padding: 2px 0;
       border: 0;
       font-size: 0.75rem;
     }
     .card-body {
       padding-top: 20px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .typologies {
+    .card {
+      text-align: center;
+      margin-bottom: 40px;
     }
   }
 }
