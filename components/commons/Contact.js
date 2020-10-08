@@ -4,7 +4,7 @@ import IconWhatsapp from '@components/icons/IconWhatsapp';
 
 export default function Contact() {
   return (
-    <section className='contact'>
+    <section id='contact' className='contact'>
       <div className='text'>
         <div className='container'>
           <h2>Dejános tus datos y un asesor se comunicará a la brevedad</h2>

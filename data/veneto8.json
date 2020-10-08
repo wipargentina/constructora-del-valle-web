@@ -154,9 +154,76 @@
       ]
     }
   },
-  "typologies": {
-    "title": "Tipologías Json"
-  },
+  "typologies": [
+    {
+      "title": "1 Dormitorio",
+      "features": [
+        {
+          "item": "Morbi suspendisse vitae sodales eleifend fermentum."
+        },
+        {
+          "item": "Morbi suspendisse vitae sodales eleifend fermentum."
+        },
+        {
+          "item": "Morbi suspendisse vitae sodales eleifend fermentum."
+        },
+        {
+          "item": "Morbi suspendisse vitae sodales eleifend fermentum."
+        }
+      ]
+    },
+    {
+      "title": "2 Dormitorio",
+      "features": [
+        {
+          "item": "Morbi suspendisse vitae sodales eleifend fermentum."
+        },
+        {
+          "item": "Morbi suspendisse vitae sodales eleifend fermentum."
+        },
+        {
+          "item": "Morbi suspendisse vitae sodales eleifend fermentum."
+        },
+        {
+          "item": "Morbi suspendisse vitae sodales eleifend fermentum."
+        }
+      ]
+    },
+    {
+      "title": "3 Dormitorio",
+      "features": [
+        {
+          "item": "Morbi suspendisse vitae sodales eleifend fermentum."
+        },
+        {
+          "item": "Morbi suspendisse vitae sodales eleifend fermentum."
+        },
+        {
+          "item": "Morbi suspendisse vitae sodales eleifend fermentum."
+        },
+        {
+          "item": "Morbi suspendisse vitae sodales eleifend fermentum."
+        }
+      ]
+    },
+    {
+      "title": "Locales Comerciales",
+      "features": [
+        {
+          "item": "Morbi suspendisse vitae sodales eleifend fermentum."
+        },
+        {
+          "item": "Morbi suspendisse vitae sodales eleifend fermentum."
+        },
+        {
+          "item": "Morbi suspendisse vitae sodales eleifend fermentum."
+        },
+        {
+          "item": "Morbi suspendisse vitae sodales eleifend fermentum."
+        }
+      ]
+    }
+  ],
   "investment": {
     "title": "Inversión Json"
   },

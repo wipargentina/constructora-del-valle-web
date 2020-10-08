@@ -1,0 +1,37 @@
+.typologies {
+  padding: 60px 0;
+  background: linear-gradient(
+    180deg,
+    #f4f4f4 48.96%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  text-align: center;
+  h1 {
+    margin-bottom: 40px;
+  }
+  .card {
+    text-align: left;
+    border: 0px;
+    background-color: transparent;
+    .card-header,
+    .card-body,
+    .list-group-item {
+      background-color: transparent;
+      padding: 0;
+    }
+    .card-header {
+      padding-bottom: 16px;
+      margin-bottom: 8px;
+      font-size: 1.6rem;
+      letter-spacing: -0.02rem;
+    }
+    .list-group-item {
+      padding: 4px 0;
+      border: 0;
+      font-size: 0.75rem;
+    }
+    .card-body {
+      padding-top: 20px;
+    }
+  }
+}
