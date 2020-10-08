@@ -7,6 +7,7 @@ import Amenities from '@components/product/Amenities';
 import Typologies from '@components/product/Typologies';
 import Investemt from '@components/product/Investemt';
 import Advances from '@components/product/Advances';
+import Video from '@components/product/Video';
 import Location from '@components/product/Location';
 
 import CompanyCTA from '@components/commons/CompanyCTA';
@@ -28,9 +29,10 @@ export default function Veneto8() {
         <Menu status={data.status} menu={data.menu} />
         {data.status.information && <Information data={data.information} />}
         {data.status.amenities && <Amenities data={data.amenities} />}
+        {data.status.video && <Video data={data.video} />}
         {data.status.typologies && <Typologies data={data.typologies} />}
-        {data.status.investment && <Investemt data={data.investment} />}
         {data.status.advances && <Advances data={data.advances} />}
+        {data.status.investment && <Investemt data={data.investment} />}
         {data.status.location && <Location data={data.location} />}
       </div>
       <div className='commons'>

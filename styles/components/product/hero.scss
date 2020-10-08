@@ -1,6 +1,6 @@
 $product-hero-heigth-desktop: 445px;
 $product-hero-heigth-tablet: 445px;
-$product-hero-heigth-mobile: 445px;
+$product-hero-heigth-mobile: 385px;
 .product {
   .hero {
     background: linear-gradient(
@@ -100,6 +100,9 @@ $product-hero-heigth-mobile: 445px;
         height: $product-hero-heigth-mobile;
         width: 100%;
         object-fit: cover;
+      }
+      .hero-overlay {
+        height: $product-hero-heigth-mobile;
       }
       .hero-content {
         position: absolute;

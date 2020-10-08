@@ -4,7 +4,8 @@
     "amenities": true,
     "typologies": true,
     "investment": true,
-    "advances": true,
+    "advances": false,
+    "video": true,
     "location": true
   },
   "hero": {
@@ -29,17 +30,123 @@
     "type": "Desarrollo en pozo",
     "duration": "12 MESES",
     "rentability": "15.28%*",
-    "featuredTitle": "GRAN INVERSOR VENETO !",
-    "featuredDescription": "GRANDES DESCUENTOS PARA INVERSORES EN LAS PRIMERAS 40 UNIDADES !",
+    "featuredTitle": "GRAN INVERSOR VENETO",
+    "featuredDescription": "GRANDES DESCUENTOS PARA INVERSORES EN LAS PRIMERAS 40 UNIDADES",
     "photo1": "/veneto-8/information-1.jpg",
     "photo2": "/veneto-8/information-2.jpg",
     "photo3": "/veneto-8/information-3.jpg"
   },
-  "featured": {
-    "title": "Featured Json"
-  },
   "amenities": {
-    "title": "Amenities Json"
+    "summary": {
+      "title": "Resúmen",
+      "text": "VENETO VIII combina principalmente cuatro atributos: Arte, Tecnología, Diseño y Calidad que confluyen para generar un producto único, diferencial frente a la oferta disponible en la zona. Innovando en un mercado estático.\n\n La construcción constará de 15 locales comerciales, 75 departamentos, una cafetería de primera línea con patio estilo Green Garden, y los mejores amenities y vistas del centro hacia las montañas. Te invitamos a descubrir tu nueva y mejor inversión.",
+      "images": [],
+      "lists": []
+    },
+    "quality": {
+      "title": "CALIDAD CONSTRUCTIVA Y COMPROMISO MEDIOAMBIENTAL",
+      "text": "Además de la calidad constructiva que nos caracteriza, adoptamos el **compromiso veneto**, donde hemos incorporando nuevas tecnologías y materialescapaces de ofrecer alta comodidad optimizando el consumo de recursos y aportando al ahorro y medio ambiente.",
+      "gallery": {
+        "image1": "/veneto-8/amenties-gallery-1.jpg",
+        "image2": "/veneto-8/amenties-gallery-2.jpg",
+        "image3": "/veneto-8/amenties-gallery-3.jpg"
+      },
+      "lists": [
+        {
+          "text": "Porcelanato rectificado 60x60 primera calidad."
+        },
+        {
+          "text": "Muebles bajo y sobre mesada de moderna arquitectura."
+        },
+        {
+          "text": "Puertas de madera en ingreso e interior con picaporte de acero inoxidable."
+        },
+        {
+          "text": "Terminaciones en yeso con moldura en todo el perímetro del cielo razo."
+        },
+        {
+          "text": "Aberturas de aluminio linea modena."
+        },
+        {
+          "text": "Artefactos y accesorios de baño de primera línea."
+        },
+        {
+          "text": "Puertas de ingreso de vidrio templado con cerradura magnética."
+        },
+        {
+          "text": "Amplias cocheras con parking para bicis y motos."
+        },
+        {
+          "text": "Sistema de seguridad por cámaras."
+        },
+        {
+          "text": "Instalación eléctrica con circuitos diferenciados. AA/CC y Cocina eléctrica"
+        },
+        {
+          "text": "Calefacción central con calderas Ariston."
+        },
+        {
+          "text": "Sistema de paneles solares para agua sanitaria."
+        },
+        {
+          "text": "Sistema de medición de consumo de agua por unidad."
+        }
+      ]
+    },
+    "detail": {
+      "title": "DETALLES PARA DISFRUTAR CADA ESPACIO",
+      "text": "Cada espacio interior está diseñado para asegurar tu confort y comodidad, las terminaciones han sido seleccionadas de acuerdo a los más altos estándares de calidad. Servicios conectados al edificio y un equipamiento de primer nivel te brindarán una sensación única de comodidad.",
+      "slides": [
+        {
+          "image": "/veneto-8/amenties-gallery-1.jpg"
+        }
+      ],
+      "lists": []
+    },
+    "arquitecture": {
+      "title": "ARQUITECTURA MODERNA Y DE VANGUARDIA",
+      "text": "VENETO VIII está concebido para equilibrar tu día a día con espacios ideados para disfrutar el tiempo libre y hacer tu vida más agradable y entretenida.",
+      "slides": [
+        {
+          "image": "/veneto-8/amenties-gallery-1.jpg"
+        }
+      ],
+      "lists": [
+        {
+          "text": "Sala de Juegos + Kid Area"
+        },
+        {
+          "text": "Ascensores de alta velocidad"
+        },
+        {
+          "text": "Piscina Panorámica"
+        },
+        {
+          "text": "Gimnasio y Área para meditación."
+        },
+        {
+          "text": "Terraza Verde con Livings Materos"
+        },
+        {
+          "text": "Salón de usos múltiples totalmente equipado."
+        },
+        {
+          "text": "Asadores en terraza y balcones propios."
+        },
+        {
+          "text": "Locales comerciales en planta baja."
+        },
+        {
+          "text": "Hall de distribución central vanguardista."
+        },
+        {
+          "text": "Zona Wifi y Espacio Coworking."
+        },
+        {
+          "text": "Sala de Juegos + Kid Area"
+        }
+      ]
+    }
   },
   "typologies": {
     "title": "Tipologías Json"

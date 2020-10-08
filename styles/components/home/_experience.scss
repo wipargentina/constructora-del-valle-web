@@ -4,7 +4,7 @@
     .grid-container {
       display: grid;
       grid-template: repeat(2, 314px) / repeat(3, 1fr);
-      gap: 8px;
+      gap: 16px;
       grid-template-areas:
         'image-1 image-2 image-3'
         'image-4 image-5 image-5';

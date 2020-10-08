@@ -1,0 +1,116 @@
+.amenities {
+  padding: 60px 0;
+  h1 {
+    margin-bottom: 30px;
+  }
+  h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 1.375rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+    strong {
+      color: $success;
+      text-decoration: underline;
+      font-weight: 600;
+    }
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    columns: 2;
+    gap: 20px;
+    li {
+      display: grid;
+      grid-template-columns: 20px auto;
+      margin-bottom: 8px;
+      break-inside: avoid;
+      span {
+        margin-top: 8px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: $success;
+      }
+    }
+  }
+  .gallery-grid {
+    display: grid;
+    grid-template: repeat(2, 200px) / auto 200px;
+    gap: 16px;
+    grid-template-areas:
+      'image-1 image-2'
+      'image-1 image-3';
+    .gallery-item {
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .image-1 {
+    grid-area: image-1;
+  }
+  .image-2 {
+    grid-area: image-2;
+  }
+  .image-3 {
+    grid-area: image-3;
+  }
+}
+
+@media (max-width: 767px) {
+  .amenities {
+    padding: 60px 0;
+    h1 {
+      margin-bottom: 30px;
+    }
+    h2 {
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+    p {
+      font-size: 1.375rem;
+      font-weight: 300;
+      margin-bottom: 30px;
+      strong {
+        color: $success;
+        text-decoration: underline;
+        font-weight: 600;
+      }
+    }
+    ul {
+      columns: 1;
+      gap: 0px;
+    }
+    .gallery-grid {
+      display: grid;
+      grid-template: 200px 150px / auto auto;
+      gap: 16px;
+      grid-template-areas:
+        'image-1 image-1'
+        'image-2 image-3';
+      .gallery-item {
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+
+    .image-1 {
+      grid-area: image-1;
+    }
+    .image-2 {
+      grid-area: image-2;
+    }
+    .image-3 {
+      grid-area: image-3;
+    }
+  }
+}

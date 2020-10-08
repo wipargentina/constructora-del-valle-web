@@ -2,7 +2,7 @@ $primary: #0071e3;
 $secondary: #88be4a;
 $general-text: #333;
 $danger: #eb5757;
-$success: #00c48c;
+$success: #27a327;
 
 // Options
 //
@@ -116,3 +116,7 @@ $btn-padding-x-sm: $input-btn-padding-x-sm * 2 !default;
 
 $btn-padding-y-lg: $input-btn-padding-y-lg !default;
 $btn-padding-x-lg: $input-btn-padding-x-lg * 2 !default;
+
+$card-columns-count: 2 !default;
+$card-columns-gap: 1rem !default;
+$card-columns-margin: 1rem !default;
