@@ -1,13 +1,17 @@
 .projects-finished {
   padding: 40px 0 80px 0;
-  .card {
+  .card.home {
     padding: 0;
     margin-bottom: 30px;
     text-decoration: none;
     color: $general-text;
     border: 0px;
+    .card-img-top {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
     .card-body {
-      padding: 0;
       .card-title {
         font-weight: 700;
         text-transform: uppercase;
@@ -16,6 +20,42 @@
       }
       .card-units {
         margin-bottom: 0px;
+      }
+      .card-address {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .card.page {
+    padding: 0;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: $general-text;
+    border: 0px;
+    .card-img-top {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    .card-body {
+      padding: 20px 10px;
+      font-size: 0.85rem;
+      //background-color: orange;
+      .card-title {
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 4px;
+        font-size: 1.6rem;
+      }
+      .card-units {
+        margin-bottom: 4px;
+        text-transform: uppercase;
+      }
+      .card-typologies {
+        margin-bottom: 4px;
+      }
+      .card-amenities {
+        margin-bottom: 4px;
       }
       .card-address {
         margin-bottom: 0;

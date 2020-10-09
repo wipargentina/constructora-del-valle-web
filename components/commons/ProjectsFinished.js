@@ -12,8 +12,8 @@ export default function ProjectsFinished() {
             <React.Fragment key={index}>
               {project.status == 'finished' && (
                 <div className='col-lg-4'>
-                  <div className='card'>
-                    <div className='card-body'>
+                  <div className='card home'>
+                    <div className='card-body p-0'>
                       <h4 className='card-title'>{project.title}</h4>
                       <p className='card-units small'>{project.units}</p>
                       <p className='card-address small'>
