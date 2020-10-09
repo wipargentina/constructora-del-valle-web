@@ -1,19 +1,9 @@
 import Link from 'next/link';
-// import { useEffect, useState } from 'react';
 
 import data from '../../data/ventures.json';
 
 export default function OurVentures() {
   const ventures = data.data;
-  // const [ventures, setVentures] = useState([]);
-
-  // useEffect(() => {
-  //   // fetch('http://localhost:3000/api/ventures')
-  //   fetch('../../data/ventures.json')
-  //     .then((res) => res.json())
-  //     .then(setVentures);
-  // }, []);
-
   return (
     <section className='our-ventures'>
       <div className='container'>

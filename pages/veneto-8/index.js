@@ -10,7 +10,6 @@ import Advances from '@components/product/Advances';
 import Video from '@components/product/Video';
 import Location from '@components/product/Location';
 
-import CompanyCTA from '@components/commons/CompanyCTA';
 import Contact from '@components/commons/Contact';
 
 import data from 'data/veneto8.json';
@@ -41,7 +40,6 @@ export default function Veneto8() {
         {data.status.location && <Location data={data.location} />}
       </div>
       <div className='commons'>
-        {/* <CompanyCTA /> */}
         <Contact />
       </div>
     </div>
