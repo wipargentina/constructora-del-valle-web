@@ -41,7 +41,7 @@ export default function Veneto8() {
         {data.status.location && <Location data={data.location} />}
       </div>
       <div className='commons'>
-        <CompanyCTA />
+        {/* <CompanyCTA /> */}
         <Contact />
       </div>
     </div>
