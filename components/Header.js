@@ -7,10 +7,7 @@ export default function Header() {
         <Link href='/' passHref>
           <Nav.Link className='foo'>
             <Navbar.Brand>
-              <img
-                src='/logo-constructora-del-valle.png'
-                alt='constructora del valle'
-              />
+              <img className='logo' src='/Logo.svg' alt='logo' />
             </Navbar.Brand>
           </Nav.Link>
         </Link>

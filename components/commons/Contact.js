@@ -29,7 +29,10 @@ export default function Contact() {
                   <span>+54 358 4015 151</span>
                 </div>
                 <div className='info-item'>
-                  <a href='/' className='btn btn-success'>
+                  <a
+                    href='https://wa.me/543533456232'
+                    className='btn btn-success'
+                  >
                     <IconWhatsapp />
                     Consultanos
                   </a>

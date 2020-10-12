@@ -1,4 +1,4 @@
-import React from 'react';
+import Link from 'next/link';
 
 export default function CompanyCTA() {
   return (
@@ -12,18 +12,16 @@ export default function CompanyCTA() {
           </div>
           <div className='col-lg-6 col-xl-7'>
             <div className='info'>
-              <img
-                src='/logo-constructora-del-valle-negative.png'
-                alt=''
-                className='img-fluid'
-              />
+              <img className='logo' src='/Logo-wh.svg' alt='logo' />
               <h1>Construyendo futuro.</h1>
               <p>
                 Somos una empresa de la ciudad de Las Varillas, que opera como
                 desarrollador inmobiliario residencial en la Provincia de
                 Córdoba.
               </p>
-              <div className='btn btn-primary'>Saber más</div>
+              <Link href='/la-empresa'>
+                <a className='btn btn-primary'>Saber más</a>
+              </Link>
             </div>
           </div>
         </div>

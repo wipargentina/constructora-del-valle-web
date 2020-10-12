@@ -15,9 +15,9 @@ h1 {
   margin-bottom: 0;
 }
 .serif {
-  font-size: $font-size-base * 2;
-  font-family: serif;
+  font-weight: 400;
   margin-bottom: 0;
+  font-family: $font-family-serif;
 }
 
 h2 {
