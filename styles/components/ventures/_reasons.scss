@@ -3,5 +3,32 @@
     padding: 80px 0;
     background-color: #111111;
     color: white;
+
+    h1 {
+      font-size: 3.125rem;
+      text-transform: uppercase;
+      margin-bottom: 80px;
+      font-weight: 400;
+    }
+
+    .card {
+      background-color: transparent;
+      border: 0px;
+      margin-bottom: 80px;
+      .card-body {
+        padding: 0;
+        .icon {
+          margin-bottom: 8px;
+        }
+        .title {
+          font-size: 1.875rem;
+          margin-bottom: 8px;
+        }
+        .text {
+          font-size: 0.8rem;
+          font-weight: 400;
+        }
+      }
+    }
   }
 }

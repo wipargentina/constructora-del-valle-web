@@ -15,7 +15,7 @@
       "url": "/veneto-village",
       "badge": "badge badge-warning",
       "badgeText": "Últimas oportunidades",
-      "bookmark": "Oportunidad única por pre lanzamiento"
+      "bookmark": "Sistema de Construcción Premium           "
     },
     {
       "id": 2,
@@ -32,7 +32,7 @@
       "url": "/veneto-8",
       "badge": "badge badge-danger",
       "badgeText": "Lanzamiento",
-      "bookmark": ""
+      "bookmark": "Oportunidad única por pre lanzamiento"
     },
     {
       "id": 3,
@@ -40,7 +40,7 @@
       "visible": true,
       "title": "Veneto VII",
       "address": "direccion 1234",
-      "location": "Villa Carlos Paz",
+      "location": "La Falda",
       "units": "",
       "typologies": "Dptos de 1 y 2 dormitorios - Cocheras",
       "investment": "Desarrollo en pozo / 36 meses / Rentabilidad 15/28%",
@@ -49,7 +49,7 @@
       "url": "/veneto-7",
       "badge": "badge badge-success",
       "badgeText": "Disponible",
-      "bookmark": ""
+      "bookmark": "Oportunidad Exclusiva en la Falda"
     },
     {
       "id": 4,
@@ -66,7 +66,7 @@
       "url": "/veneto-6",
       "badge": "badge badge-warning",
       "badgeText": "Últimas unidades",
-      "bookmark": ""
+      "bookmark": "Oportunidad Exclusiva Dptos. con Descuentos"
     },
     {
       "id": 5,

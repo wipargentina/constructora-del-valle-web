@@ -18,9 +18,8 @@ export default function Veneto8() {
   return (
     <div>
       <Head>
-        <title>
-          {data.hero.title} - {data.hero.location}
-        </title>
+        <title>{data.head.title}</title>
+        <meta name='description' content={data.head.description} />
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <div className='product'>
@@ -33,11 +32,11 @@ export default function Veneto8() {
           />
         )}
         {data.status.amenities && <Amenities data={data.amenities} />}
-        {data.status.video && <Video data={data.video} />}
+        {data.status.video && <Video video={data.video} />}
         {data.status.typologies && <Typologies data={data.typologies} />}
         {data.status.advances && <Advances data={data.advances} />}
         {data.status.investment && <Investment investment={data.investment} />}
-        {data.status.location && <Location data={data.location} />}
+        {data.status.location && <Location location={data.location} />}
       </div>
       <div className='commons'>
         <Contact />

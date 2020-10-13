@@ -1,4 +1,9 @@
 {
+  "head": {
+    "title": "Veneto VIII - Villa Carlos Paz",
+    "description": "Nuevo Emprendimiento en Villa Carlos Paz",
+    "image": "/veneto-8/hero.jpg"
+  },
   "status": {
     "information": true,
     "amenities": true,
@@ -26,7 +31,7 @@
     "text": "Un desarrollo inmobiliario residencial y con fines turísticos, ubicado estratégicamente sobre la Calle 9 de Julio, a tan solo 20 metros del nuevo puente peatonal de la Ciudad de **Villa Carlos Paz**.\n\n Esta ubicación privilegiada, propone defender el valor del m2 y generar una alta rentabilidad por ser uno puntos más apetecibles de la ciudad, posicionado entre Centro Nuevo y el Centro Viejo.",
     "price": "USD 35.000",
     "observation": "+ cuotas fijas en pesos",
-    "pdfUrl": "https://www.google.com",
+    "pdfUrl": "https://drive.google.com/file/d/1-JvaFwwQzPF2NXSUvDZNKRPgzmVo-8bH/view?usp=sharing",
     "featuredTitle": "GRAN INVERSOR VENETO",
     "featuredDescription": "GRANDES DESCUENTOS PARA INVERSORES EN LAS PRIMERAS 40 UNIDADES",
     "photo1": "/veneto-8/information-1.jpg",
@@ -240,7 +245,12 @@
       }
     ]
   },
+  "video": {
+    "id": "xcJtL7QggTI",
+    "title": "El emprendimiento!"
+  },
   "location": {
-    "title": "Ubicación Json"
+    "title": "Ubicación Json",
+    "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3341.9489134227724!2d-64.32458578449064!3d-33.1104268808726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cdff93b17a9d67%3A0x2363117c75c3325!2sAchalay%201105%2C%20R%C3%ADo%20Cuarto%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1602201374298!5m2!1ses!2sar"
   }
 }

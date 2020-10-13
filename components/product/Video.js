@@ -1,19 +1,18 @@
-import { ResponsiveEmbed } from 'react-bootstrap';
-
-export default function Video() {
+export default function Video(props) {
+  const video = props.video;
   return (
     <section className='video'>
       <div className='container'>
-        <h1>El emprendimiento</h1>
+        <h1>{video.title}</h1>
         <div className='row justify-content-center'>
           <div className='col-md-10'>
-            <ResponsiveEmbed aspectRatio='16by9'>
+            <div class='embed-responsive embed-responsive-21by9'>
               <iframe
-                class='embed-responsive-item'
-                src='https://www.youtube.com/embed/xcJtL7QggTI?rel=0&showinfo=0'
-                allowfullscreen
+                className='embed-responsive-item'
+                src={`https://www.youtube.com/embed/${video.id}?rel=0&showinfo=0`}
+                loading='lazy'
               ></iframe>
-            </ResponsiveEmbed>
+            </div>
           </div>
         </div>
       </div>

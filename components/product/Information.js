@@ -38,6 +38,7 @@ export default function Information(props) {
                 <div>
                   {information.pdfUrl && (
                     <a
+                      id={`pdf`}
                       className='btn btn-outline-danger my-3 my-xl-0'
                       href={information.pdfUrl}
                       target='_blank'
@@ -46,9 +47,16 @@ export default function Information(props) {
                       Descargar PDF
                     </a>
                   )}
-                  <a href='' className='btn btn-primary ml-sm-3'>
+                  <Scroll
+                    to='contact'
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={599}
+                    className='btn btn-primary ml-sm-3'
+                  >
                     Consulta inmediata
-                  </a>
+                  </Scroll>
                 </div>
               </div>
             </div>

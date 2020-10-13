@@ -25,12 +25,26 @@
   }
   .navbar-nav {
     text-transform: uppercase;
+    .dropdown-menu {
+      .dropdown-item {
+        padding: 4px 16px;
+        font-size: 0.8rem;
+        color: black;
+        font-weight: 500;
+        &.active,
+        &:hover {
+          background-color: #fff;
+          color: $primary;
+        }
+      }
+    }
     .nav-item {
       padding: 4px;
       .nav-link {
-        font-size: 14px;
+        font-size: 0.875rem;
         color: black;
         font-weight: 500;
+        &.active,
         &:hover {
           color: $primary;
         }
