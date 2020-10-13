@@ -9,11 +9,13 @@
       "location": "Villa Carlos Paz",
       "units": "",
       "typologies": "Dptos de 1 y 2 dormitorios - Cocheras",
+      "investment": "Venta Directa / Entrega Inmediata / Financiación Propia",
       "amenities": "",
       "image": "/ventures/veneto-village.jpg",
       "url": "/veneto-village",
       "badge": "badge badge-warning",
-      "badgeText": "Últimas oportunidades"
+      "badgeText": "Últimas oportunidades",
+      "bookmark": "Oportunidad única por pre lanzamiento"
     },
     {
       "id": 2,
@@ -24,11 +26,13 @@
       "location": "Villa Carlos Paz",
       "units": "",
       "typologies": "Dptos de 1 y 2 dormitorios - Cocheras",
+      "investment": "Desarrollo en pozo / 36 meses / Rentabilidad 15/28%",
       "amenities": "",
       "image": "/ventures/veneto-8.jpg",
       "url": "/veneto-8",
       "badge": "badge badge-danger",
-      "badgeText": "Lanzamiento"
+      "badgeText": "Lanzamiento",
+      "bookmark": ""
     },
     {
       "id": 3,
@@ -39,11 +43,13 @@
       "location": "Villa Carlos Paz",
       "units": "",
       "typologies": "Dptos de 1 y 2 dormitorios - Cocheras",
+      "investment": "Desarrollo en pozo / 36 meses / Rentabilidad 15/28%",
       "amenities": "",
       "image": "/ventures/veneto-7.jpg",
       "url": "/veneto-7",
       "badge": "badge badge-success",
-      "badgeText": "Disponible"
+      "badgeText": "Disponible",
+      "bookmark": ""
     },
     {
       "id": 4,
@@ -54,11 +60,13 @@
       "location": "Villa Carlos Paz",
       "units": "",
       "typologies": "Dptos de 1 y 2 dormitorios - Cocheras",
+      "investment": "Desarrollo en pozo / 36 meses / Rentabilidad 15/28%",
       "amenities": "",
       "image": "/ventures/veneto-6.jpg",
       "url": "/veneto-6",
       "badge": "badge badge-warning",
-      "badgeText": "Últimas unidades"
+      "badgeText": "Últimas unidades",
+      "bookmark": ""
     },
     {
       "id": 5,
@@ -69,11 +77,13 @@
       "location": "Villa Carlos Paz",
       "units": "",
       "typologies": "Dptos de 1 y 2 dormitorios - Cocheras",
+      "investment": "Desarrollo en pozo / 36 meses / Rentabilidad 15/28%",
       "amenities": "",
       "image": "/ventures/veneto-5.jpg",
       "url": "/veneto-5",
       "badge": "badge badge-warning",
-      "badgeText": "Últimas unidades"
+      "badgeText": "Últimas unidades",
+      "bookmark": ""
     },
     {
       "id": 6,
@@ -84,11 +94,13 @@
       "location": "Villa Carlos Paz",
       "units": "",
       "typologies": "Dptos de 1 y 2 dormitorios - Cocheras",
+      "investment": "Desarrollo en pozo / 36 meses / Rentabilidad 15/28%",
       "amenities": "",
       "image": "/ventures/veneto-4.jpg",
       "url": "/veneto-4",
       "badge": "badge badge-dark",
-      "badgeText": "Todo vendido"
+      "badgeText": "Todo vendido",
+      "bookmark": ""
     },
     {
       "id": 7,
@@ -99,11 +111,13 @@
       "location": "Villa Carlos Paz",
       "units": "44 unidades",
       "typologies": "Dptos de 1 y 2 dormitorios - Cocheras",
+      "investment": "Venta Directa / Entrega Inmediata / Financiación Propia",
       "amenities": "Sum - Piscina Con Solarium - Gimnasio- Sala de Juegos – Cancha de Paddle - Asadores - Duchas Escocesas.",
       "image": "/ventures/veneto-1.jpg",
       "url": "",
       "badge": "badge badge-dark",
-      "badgeText": "Todo vendido"
+      "badgeText": "Todo vendido",
+      "bookmark": ""
     },
     {
       "id": 8,
@@ -114,11 +128,13 @@
       "location": "Villa Carlos Paz",
       "units": "23 unidades",
       "typologies": "Dptos de 1 y 2 dormitorios - Cocheras",
+      "investment": "Venta Directa / Entrega Inmediata / Financiación Propia",
       "amenities": " Piscina Con Solarium - Asadores.",
       "image": "/ventures/veneto-2.jpg",
       "url": "",
       "badge": "badge badge-dark",
-      "badgeText": "Todo vendido"
+      "badgeText": "Todo vendido",
+      "bookmark": ""
     },
     {
       "id": 9,
@@ -129,11 +145,13 @@
       "location": "Villa Carlos Paz",
       "units": "40 unidades",
       "typologies": "Dptos de 1 y 2 dormitorios - Cocheras",
+      "investment": "Venta Directa / Entrega Inmediata / Financiación Propia",
       "amenities": "Sum - Piscina con Solarium - Gimnasio- Sala de Juegos - Asadores - Duchas Escocesas.",
       "image": "/ventures/veneto-3.jpg",
       "url": "",
       "badge": "badge badge-dark",
-      "badgeText": "Todo vendido"
+      "badgeText": "Todo vendido",
+      "bookmark": ""
     },
     {
       "id": 10,
@@ -144,11 +162,13 @@
       "location": "Villa Parque Siquiman",
       "units": "64 unidades",
       "typologies": "",
+      "investment": "Venta Directa / Entrega Inmediata / Financiación Propia",
       "amenities": "",
       "image": "/ventures/veneto-village-torre-1.jpg",
       "url": "",
       "badge": "badge badge-dark",
-      "badgeText": "Todo vendido"
+      "badgeText": "Todo vendido",
+      "bookmark": ""
     },
     {
       "id": 11,
@@ -159,11 +179,13 @@
       "location": "Villa Parque Siquiman",
       "units": "64 unidades",
       "typologies": "",
+      "investment": "Venta Directa / Entrega Inmediata / Financiación Propia",
       "amenities": "",
       "image": "/ventures/veneto-village-torre-2.jpg",
       "url": "",
       "badge": "badge badge-dark",
-      "badgeText": "Todo vendido"
+      "badgeText": "Todo vendido",
+      "bookmark": ""
     },
     {
       "id": 12,
@@ -174,11 +196,13 @@
       "location": "Villa Carlos Paz",
       "units": "17 unidades",
       "typologies": "",
+      "investment": "Venta Directa / Entrega Inmediata / Financiación Propia",
       "amenities": "",
       "image": "/ventures/san-jose-1.jpg",
       "url": "",
       "badge": "badge badge-dark",
-      "badgeText": "Todo vendido"
+      "badgeText": "Todo vendido",
+      "bookmark": ""
     },
     {
       "id": 13,
@@ -189,11 +213,13 @@
       "location": "Villa Carlos Paz",
       "units": "64 unidades",
       "typologies": "Dptos de 1 y 2 dormitorios - Cocheras",
+      "investment": "Venta Directa / Entrega Inmediata / Financiación Propia",
       "amenities": "Cocheras - Sum - Piscina Con Solarium - Asadores.",
       "image": "/ventures/san-jose-2.jpg",
       "url": "",
       "badge": "badge badge-dark",
-      "badgeText": "Todo vendido"
+      "badgeText": "Todo vendido",
+      "bookmark": ""
     },
     {
       "id": 14,
@@ -204,11 +230,13 @@
       "location": "Villa Carlos Paz",
       "units": "27 unidades",
       "typologies": "Dptos de 1 y 2 dormitorios - Cocheras",
+      "investment": "Venta Directa / Entrega Inmediata / Financiación Propia",
       "amenities": "Sum - Piscina Con Solarium - Gimnasio - Sala de Juegos - Asadores.",
       "image": "/ventures/san-jose-3.jpg",
       "url": "",
       "badge": "badge badge-dark",
-      "badgeText": "Todo vendido"
+      "badgeText": "Todo vendido",
+      "bookmark": ""
     },
     {
       "id": 15,
@@ -219,11 +247,13 @@
       "location": "Villa Carlos Paz",
       "units": "40 unidades",
       "typologies": "Dptos de 1 y 2 dormitorios - Cocheras",
+      "investment": "Venta Directa / Entrega Inmediata / Financiación Propia",
       "amenities": "Sum - Piscina Con Solarium - Gimnasio - Sala de Juegos - Asadores - Duchas Escocesas.",
       "image": "/ventures/san-jose-4.jpg",
       "url": "",
       "badge": "badge badge-dark",
-      "badgeText": "Todo vendido"
+      "badgeText": "Todo vendido",
+      "bookmark": ""
     },
     {
       "id": 16,
@@ -234,11 +264,13 @@
       "location": "Villa Carlos Paz",
       "units": "6 unidades",
       "typologies": "",
+      "investment": "Venta Directa / Entrega Inmediata / Financiación Propia",
       "amenities": "",
       "image": "/ventures/traful-1.jpg",
       "url": "",
       "badge": "badge badge-dark",
-      "badgeText": "Todo vendido"
+      "badgeText": "Todo vendido",
+      "bookmark": ""
     },
     {
       "id": 17,
@@ -249,11 +281,13 @@
       "location": "Villa Carlos Paz",
       "units": "10 unidades",
       "typologies": "Dptos de 1 y 2 dormitorios - Cocheras",
+      "investment": "Venta Directa / Entrega Inmediata / Financiación Propia",
       "amenities": "Piletas – Quincho Con Baños- Asadores.",
       "image": "/ventures/traful-2.jpg",
       "url": "",
       "badge": "badge badge-dark",
-      "badgeText": "Todo vendido"
+      "badgeText": "Todo vendido",
+      "bookmark": ""
     },
     {
       "id": 18,
@@ -264,11 +298,13 @@
       "location": "Las Varillas",
       "units": "12 unidades",
       "typologies": "Dptos de 1 y 2 dormitorios - Cocheras",
+      "investment": "Venta Directa / Entrega Inmediata / Financiación Propia",
       "amenities": "",
       "image": "/ventures/centenario-1.jpg",
       "url": "",
       "badge": "badge badge-dark",
-      "badgeText": "Todo vendido"
+      "badgeText": "Todo vendido",
+      "bookmark": ""
     },
     {
       "id": 19,
@@ -279,11 +315,13 @@
       "location": "Las Varillas",
       "units": "23 unidades",
       "typologies": "",
+      "investment": "Venta Directa / Entrega Inmediata / Financiación Propia",
       "amenities": "",
       "image": "/ventures/centenario-2.jpg",
       "url": "",
       "badge": "badge badge-dark",
-      "badgeText": "Todo vendido"
+      "badgeText": "Todo vendido",
+      "bookmark": ""
     },
     {
       "id": 20,
@@ -294,11 +332,13 @@
       "location": "Las Varillas",
       "units": "23 unidades",
       "typologies": "",
+      "investment": "Venta Directa / Entrega Inmediata / Financiación Propia",
       "amenities": "",
       "image": "/ventures/complejo-alvear.jpg",
       "url": "",
       "badge": "badge badge-dark",
-      "badgeText": "Todo vendido"
+      "badgeText": "Todo vendido",
+      "bookmark": ""
     }
   ]
 }
