@@ -10,7 +10,7 @@ export default function Reasons() {
   return (
     <div className='reasons'>
       <div className='container'>
-        <h1>Razones para invertir en veneto</h1>
+        <h1>Razones para elegir en veneto</h1>
         <div className='row mb-5'>
           <div className='col-md-11'>
             <div className='row'>
