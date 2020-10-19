@@ -39,7 +39,7 @@ export default function Veneto8() {
         {data.status.location && <Location location={data.location} />}
       </div>
       <div className='commons'>
-        <Contact />
+        <Contact subject='Veneto VIII' tags='veneto-8' />
       </div>
     </div>
   );

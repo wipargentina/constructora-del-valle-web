@@ -2,8 +2,11 @@ import IconPhone from '@components/icons/IconPhone';
 import IconEmail from '@components/icons/IconEmail';
 import IconWhatsapp from '@components/icons/IconWhatsapp';
 import Form from './Form';
+import ContactForm from './ContactForm';
 
-export default function Contact() {
+export default function Contact(props) {
+  const subject = props.subject;
+  const tags = props.tags;
   return (
     <section id='contact' className='contact'>
       <div className='text'>
@@ -39,7 +42,8 @@ export default function Contact() {
                   </a>
                 </div>
               </div>
-              <Form />
+              {/* <Form subject={subject} tags={tags} /> */}
+              <ContactForm subject={subject} tags={tags} />
             </div>
           </div>
         </div>

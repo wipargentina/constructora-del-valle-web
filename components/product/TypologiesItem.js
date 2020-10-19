@@ -7,9 +7,9 @@ export default function TypologiesItem(props) {
       <div className='col-md-3'>
         <div className='card'>
           <h2 className='card-header'>{typology.title}</h2>
-          <ul class='list-group list-group-flush'>
+          <ul className='list-group list-group-flush'>
             {typology.features.map((feature, index) => (
-              <li key={index} class='list-group-item'>
+              <li key={index} className='list-group-item'>
                 {feature.item}
               </li>
             ))}

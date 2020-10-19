@@ -6,7 +6,7 @@ export default function Video(props) {
         <h1>{video.title}</h1>
         <div className='row justify-content-center'>
           <div className='col-md-10'>
-            <div class='embed-responsive embed-responsive-21by9'>
+            <div className='embed-responsive embed-responsive-21by9'>
               <iframe
                 className='embed-responsive-item'
                 src={`https://www.youtube.com/embed/${video.id}?rel=0&showinfo=0`}
