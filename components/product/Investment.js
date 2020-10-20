@@ -32,7 +32,9 @@ export default function Investemt(props) {
                     <div className='card-icon'>
                       <IconTimer />
                     </div>
-                    <div className='card-subtitle'>Duración</div>
+                    <div className='card-subtitle'>
+                      {investment.durationTitle}
+                    </div>
                     <div className='card-title'>{investment.duration}</div>
                     <div className='card-divider'></div>
                     <div className='card-description'>

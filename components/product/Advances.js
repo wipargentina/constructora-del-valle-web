@@ -1,10 +1,12 @@
-import React from 'react';
+import Slides from '@components/product/Slides';
 
-export default function Advances() {
+export default function Advances(props) {
+  const advances = props.advances;
   return (
-    <section id='advances' className='section'>
+    <section id='advances' className='advances'>
       <div className='container'>
-        <h1>Avances de Obra</h1>
+        <h1>{advances.title}</h1>
+        <Slides slides={advances.slides} />
       </div>
     </section>
   );

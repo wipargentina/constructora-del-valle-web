@@ -112,14 +112,14 @@ const ContactForm = (props) => {
               <input
                 className='form-control'
                 type='text'
-                placeholder='Interes'
+                placeholder='¿Qué tema te interesa?'
                 value={subject}
                 onChange={(e) => setSubject(e.target.value)}
                 required
               />
             </div>
           </div>
-          <div className='col-12'>
+          <div className='col-12 mb-3'>
             <div className='form-group'>
               <textarea
                 className='form-control '
@@ -132,6 +132,9 @@ const ContactForm = (props) => {
             </div>
           </div>
           <div className='col-12 mb-3'>
+            <label className='mb-1'>
+              ¿Qué finalidad quieres darle a tu depto.?
+            </label>
             <div className='form-group'>
               <div className='custom-control custom-radio custom-control-inline'>
                 <input

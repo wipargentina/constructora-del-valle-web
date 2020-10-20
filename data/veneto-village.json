@@ -1,47 +1,47 @@
 {
   "head": {
-    "title": "Veneto VIII - Villa Carlos Paz",
-    "description": "Nuevo Emprendimiento en Villa Carlos Paz",
-    "image": "/veneto-8/hero.jpg"
+    "title": "Veneto Village - Villa Carlos Paz",
+    "description": "Sistema de Construcción Premium",
+    "image": "/veneto-village/hero.jpg"
   },
   "status": {
     "information": true,
     "amenities": true,
-    "typologies": true,
-    "investment": true,
-    "advances": false,
-    "video": true,
-    "location": true
+    "typologies": false,
+    "investment": false,
+    "advances": true,
+    "video": false,
+    "location": false
   },
   "hero": {
-    "title": "Veneto VIII",
+    "title": "Veneto Village",
     "location": "Villa Carlos Paz",
-    "image": "/veneto-8/hero.jpg",
-    "status": "Lanzamiento",
+    "image": "/veneto-village/hero.jpg",
+    "status": "Disponible",
     "badge": "badge badge-danger",
-    "bookmark": "Oportunidad única por pre lanzamiento"
+    "bookmark": "Sistema de Construcción Premium"
   },
   "menu": {
-    "statusText": "lanzamiento",
-    "statusColor": "danger",
-    "statusValue": "60"
+    "statusText": "92% vendido",
+    "statusColor": "info",
+    "statusValue": "92"
   },
   "information": {
-    "title": "Una oportunidad única de inversión",
-    "text": "Un desarrollo inmobiliario residencial y con fines turísticos, ubicado estratégicamente sobre la Calle 9 de Julio, a tan solo 20 metros del nuevo puente peatonal de la Ciudad de **Villa Carlos Paz**.\n\n Esta ubicación privilegiada, propone defender el valor del m2 y generar una alta rentabilidad por ser uno puntos más apetecibles de la ciudad, posicionado entre Centro Nuevo y el Centro Viejo.",
-    "price": "USD 35.000",
-    "observation": "+ cuotas fijas en pesos",
+    "title": "Un paraíso único a 10’ de la ciudad",
+    "text": "VENETO como marca de edificios genera un diferencial respecto a cualquier otro desarrollo en la zona, VENETO VILLAGE, es un CLUB VACACIONAL ubicado a 10 minutos de Villa Carlos Paz, camino a Cosquín. Donde se alzan a los pies del lago San Roque 4 torres con más de 60 departamentos cada una, 120 metros de costa exclusiva para Deportes Náuticos, Spa, Club House, un área deportiva de lujo, los Mejores Amenities y vistas insuperables.",
+    "price": "USD 50.000",
+    "observation": "+ 12 cuotas",
     "pdfUrl": "https://drive.google.com/file/d/1-JvaFwwQzPF2NXSUvDZNKRPgzmVo-8bH/view?usp=sharing",
-    "featuredTitle": "GRAN INVERSOR VENETO",
-    "featuredDescription": "GRANDES DESCUENTOS PARA INVERSORES EN LAS PRIMERAS 40 UNIDADES",
-    "photo1": "/veneto-8/information-1.jpg",
-    "photo2": "/veneto-8/information-2.jpg",
-    "photo3": "/veneto-8/information-3.jpg"
+    "featuredTitle": "CONSTRUCCIÓN PREMIUM",
+    "featuredDescription": "Pocelanato 60x60 / Muros internos de material / Calefacción Top / Iluminación Led",
+    "photo1": "/veneto-village/information-1.jpg",
+    "photo2": "/veneto-village/information-2.jpg",
+    "photo3": "/veneto-village/information-3.jpg"
   },
   "amenities": {
     "summary": {
       "title": "Resúmen",
-      "text": "VENETO VIII combina principalmente cuatro atributos: Arte, Tecnología, Diseño y Calidad que confluyen para generar un producto único, diferencial frente a la oferta disponible en la zona. Innovando en un mercado estático.\n\n La construcción constará de 15 locales comerciales, 75 departamentos, una cafetería de primera línea con patio estilo Green Garden, y los mejores amenities y vistas del centro hacia las montañas. Te invitamos a descubrir tu nueva y mejor inversión.",
+      "text": "En Villa Parque Siquiman, sobre el lago San Roque en el corredor turístico Villa Carlos Paz-Cosquín, se desarrolla un condominio con vista al lago y a las sierras. Espacios ideales para disfrutar de todos sus amenities y servicios, destacándose la costa propia y bajada al lago para los apasionados de los deportes náuticos. Combinamos confort, seguridad y tranquilidad, en un entorno único y singular.",
       "images": [],
       "lists": []
     },
@@ -49,9 +49,9 @@
       "title": "CALIDAD CONSTRUCTIVA Y COMPROMISO MEDIOAMBIENTAL",
       "text": "Además de la calidad constructiva que nos caracteriza, adoptamos el **compromiso veneto**, donde hemos incorporando nuevas tecnologías y materialescapaces de ofrecer alta comodidad optimizando el consumo de recursos y aportando al ahorro y medio ambiente.",
       "gallery": {
-        "image1": "/veneto-8/amenties-gallery-1.jpg",
-        "image2": "/veneto-8/amenties-gallery-2.jpg",
-        "image3": "/veneto-8/amenties-gallery-3.jpg"
+        "image1": "/veneto-village/amenties-gallery-1.jpg",
+        "image2": "/veneto-village/amenties-gallery-2.jpg",
+        "image3": "/veneto-village/amenties-gallery-3.jpg"
       },
       "lists": [
         {
@@ -96,62 +96,50 @@
       ]
     },
     "detail": {
-      "title": "DETALLES PARA DISFRUTAR CADA ESPACIO",
-      "text": "Cada espacio interior está diseñado para asegurar tu confort y comodidad, las terminaciones han sido seleccionadas de acuerdo a los más altos estándares de calidad. Servicios conectados al edificio y un equipamiento de primer nivel te brindarán una sensación única de comodidad.",
+      "title": "ÁREA DEPORTIVA",
+      "text": "Veneto Village es sinónimo de calidad de vida. Posee un área deportiva totalmente equipada que cuenta con...\n\n La combinación perecta de servicios conectados a la naturaleza, y un equipamiento de primer nivel te brindarán una sensación única de comodidad y energía renovadora.",
       "slides": [
         {
-          "image": "/veneto-8/amenties-detail-image-1.jpg"
-        },
-        {
-          "image": "/veneto-8/amenties-detail-image-2.jpg"
+          "image": "/veneto-village/amenties-detail-image-1.jpg"
         }
       ],
       "lists": []
     },
     "arquitecture": {
-      "title": "ARQUITECTURA MODERNA Y DE VANGUARDIA",
+      "title": "BAJADA AL LAGO Y GUARDERÍA NÁUTICA",
       "text": "VENETO VIII está concebido para equilibrar tu día a día con espacios ideados para disfrutar el tiempo libre y hacer tu vida más agradable y entretenida.",
       "slides": [
         {
-          "image": "/veneto-8/amenties-arquitecture-image-1.jpg"
-        },
-        {
-          "image": "/veneto-8/amenties-arquitecture-image-2.jpg"
+          "image": "/veneto-village/amenties-arquitecture-image-1.jpg"
         }
       ],
       "lists": [
         {
-          "text": "Sala de Juegos + Kid Area"
+          "text": "Elegante Hall de Acceso."
         },
         {
-          "text": "Ascensores de alta velocidad"
+          "text": "Ascensores de alta velocidad."
         },
         {
-          "text": "Piscina Panorámica"
+          "text": "Piscina Panorámica."
         },
         {
-          "text": "Gimnasio y Área para meditación."
+          "text": "Gimnasio."
         },
         {
-          "text": "Terraza Verde con Livings Materos"
+          "text": "Terraza Verde con Livings."
         },
         {
-          "text": "Salón de usos múltiples totalmente equipado."
+          "text": "Quincho Panorámico."
         },
         {
-          "text": "Asadores en terraza y balcones propios."
+          "text": "Asadores en terraza y balcones."
         },
         {
           "text": "Locales comerciales en planta baja."
         },
         {
           "text": "Hall de distribución central vanguardista."
-        },
-        {
-          "text": "Zona Wifi y Espacio Coworking."
-        },
-        {
-          "text": "Sala de Juegos + Kid Area"
         }
       ]
     }
@@ -227,21 +215,25 @@
     }
   ],
   "investment": {
-    "type": "Desarrollo en pozo",
-    "typeDescription": "Significa que la edificación está en proceso, y tenés la oportunidad de acceder a una unidad con importantes descuentos.",
-    "duration": "36 MESES",
-    "durationDescription": "Es el tiempo estimado para la concluisión del emprendimiento y la entrega de posesión de tu departamento.",
-    "rentability": "15.28%*",
+    "type": "Inversión Premium",
+    "typeDescription": "",
+    "durationTitle": "Entrega",
+    "duration": "INMEDIATA",
+    "durationDescription": "",
+    "rentability": "22-31%*",
     "rentabilityDescription": "El beneficio de un emprendimiento en pozo es que conforme pasen los meses, tu inversión  se revaloriza cada vez  más, y más."
   },
   "advances": {
-    "title": "Avances de Obra Json",
+    "title": "Veneto Village",
     "slides": [
       {
-        "image": "/veneto-8/amenties-detail-image-1.jpg"
+        "image": "/veneto-village/advances-image-1.jpg"
       },
       {
-        "image": "/veneto-8/amenties-detail-image-2.jpg"
+        "image": "/veneto-village/advances-image-2.jpg"
+      },
+      {
+        "image": "/veneto-village/advances-image-3.jpg"
       }
     ]
   },

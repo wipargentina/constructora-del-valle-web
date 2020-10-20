@@ -12,9 +12,9 @@ import Location from '@components/product/Location';
 
 import Contact from '@components/commons/Contact';
 
-import data from 'data/veneto-8.json';
+import data from 'data/veneto-village.json';
 
-export default function Veneto8() {
+export default function VenetoVillage() {
   return (
     <div>
       <Head>
@@ -35,12 +35,12 @@ export default function Veneto8() {
         {data.status.amenities && <Amenities data={data.amenities} />}
         {data.status.video && <Video video={data.video} />}
         {data.status.typologies && <Typologies data={data.typologies} />}
-        {data.status.advances && <Advances data={data.advances} />}
+        {data.status.advances && <Advances advances={data.advances} />}
         {data.status.investment && <Investment investment={data.investment} />}
         {data.status.location && <Location location={data.location} />}
       </div>
       <div className='commons'>
-        <Contact subject='Veneto VIII' tags='veneto-8' />
+        <Contact subject='Veneto Village' tags='veneto-8' />
       </div>
     </div>
   );

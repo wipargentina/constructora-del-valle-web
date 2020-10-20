@@ -3,10 +3,12 @@ import ReactMarkdown from 'react-markdown';
 import IconType from '@components/icons/IconType';
 import IconTimer from '@components/icons/IconTimer';
 import IconRentability from '@components/icons/IconRentability';
+import ButtonMoreInformation from './ButtonMoreInformation';
 
 export default function Information(props) {
   const information = props.information;
   const investment = props.investment;
+  const status = props.status;
   return (
     <section id='information' className='information'>
       <div className='container'>
@@ -24,16 +26,7 @@ export default function Information(props) {
                   <div className='price'>
                     <b>{information.price}</b> {information.observation}
                   </div>
-                  <Scroll
-                    to='investment'
-                    spy={true}
-                    smooth={true}
-                    offset={-170}
-                    duration={599}
-                    className='link-sm'
-                  >
-                    + informacion
-                  </Scroll>
+                  <ButtonMoreInformation status={status} />
                 </div>
                 <div>
                   {information.pdfUrl && (
@@ -68,16 +61,7 @@ export default function Information(props) {
                 <div className='investment-body'>
                   <div className='subtitle'>Tipo</div>
                   <div className='title'>{investment.type}</div>
-                  <Scroll
-                    to='investment'
-                    spy={true}
-                    smooth={true}
-                    offset={-170}
-                    duration={599}
-                    className='link-sm'
-                  >
-                    + informacion
-                  </Scroll>
+                  <ButtonMoreInformation status={status} />
                 </div>
               </div>
               <div className='investment-item'>
@@ -85,18 +69,9 @@ export default function Information(props) {
                   <IconTimer />
                 </div>
                 <div className='investment-body'>
-                  <div className='subtitle'>Duración</div>
+                  <div className='subtitle'>{investment.durationTitle}</div>
                   <div className='title'>{investment.duration}</div>
-                  <Scroll
-                    to='investment'
-                    spy={true}
-                    smooth={true}
-                    offset={-170}
-                    duration={599}
-                    className='link-sm'
-                  >
-                    + informacion
-                  </Scroll>
+                  <ButtonMoreInformation status={status} />
                 </div>
               </div>
               <div className='investment-item'>
@@ -106,16 +81,7 @@ export default function Information(props) {
                 <div className='investment-body'>
                   <div className='subtitle'>Rentabilidad</div>
                   <div className='title'>{investment.rentability}</div>
-                  <Scroll
-                    to='investment'
-                    spy={true}
-                    smooth={true}
-                    offset={-170}
-                    duration={599}
-                    className='link-sm'
-                  >
-                    + informacion
-                  </Scroll>
+                  <ButtonMoreInformation status={status} />
                 </div>
               </div>
             </div>
@@ -129,16 +95,7 @@ export default function Information(props) {
             {information.featuredDescription}
           </div>
           <div className='featured-link'>
-            <Scroll
-              to='investment'
-              spy={true}
-              smooth={true}
-              offset={-170}
-              duration={599}
-              className='link-sm'
-            >
-              + informacion
-            </Scroll>
+            <ButtonMoreInformation status={status} />
           </div>
         </div>
       </div>
