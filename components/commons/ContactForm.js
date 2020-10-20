@@ -36,7 +36,7 @@ const ContactForm = (props) => {
         console.log(data);
         console.log(res);
         if (res.status === 200) {
-          //window.location.assign('/gracias');
+          window.location.assign('/gracias');
         }
       })
       .catch((err) => {
@@ -55,6 +55,7 @@ const ContactForm = (props) => {
                 placeholder='Nombre'
                 value={fname}
                 onChange={(e) => setFname(e.target.value)}
+                required
               />
             </div>
           </div>
@@ -66,6 +67,7 @@ const ContactForm = (props) => {
                 placeholder='Apellido'
                 value={lname}
                 onChange={(e) => setLname(e.target.value)}
+                required
               />
             </div>
           </div>
@@ -77,6 +79,7 @@ const ContactForm = (props) => {
                 placeholder='Email'
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
+                required
               />
             </div>
           </div>
@@ -88,6 +91,7 @@ const ContactForm = (props) => {
                 placeholder='Teléfono'
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
+                required
               />
             </div>
           </div>
@@ -99,6 +103,7 @@ const ContactForm = (props) => {
                 placeholder='Localidad'
                 value={location}
                 onChange={(e) => setLocation(e.target.value)}
+                required
               />
             </div>
           </div>
@@ -110,6 +115,7 @@ const ContactForm = (props) => {
                 placeholder='Interes'
                 value={subject}
                 onChange={(e) => setSubject(e.target.value)}
+                required
               />
             </div>
           </div>
