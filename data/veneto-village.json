@@ -11,7 +11,7 @@
     "investment": false,
     "advances": true,
     "video": false,
-    "location": false
+    "location": true
   },
   "hero": {
     "title": "Veneto Village",
@@ -242,7 +242,9 @@
     "title": "El emprendimiento!"
   },
   "location": {
-    "title": "Ubicación Json",
-    "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3341.9489134227724!2d-64.32458578449064!3d-33.1104268808726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cdff93b17a9d67%3A0x2363117c75c3325!2sAchalay%201105%2C%20R%C3%ADo%20Cuarto%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1602201374298!5m2!1ses!2sar"
+    "title": "",
+    "text": "",
+    "image": "",
+    "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27241.42236061333!2d-64.50892293650732!3d-31.40922718213771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d6640d6777c71%3A0x75c24ab6cb121bed!2sVilla%20Carlos%20Paz%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1603236940199!5m2!1ses!2sar"
   }
 }

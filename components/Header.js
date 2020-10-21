@@ -4,16 +4,16 @@ export default function Header() {
   return (
     <Navbar collapseOnSelect expand='xl' sticky='top'>
       <div className='container'>
-        {/* <Link href='/' passHref>
-          <Nav.Link className='foo'>
+        <Link href='/' passHref>
+          <Nav.Link className='p-0'>
             <Navbar.Brand>
               <img className='logo' src='/Logo.svg' alt='logo' />
             </Navbar.Brand>
           </Nav.Link>
-        </Link> */}
-        <a href='/' className='navbar-brand'>
+        </Link>
+        {/* <a href='/' className='navbar-brand'>
           <img className='logo' src='/Logo.svg' alt='logo' />
-        </a>
+        </a> */}
         <Navbar.Toggle aria-controls='navbar-nav' />
         <Navbar.Collapse id='navbar-nav'>
           <Nav className='mx-auto'>

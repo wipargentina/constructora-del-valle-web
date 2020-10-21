@@ -3,10 +3,8 @@
   padding-top: 15px;
   padding-bottom: 15px;
   box-shadow: 0 0 4px $gray-400;
-  .foo {
-    &.nav-link {
-      padding: 0;
-    }
+  a {
+    //cursor: pointer !important;
   }
   .navbar-brand {
     padding: 0;
@@ -34,7 +32,7 @@
         &.active,
         &:hover {
           background-color: #fff;
-          color: $primary;
+          // color: $primary;
         }
       }
     }
@@ -46,12 +44,26 @@
         font-weight: 500;
         &.active,
         &:hover {
-          color: $primary;
+          // color: $primary;
         }
         &.disabled {
           color: $gray-400;
         }
       }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0 0 4px $gray-400;
+    .navbar-brand {
+    }
+    .navbar-nav {
+      margin-top: 15px;
     }
   }
 }

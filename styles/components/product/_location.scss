@@ -1,23 +1,96 @@
+$height-desktop: 600px;
+$height-mobile: 400px;
 .location {
   background-color: #000;
-  padding: 0;
-  margin: 0;
-  padding-top: 4px;
-  position: relative;
-  height: 600px;
-  iframe {
-    opacity: 0.96;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
+  color: white;
+  .content {
+    position: relative;
+    height: $height-desktop;
+    .content-image {
+      height: $height-desktop;
+      width: 100%;
+      object-fit: cover;
+    }
+    .content-overlay {
+      height: $height-desktop;
+      width: 100%;
+      background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+      position: absolute;
+      z-index: 1;
+      top: 0;
+    }
+    .content-info {
+      //background-color: orange;
+      text-align: center;
+      width: 100%;
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      padding: 50px 20%;
+      h2 {
+        margin-bottom: 30px;
+        font-weight: 400;
+      }
+      h3 {
+        margin-bottom: 30px;
+        font-size: 1.25rem;
+        font-weight: 700;
+      }
+      p {
+        font-size: 1.05rem;
+      }
+    }
+  }
+  .mapa {
+    position: relative;
+    height: $height-desktop;
+    iframe {
+      opacity: 0.96;
+      position: absolute;
+      height: $height-desktop;
+      width: 100%;
+      box-sizing: 0;
+      margin: 0;
+      padding: 0;
+    }
   }
 }
 @media (max-width: 767px) {
   .location {
-    height: 400px;
+    .content {
+      height: $height-mobile;
+      .content-image {
+        height: $height-mobile;
+      }
+      .content-overlay {
+        height: $height-mobile;
+      }
+      .content-info {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        padding: 50px 10%;
+        h2 {
+          margin-bottom: 20px;
+          font-weight: 400;
+        }
+        h3 {
+          margin-bottom: 20px;
+          font-size: 1.25rem;
+          font-weight: 700;
+        }
+        p {
+          font-size: 1.05rem;
+        }
+      }
+    }
+    .mapa {
+      height: $height-mobile;
+      iframe {
+        height: $height-mobile;
+      }
+    }
   }
 }
