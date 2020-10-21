@@ -29,12 +29,12 @@ export default function Header() {
             </div>
             <div className='nav-item'>
               <Link href='/veneto-7' passHref>
-                <Nav.Link disabled>Veneto VII</Nav.Link>
+                <Nav.Link>Veneto VII</Nav.Link>
               </Link>
             </div>
             <div className='nav-item'>
               <Link href='/veneto-6' passHref>
-                <Nav.Link disabled>Veneto VI</Nav.Link>
+                <Nav.Link>Veneto VI</Nav.Link>
               </Link>
             </div>
             {/* <div className='nav-item'>

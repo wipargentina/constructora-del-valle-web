@@ -39,6 +39,10 @@
     "photo3": "/veneto-8/information-3.jpg"
   },
   "amenities": {
+    "summaryStatus": true,
+    "qualityStatus": true,
+    "detailStatus": true,
+    "architectureStatus": true,
     "summary": {
       "title": "Resúmen",
       "text": "VENETO VIII combina principalmente cuatro atributos: Arte, Tecnología, Diseño y Calidad que confluyen para generar un producto único, diferencial frente a la oferta disponible en la zona. Innovando en un mercado estático.\n\n La construcción constará de 15 locales comerciales, 75 departamentos, una cafetería de primera línea con patio estilo Green Garden, y los mejores amenities y vistas del centro hacia las montañas. Te invitamos a descubrir tu nueva y mejor inversión.",
@@ -108,15 +112,15 @@
       ],
       "lists": []
     },
-    "arquitecture": {
+    "architecture": {
       "title": "ARQUITECTURA MODERNA Y DE VANGUARDIA",
       "text": "VENETO VIII está concebido para equilibrar tu día a día con espacios ideados para disfrutar el tiempo libre y hacer tu vida más agradable y entretenida.",
       "slides": [
         {
-          "image": "/veneto-8/amenties-arquitecture-image-1.jpg"
+          "image": "/veneto-8/amenties-architecture-image-1.jpg"
         },
         {
-          "image": "/veneto-8/amenties-arquitecture-image-2.jpg"
+          "image": "/veneto-8/amenties-architecture-image-2.jpg"
         }
       ],
       "lists": [

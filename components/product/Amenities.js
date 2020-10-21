@@ -8,50 +8,58 @@ export default function Amenities(props) {
   const summary = props.data.summary;
   const quality = props.data.quality;
   const detail = props.data.detail;
-  const arquitecture = props.data.arquitecture;
+  const architecture = props.data.architecture;
 
   return (
     <section id='amenities' className='amenities'>
       <div className='container'>
-        <div className='summary'>
-          <div className='row justify-content-center mb-5'>
-            <div className='col-md-10'>
-              <h1>{summary.title}</h1>
-              <ReactMarkdown source={summary.text} escapeHtml={true} />
-              <AmenitiesList items={summary.lists} />
+        {amenities.summaryStatus && (
+          <div className='summary'>
+            <div className='row justify-content-center mb-5'>
+              <div className='col-md-10'>
+                <h1>{summary.title}</h1>
+                <ReactMarkdown source={summary.text} escapeHtml={true} />
+                <AmenitiesList items={summary.lists} />
+              </div>
             </div>
           </div>
-        </div>
-        <div className='quality'>
-          <AmenitiesGallery gallery={quality.gallery} />
-          <div className='row justify-content-center mb-5'>
-            <div className='col-md-10'>
-              <h2>{quality.title}</h2>
-              <ReactMarkdown source={quality.text} escapeHtml={true} />
-              <AmenitiesList items={quality.lists} />
+        )}
+        {amenities.qualityStatus && (
+          <div className='quality'>
+            <AmenitiesGallery gallery={quality.gallery} />
+            <div className='row justify-content-center mb-5'>
+              <div className='col-md-10'>
+                <h2>{quality.title}</h2>
+                <ReactMarkdown source={quality.text} escapeHtml={true} />
+                <AmenitiesList items={quality.lists} />
+              </div>
             </div>
           </div>
-        </div>
-        <div className='detail'>
-          <Slides slides={detail.slides} />
-          <div className='row justify-content-center mb-5'>
-            <div className='col-md-10'>
-              <h2>{detail.title}</h2>
-              <ReactMarkdown source={detail.text} escapeHtml={true} />
-              <AmenitiesList items={detail.lists} />
+        )}
+        {amenities.detailStatus && (
+          <div className='detail'>
+            <Slides slides={detail.slides} />
+            <div className='row justify-content-center mb-5'>
+              <div className='col-md-10'>
+                <h2>{detail.title}</h2>
+                <ReactMarkdown source={detail.text} escapeHtml={true} />
+                <AmenitiesList items={detail.lists} />
+              </div>
             </div>
           </div>
-        </div>
-        <div className='arquitecture'>
-          <Slides slides={arquitecture.slides} />
-          <div className='row justify-content-center mb-5'>
-            <div className='col-md-10'>
-              <h2>{arquitecture.title}</h2>
-              <ReactMarkdown source={arquitecture.text} escapeHtml={true} />
-              <AmenitiesList items={arquitecture.lists} />
+        )}
+        {amenities.architectureStatus && (
+          <div className='architecture'>
+            <Slides slides={architecture.slides} />
+            <div className='row justify-content-center mb-5'>
+              <div className='col-md-10'>
+                <h2>{architecture.title}</h2>
+                <ReactMarkdown source={architecture.text} escapeHtml={true} />
+                <AmenitiesList items={architecture.lists} />
+              </div>
             </div>
           </div>
-        </div>
+        )}
       </div>
     </section>
   );

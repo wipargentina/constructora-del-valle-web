@@ -12,9 +12,9 @@ import Location from '@components/product/Location';
 
 import Contact from '@components/commons/Contact';
 
-import data from 'data/veneto-8.json';
+import data from 'data/veneto-7.json';
 
-export default function Veneto8() {
+export default function Veneto7() {
   return (
     <div>
       <Head>
@@ -40,7 +40,7 @@ export default function Veneto8() {
         {data.status.location && <Location location={data.location} />}
       </div>
       <div className='commons'>
-        <Contact subject='Veneto VIII' tags='veneto-8' />
+        <Contact subject='Veneto VII' tags='veneto-7' />
       </div>
     </div>
   );
