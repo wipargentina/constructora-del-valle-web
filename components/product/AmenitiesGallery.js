@@ -6,13 +6,13 @@ export default function AmenitiesGallery(props) {
     <>
       <div className='gallery-grid mb-5'>
         <div className='gallery-item image-1'>
-          <img src={gallery.image1} alt='' />
+          <img src={gallery.image1} alt='' loading='lazy' />
         </div>
         <div className='gallery-item image-2'>
-          <img src={gallery.image2} alt='' />
+          <img src={gallery.image2} alt='' loading='lazy' />
         </div>
         <div className='gallery-item image-3'>
-          <img src={gallery.image3} alt='' />
+          <img src={gallery.image3} alt='' loading='lazy' />
         </div>
       </div>
     </>

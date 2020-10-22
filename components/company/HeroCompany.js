@@ -3,7 +3,12 @@ import IconPlay from '../icons/IconPlay';
 export default function HeroCompany() {
   return (
     <div className='hero'>
-      <img className='hero-bg' src='/la-empresa/hero.jpg' alt='' />
+      <img
+        className='hero-bg'
+        src='/la-empresa/hero.jpg'
+        alt='la empresa'
+        loading='lazy'
+      />
       <div className='hero-content'>
         <div className='container'>
           <div className='row justify-content-center'>

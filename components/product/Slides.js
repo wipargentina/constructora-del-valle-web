@@ -11,7 +11,7 @@ export default function Slides(props) {
           >
             {items.map((item, index) => (
               <Carousel.Item key={index}>
-                <img src={item.image} alt='First slide' />
+                <img src={item.image} alt='First slide' loading='lazy' />
               </Carousel.Item>
             ))}
           </Carousel>

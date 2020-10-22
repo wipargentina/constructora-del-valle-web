@@ -1,8 +1,8 @@
 {
   "head": {
-    "title": "Veneto VI - Villa Carlos Paz",
-    "description": "Oportunidad exclusiva deptos. con descuento",
-    "image": "/veneto-6/hero.jpg"
+    "title": "Veneto V - Villa Carlos Paz",
+    "description": "En el Centro Comercial de la ciudad",
+    "image": "/veneto-5/hero.jpg"
   },
   "status": {
     "information": true,
@@ -14,29 +14,29 @@
     "location": true
   },
   "hero": {
-    "title": "Veneto VI",
+    "title": "Veneto V",
     "location": "Villa Carlos Paz",
-    "image": "/veneto-6/hero.jpg",
+    "image": "/veneto-5/hero.jpg",
     "status": "Lanzamiento",
     "badge": "badge badge-danger",
-    "bookmark": "Oportunidad exclusiva deptos. con descuento"
+    "bookmark": ""
   },
   "menu": {
-    "statusText": "77% Vendido",
+    "statusText": "69% Vendido",
     "statusColor": "info",
-    "statusValue": "77"
+    "statusValue": "69"
   },
   "information": {
-    "title": "Conectado a todo",
-    "text": "33 Departamentos, con unidades de 1,2 y 3 dormitorios ideal para inversion con espacios amplios y luminosos.\n\n  Su ubicación permite que todos los departamentos tengan iluminación natural y vistas al exterior. Tupungato 180.",
+    "title": "En el Centro Comercial de la ciudad",
+    "text": "**Veneto V**, es un edificio dinámico, cerca y conectado con todo.\n\n Se destaca su estratégica ubicación y vistas panorámicas.\n\n 36 Departamentos de 1,2 y 3 dormitorios con hermosas vistas y ambientes.\n\n Ubicado en Tupungato 130 – Villa Carlos Paz",
     "price": "USD 35.000",
     "observation": "+ cuotas fijas en pesos",
-    "pdfUrl": "https://drive.google.com/file/d/1_tJrKSeeXojtpolxqSGXuVSCrd1bHTdg/view?usp=sharing",
+    "pdfUrl": "https://drive.google.com/file/d/1iayNdsl-hh3qDRcLAJ3N797m4s85aaXu/view?usp=sharing",
     "featuredTitle": "CONSTRUCCIÓN PREMIUM",
     "featuredDescription": "Pocelanato 60x60 / Muros internos de material / Calefacción Top / Iluminación Led",
-    "photo1": "/veneto-6/information-1.jpg",
-    "photo2": "/veneto-6/information-2.jpg",
-    "photo3": "/veneto-6/information-3.jpg"
+    "photo1": "/veneto-5/information-1.jpg",
+    "photo2": "/veneto-5/information-2.jpg",
+    "photo3": "/veneto-5/information-3.jpg"
   },
   "amenities": {
     "summaryStatus": true,
@@ -45,7 +45,7 @@
     "architectureStatus": true,
     "summary": {
       "title": "Resúmen",
-      "text": "Debido al éxito de ventas de Veneto V, Veneto VI se encuentra tan solo a unos pasos sobre la misma cuadra. En Tupungato 180, ambos emprendimientos ubicados a una cuadra de la Av. Cárcano. Poseen un rápidoy cómodo acceso, conectados con todo, a solo 100 metros del Teatro el Sol y el Banco Nación. Espacios ideales para disfrutar de todos sus amenities y servicios, destacándose la vista panorámica hacia las montañas. Veneto es combinación de confort, seguridad y tranquilidad.",
+      "text": "Veneto V, sobre calle Tupungato, ubicado a una cuadra en paralelo de la Av. Cárcano, es un emprendimiento de rápido acceso, conectado con todo, a solo 100 metros del Teatro el Sol y el Banco Nación. Espacios ideales para disfrutar de todos sus amenities y servicios, destacándose la vista panorámica hacia las montañas. Veneto combinación de confort, seguridad y tranquilidad.",
       "images": [],
       "lists": []
     },
@@ -53,9 +53,9 @@
       "title": "CALIDAD CONSTRUCTIVA Y COMPROMISO MEDIOAMBIENTAL",
       "text": "Además de la calidad constructiva que nos caracteriza, adoptamos el **compromiso veneto**, donde hemos incorporando nuevas tecnologías y materialescapaces de ofrecer alta comodidad optimizando el consumo de recursos y aportando al ahorro y medio ambiente.",
       "gallery": {
-        "image1": "/veneto-6/amenties-gallery-1.jpg",
-        "image2": "/veneto-6/amenties-gallery-2.jpg",
-        "image3": "/veneto-6/amenties-gallery-3.jpg"
+        "image1": "/veneto-5/amenties-gallery-1.jpg",
+        "image2": "/veneto-5/amenties-gallery-2.jpg",
+        "image3": "/veneto-5/amenties-gallery-3.jpg"
       },
       "lists": [
         {
@@ -104,23 +104,20 @@
       "text": "Cada espacio interior está diseñado para asegurar tu confort y comodidad, las terminaciones han sido seleccionadas de acuerdo a los más altos estándares de calidad. Servicios conectados al edificio y un equipamiento de primer nivel te brindarán una sensación única de comodidad.",
       "slides": [
         {
-          "image": "/veneto-6/amenties-detail-image-1.jpg"
+          "image": "/veneto-5/amenties-detail-image-1.jpg"
         },
         {
-          "image": "/veneto-6/amenties-detail-image-2.jpg"
+          "image": "/veneto-5/amenties-detail-image-2.jpg"
         }
       ],
       "lists": []
     },
     "architecture": {
-      "title": "ARQUITECTURA MODERNA Y DE VANGUARDIA",
-      "text": "VENETO VIII está concebido para equilibrar tu día a día con espacios ideados para disfrutar el tiempo libre y hacer tu vida más agradable y entretenida.",
+      "title": "INGRESO JERARQUIZADO",
+      "text": "VENETO V está concebido para equilibrar tu día a día con espacios ideados para disfrutar el tiempo libre y hacer tu vida más agradable y entretenida.",
       "slides": [
         {
-          "image": "/veneto-6/amenties-architecture-image-1.jpg"
-        },
-        {
-          "image": "/veneto-6/amenties-architecture-image-2.jpg"
+          "image": "/veneto-5/amenties-architecture-image-1.jpg"
         }
       ],
       "lists": [
@@ -134,22 +131,25 @@
           "text": "Piscina Panorámica."
         },
         {
-          "text": "Gimnasio."
+          "text": "Gimnasio y Área de entrenamiento."
         },
         {
-          "text": "Terraza Verde con Livings."
+          "text": "Terraza Verde + Livings Materos Exteriores."
         },
         {
           "text": "Quincho Panorámico."
         },
         {
-          "text": "Asadores en terraza y balcones propios."
-        },
-        {
-          "text": "Locales comerciales en planta baja."
+          "text": "Asadores en terraza y balcones."
         },
         {
           "text": "Hall de distribución central vanguardista."
+        },
+        {
+          "text": "Zona Wifi y Espacio Coworking."
+        },
+        {
+          "text": "Salones de usos múltiples totalmente equipado."
         }
       ]
     }
@@ -237,7 +237,7 @@
     "title": "Avances de Obra",
     "slides": [
       {
-        "image": "/veneto-6/amenties-advances-image-1.jpg"
+        "image": "/veneto-5/amenties-advances-image-1.jpg"
       }
     ]
   },

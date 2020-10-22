@@ -8,7 +8,7 @@ export default function Slides() {
         <div className='container'>
           <Carousel indicators={false} controls={true}>
             <Carousel.Item>
-              <img src='/home/slide-1.jpg' alt='First slide' />
+              <img src='/home/slide-1.jpg' loading='lazy' alt='First slide' />
               <Carousel.Caption>
                 <div className='caption-inner'>
                   <h1 className='big-title'>+430 Unidades Entregadas</h1>
@@ -20,7 +20,7 @@ export default function Slides() {
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img src='/home/slide-1.jpg' alt='First slide' />
+              <img src='/home/slide-1.jpg' loading='lazy' alt='second slide' />
               <Carousel.Caption>
                 <div className='caption-inner'>
                   <h1 className='big-title'>+430 Unidades Entregadas</h1>

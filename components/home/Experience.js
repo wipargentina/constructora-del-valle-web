@@ -44,19 +44,39 @@ export default function Experience() {
           <div className='col-md-6'>
             <div className='grid-container'>
               <div className='grid-item image-1'>
-                <img src='/home/experience-image-1.jpg' alt='' />
+                <img
+                  src='/home/experience-image-1.jpg'
+                  loading='lazy'
+                  alt='experiencia veneto 1'
+                />
               </div>
               <div className='grid-item image-2'>
-                <img src='/home/experience-image-2.jpg' alt='' />
+                <img
+                  src='/home/experience-image-2.jpg'
+                  loading='lazy'
+                  alt='experiencia veneto 2'
+                />
               </div>
               <div className='grid-item image-3'>
-                <img src='/home/experience-image-3.jpg' alt='' />
+                <img
+                  src='/home/experience-image-3.jpg'
+                  loading='lazy'
+                  alt='experiencia veneto 3'
+                />
               </div>
               <div className='grid-item image-4'>
-                <img src='/home/experience-image-4.jpg' alt='' />
+                <img
+                  src='/home/experience-image-4.jpg'
+                  loading='lazy'
+                  alt='experiencia veneto 4'
+                />
               </div>
               <div className='grid-item image-5'>
-                <img src='/home/experience-image-5.jpg' alt='' />
+                <img
+                  src='/home/experience-image-5.jpg'
+                  loading='lazy'
+                  alt='experiencia veneto 5'
+                />
               </div>
             </div>
           </div>

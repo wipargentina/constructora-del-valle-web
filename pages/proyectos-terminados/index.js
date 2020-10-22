@@ -25,6 +25,7 @@ export default function ProyectosTerminados() {
                         src={project.image}
                         alt='image'
                         className='card-img-top'
+                        loading='lazy'
                       />
                       <div className='card-body'>
                         <h5 className='card-title'>{project.title}</h5>

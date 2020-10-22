@@ -19,7 +19,8 @@ export default function OurVentures() {
                         <img
                           className='card-image'
                           src={venture.image}
-                          alt=''
+                          alt={venture.title}
+                          loading='lazy'
                         />
                         <div className='card-badge'>
                           <div className={`${venture.badge}`}>

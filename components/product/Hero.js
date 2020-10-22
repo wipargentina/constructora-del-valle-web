@@ -6,7 +6,7 @@ export default function Hero(props) {
   const hero = props.data;
   return (
     <div className='hero'>
-      <img src={hero.image} alt='image' className='hero-bg' />
+      <img src={hero.image} alt='image' className='hero-bg' loading='lazy' />
       <div className='hero-overlay'></div>
       <div className='hero-content'>
         <div className='container'>

@@ -9,7 +9,12 @@ export default function Location(props) {
           <div className='row'>
             <div className='col-lg-6 p-0'>
               <div className='content'>
-                <img src={location.image} alt='' className='content-image' />
+                <img
+                  src={location.image}
+                  alt=''
+                  className='content-image'
+                  loading='lazy'
+                />
                 <div className='content-overlay'></div>
                 <div className='content-info'>
                   <h3>UBICACIÓN</h3>
