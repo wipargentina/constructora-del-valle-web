@@ -13,7 +13,7 @@ export default class MyDocument extends Document {
           />
           {/* End Google Tag Manager */}
         </Head>
-        <body>
+        <body id='top'>
           {/* Google Tag Manager (noscript) */}
           <noscript
             dangerouslySetInnerHTML={{

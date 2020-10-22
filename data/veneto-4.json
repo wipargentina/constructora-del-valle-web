@@ -17,8 +17,8 @@
     "title": "Veneto IV",
     "location": "Villa Carlos Paz",
     "image": "/veneto-4/hero.jpg",
-    "status": "Vendido",
-    "badge": "badge badge-danger",
+    "status": "Todo Vendido",
+    "badge": "badge badge-dark",
     "bookmark": ""
   },
   "menu": {
