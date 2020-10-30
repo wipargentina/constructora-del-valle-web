@@ -1,6 +1,6 @@
 {
   "head": {
-    "title": "Veneto Village - Villa Parque Siquiman",
+    "title": "Veneto Village - Villa Parque Síquiman",
     "description": "Sistema de Construcción Premium",
     "image": "/veneto-village/hero.jpg"
   },
@@ -15,11 +15,11 @@
   },
   "hero": {
     "title": "Veneto Village",
-    "location": "Villa Parque Siquiman",
+    "location": "Villa Parque Síquiman",
     "image": "/veneto-village/hero.jpg",
-    "status": "Disponible",
+    "status": "Últimas Unidades!",
     "badge": "badge badge-danger",
-    "bookmark": "Sistema de Construcción Premium"
+    "bookmark": "Sistema de Construcción Tradicional Premium"
   },
   "menu": {
     "statusText": "92% vendido",
@@ -28,7 +28,7 @@
   },
   "information": {
     "title": "Un paraíso único a 10’ de la ciudad",
-    "text": "VENETO como marca de edificios genera un diferencial respecto a cualquier otro desarrollo en la zona, VENETO VILLAGE, es un CLUB VACACIONAL ubicado a 10 minutos de Villa Carlos Paz, camino a Cosquín. Donde se alzan a los pies del lago San Roque 4 torres con más de 60 departamentos cada una, 120 metros de costa exclusiva para Deportes Náuticos, Spa, Club House, un área deportiva de lujo, los Mejores Amenities y vistas insuperables.",
+    "text": "VENETO como marca de edificios genera un diferencial respecto a cualquier otro desarrollo en la zona, VENETO VILLAGE, es un Compleo Turístico ubicado a 10 minutos de Villa Carlos Paz, camino a Cosquín. Donde se alzan a los pies del lago San Roque 4 torres con más de 60 departamentos cada una, 120 metros de costa exclusiva para Deportes Náuticos, Spa, Club House, un área deportiva de lujo, con canchas de fútbol, tenis, paddle, basquet y bochas, y los mejores amenities con piletas exteriores, interiores, spá, sauna y demás de sus vistas insuperables.",
     "price": "USD 50.000",
     "observation": "+ 12 cuotas",
     "pdfUrl": "https://drive.google.com/file/d/1-JvaFwwQzPF2NXSUvDZNKRPgzmVo-8bH/view?usp=sharing",
@@ -80,6 +80,9 @@
           "text": "Puertas de ingreso de vidrio templado con cerradura magnética."
         },
         {
+          "text": "Plata propia de tratamiento de agua."
+        },
+        {
           "text": "Amplias cocheras con parking para bicis y motos."
         },
         {
@@ -101,7 +104,7 @@
     },
     "detail": {
       "title": "ÁREA DEPORTIVA",
-      "text": "Veneto Village es sinónimo de calidad de vida. Posee un área deportiva totalmente equipada que cuenta con...\n\n La combinación perecta de servicios conectados a la naturaleza, y un equipamiento de primer nivel te brindarán una sensación única de comodidad y energía renovadora.",
+      "text": "Veneto Village es sinónimo de calidad de vida. Posee un área deportiva totalmente equipada que cuenta con canchas de fútbol, tenis, paddle, basquet, bochas y quincho con asadores y vestuarios. \n\n La combinación perecta de servicios conectados a la naturaleza, y un equipamiento de primer nivel te brindarán una sensación única de comodidad y energía renovadora.",
       "slides": [
         {
           "image": "/veneto-village/amenties-detail-image-1.jpg"
@@ -119,31 +122,25 @@
       ],
       "lists": [
         {
-          "text": "Elegante Hall de Acceso."
+          "text": "Increíbles lobys con obras de arte y mobiliarios de primer nivel."
         },
         {
-          "text": "Ascensores de alta velocidad."
+          "text": "Cuardería náutica."
         },
         {
-          "text": "Piscina Panorámica."
+          "text": "Piscinas con vista a las montañas."
         },
         {
-          "text": "Gimnasio."
+          "text": "Club House, masajes y spá."
         },
         {
-          "text": "Terraza Verde con Livings."
+          "text": "Sala de conferencias."
         },
         {
-          "text": "Quincho Panorámico."
+          "text": "Restaurante."
         },
         {
-          "text": "Asadores en terraza y balcones."
-        },
-        {
-          "text": "Locales comerciales en planta baja."
-        },
-        {
-          "text": "Hall de distribución central vanguardista."
+          "text": "Minimercado con productos regionales."
         }
       ]
     }

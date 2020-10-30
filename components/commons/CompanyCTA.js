@@ -12,20 +12,18 @@ export default function CompanyCTA() {
           </div>
           <div className='col-lg-7 col-xl-7'>
             <div className='info'>
-              <div>
-                <img className='logo' src='/Logo-wh.svg' alt='logo' />
-                <h1>Construyendo futuro.</h1>
-                <p>
-                  Somos una empresa con mas de 20 años de trayectoria de la
-                  ciudad de Las Varillas, que opera como desarrollador
-                  inmobiliario residencial en la Provincia de Córdoba. <br />
-                  Honestos, trabajadores, confiables y un producto de excelente
-                  calidad, son las características que nos identifican
-                </p>
-                <Link href='/la-empresa'>
-                  <a className='btn btn-primary'>Saber más</a>
-                </Link>
-              </div>
+              <img className='logo' src='/Logo-wh.svg' alt='logo' />
+              <h1>Construyendo futuro.</h1>
+              <p>
+                Somos una empresa con mas de 20 años de trayectoria de la ciudad
+                de Las Varillas, que opera como desarrollador inmobiliario
+                residencial en la Provincia de Córdoba. <br />
+                Honestos, trabajadores, confiables y un producto de excelente
+                calidad, son las características que nos identifican
+              </p>
+              <Link href='/la-empresa'>
+                <a className='btn btn-primary'>Saber más</a>
+              </Link>
             </div>
           </div>
         </div>
