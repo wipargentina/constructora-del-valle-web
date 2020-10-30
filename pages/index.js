@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Constructora del Valle S.A.</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <div className='home'>

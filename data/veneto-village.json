@@ -1,6 +1,6 @@
 {
   "head": {
-    "title": "Veneto Village - Villa Carlos Paz",
+    "title": "Veneto Village - Villa Parque Siquiman",
     "description": "Sistema de Construcción Premium",
     "image": "/veneto-village/hero.jpg"
   },
@@ -15,7 +15,7 @@
   },
   "hero": {
     "title": "Veneto Village",
-    "location": "Villa Carlos Paz",
+    "location": "Villa Parque Siquiman",
     "image": "/veneto-village/hero.jpg",
     "status": "Disponible",
     "badge": "badge badge-danger",

@@ -28,9 +28,14 @@ export default function Benefits() {
               <li>
                 <p>
                   <b>
-                    Obra en proceso de construcción con planos y habilitaciones
-                    aprobadas.
+                    Desarrollo en pozo con planos y habilitaciones aprobadas.
                   </b>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <b>Sistema de Construcción Tradicional Premium.</b> Calidad en
+                  terminaciones y detalle. Mejor valor de reventa.
                 </p>
               </li>
               <li>
@@ -47,16 +52,9 @@ export default function Benefits() {
               </li>
               <li>
                 <p>
-                  Edificio con características de{' '}
+                  Edificios con características de{' '}
                   <b>Arte, Tecnología, Diseño y Calidad</b> que lo hacen
                   superior y más atractivo frente a la competencia.
-                </p>
-              </li>
-              <li>
-                <p>
-                  <b>Ubicación estratégica</b> con accesos rápidos para
-                  vehículos, además de una explanada peatonal y 4 locales
-                  comerciales que revalorizarán la cuadra.
                 </p>
               </li>
               <li>
@@ -64,9 +62,15 @@ export default function Benefits() {
               </li>
               <li>
                 <p>
-                  <b>Ubicación Premium</b>, en la zona gastronómica más
-                  importante de la ciudad, con vistas únicas al lago y
-                  costanera. Zona más demandada tanto para Venta como Alquiler.
+                  <b>Ubicaciones Premium</b>, en zonas gastronómica y de
+                  esparcimiento más importante de la ciudad, con vistas únicas
+                  al lago y costanera.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <b>Rentabilidad</b>, zonas mas demandadas tanto para venta
+                  como para alquiler
                 </p>
               </li>
               <li>
@@ -78,7 +82,7 @@ export default function Benefits() {
             </ul>
             <div className='text-center mt-3'>
               <Link href='/emprendimientos'>
-                <a className='btn btn-primary'>Ver proyectos de inversion</a>
+                <a className='btn btn-primary'>Ver proyectos de inversiòn</a>
               </Link>
             </div>
           </div>
