@@ -14,13 +14,6 @@ body {
   font-size: 2em;
 }
 
-.scroll-top {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 9999;
-}
-
 @media (max-width: 767px) {
   body {
     margin-bottom: 500px;

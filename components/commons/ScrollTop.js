@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link as Scroll } from 'react-scroll';
+import IconArrowDown from '../icons/IconArrowDown';
 
 export default function ScrollTop() {
   const [isVisible, setIsVisible] = useState(false);
@@ -27,9 +28,9 @@ export default function ScrollTop() {
           smooth={true}
           offset={-170}
           duration={599}
-          className='btn btn-primary'
+          className='btn btn-sm btn-primary'
         >
-          top
+          <IconArrowDown />
         </Scroll>
       )}
     </div>

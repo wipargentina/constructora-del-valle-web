@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import axios from 'axios';
 
@@ -13,6 +13,7 @@ const ContactForm = (props) => {
   const [subject, setSubject] = useState(
     props.subject ? `Me interesa ${props.subject}` : ''
   );
+  const [sending, setSending] = useState(false);
   const router = useRouter();
 
   //console.log(fname);
@@ -20,6 +21,9 @@ const ContactForm = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     //console.log(fname);
+
+    setSending(true);
+
     const data = {
       fname: fname,
       lname: lname,
@@ -31,7 +35,10 @@ const ContactForm = (props) => {
       subject: subject
     };
     axios
-      .post('http://localhost:8080', data)
+      .post(
+        'https://constructora-del-valle.wipargentina.com/backend/test.php',
+        data
+      )
       .then((res) => {
         console.log(data);
         console.log(res);
@@ -115,7 +122,6 @@ const ContactForm = (props) => {
                 placeholder='¿Qué tema te interesa?'
                 value={subject}
                 onChange={(e) => setSubject(e.target.value)}
-                required
               />
             </div>
           </div>
@@ -167,7 +173,11 @@ const ContactForm = (props) => {
             </div>
           </div>
         </div>
-        <button className='btn btn-primary'>Enviar mensaje</button>
+        {!sending ? (
+          <button className='btn btn-primary'>Enviar mensaje</button>
+        ) : (
+          <div>enviando...</div>
+        )}
       </form>
     </div>
   );

@@ -1,0 +1,15 @@
+.scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  color: white;
+  opacity: 0.8;
+  transition: all 0.1s;
+  svg {
+    width: 16px;
+  }
+  &:hover {
+    opacity: 1;
+  }
+}
