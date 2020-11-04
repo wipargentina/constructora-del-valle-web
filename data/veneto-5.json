@@ -8,7 +8,7 @@
     "information": true,
     "amenities": true,
     "typologies": false,
-    "investment": true,
+    "investment": false,
     "advances": true,
     "video": false,
     "location": true
@@ -22,18 +22,18 @@
     "bookmark": ""
   },
   "menu": {
-    "statusText": "69% Vendido",
+    "statusText": "70% Vendido",
     "statusColor": "info",
-    "statusValue": "69"
+    "statusValue": "70"
   },
   "information": {
     "title": "En el Centro Comercial de la ciudad",
     "text": "**Veneto V**, es un edificio dinámico, cerca y conectado con todo.\n\n Se destaca su estratégica ubicación y vistas panorámicas.\n\n 36 Departamentos de 1, 2 y 3 dormitorios con hermosas vistas y ambientes. Balcones con asadores y los mejores amenities, piscina con vista 360º, gimnasio, sala de juegos y salón de usos múltiples, terraza verde, livigns exteriores y sector de asadores con vistas a la ciudad y la montaña.\n\n Ubicado en Tupungato 130 – Villa Carlos Paz",
-    "price": "USD 35.000",
-    "observation": "+ cuotas fijas en pesos",
+    "price": "Entrega 35%",
+    "observation": "+ cuotas en pesos",
     "pdfUrl": "https://drive.google.com/file/d/1iayNdsl-hh3qDRcLAJ3N797m4s85aaXu/view?usp=sharing",
     "featuredTitle": "CONSTRUCCIÓN PREMIUM",
-    "featuredDescription": "Pocelanato 60x60 / Muros internos de material / Calefacción Top / Iluminación Led",
+    "featuredDescription": "Pocelanato 60x60 / Muros internos de material / Calefacción central Ariston / Iluminación led",
     "photo1": "/veneto-5/information-1.jpg",
     "photo2": "/veneto-5/information-2.jpg",
     "photo3": "/veneto-5/information-3.jpg"
@@ -230,7 +230,8 @@
     "duration": "18 MESES",
     "durationTitle": "Duración",
     "durationDescription": "Es el tiempo que durá la inversión para ser dueño de tu propiedad luego de hacer la seña inicial.",
-    "rentability": "15.28%*",
+    "rentabilityTitle": "rentabilidad",
+    "rentability": "GRAN OPORTUNIDAD",
     "rentabilityDescription": "Según una valuación de mercado de los materiales y la mano de obra, al final de tendrás % de rentabilidad de tu inversión."
   },
   "advances": {
@@ -249,6 +250,6 @@
     "title": "",
     "text": "",
     "image": "",
-    "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27241.42236061333!2d-64.50892293650732!3d-31.40922718213771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d6640d6777c71%3A0x75c24ab6cb121bed!2sVilla%20Carlos%20Paz%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1603236940199!5m2!1ses!2sar"
+    "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.6400692266448!2d-64.49825058454576!3d-31.424041381401487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d6645c46567c7%3A0x24820db573fae9ab!2sTupungato%20130%2C%20X5152%20Villa%20Carlos%20Paz%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1604521407720!5m2!1ses-419!2sar"
   }
 }

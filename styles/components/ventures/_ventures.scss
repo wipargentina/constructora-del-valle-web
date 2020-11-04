@@ -26,18 +26,18 @@ $image-height-mobile: 400px;
         position: relative;
         border: 0px;
         &.landscape {
-          img,
+          .image,
           .card-overlay {
             height: $image-height-landscape;
           }
         }
         &.portrait {
-          img,
+          .image,
           .card-overlay {
             height: $image-height-portrait;
           }
         }
-        img {
+        .image {
           width: 100%;
           object-fit: cover;
         }
@@ -96,6 +96,12 @@ $image-height-mobile: 400px;
             );
             text-align: center;
             color: white;
+            .card-logo {
+              margin-bottom: 20px;
+              img {
+                width: 260px;
+              }
+            }
             .card-badge {
               border: 1px solid white;
               border-radius: 4px;
@@ -160,18 +166,18 @@ $image-height-mobile: 400px;
           position: relative;
           border: 0px;
           &.landscape {
-            img,
+            .image,
             .card-overlay {
               height: $image-height-mobile;
             }
           }
           &.portrait {
-            img,
+            .image,
             .card-overlay {
               height: $image-height-mobile;
             }
           }
-          img {
+          .image {
             width: 100%;
             object-fit: cover;
           }
@@ -230,6 +236,11 @@ $image-height-mobile: 400px;
               );
               text-align: center;
               color: white;
+              .card-logo {
+                img {
+                  width: 220px;
+                }
+              }
               .card-badge {
                 border: 1px solid white;
                 border-radius: 4px;

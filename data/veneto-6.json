@@ -8,7 +8,7 @@
     "information": true,
     "amenities": true,
     "typologies": false,
-    "investment": true,
+    "investment": false,
     "advances": true,
     "video": false,
     "location": true
@@ -17,23 +17,23 @@
     "title": "Veneto VI",
     "location": "Villa Carlos Paz",
     "image": "/veneto-6/hero.jpg",
-    "status": "Últimas Unidades",
-    "badge": "badge badge-warning",
+    "status": "Disponible",
+    "badge": "badge badge-success",
     "bookmark": "Oportunidad exclusiva deptos. con descuento"
   },
   "menu": {
-    "statusText": "77% Vendido",
+    "statusText": "60% Vendido",
     "statusColor": "info",
-    "statusValue": "77"
+    "statusValue": "60"
   },
   "information": {
     "title": "Conectado a todo",
     "text": "33 Departamentos, con unidades de 1, 2 y 3 dormitorios ideal para inversion con espacios amplios y luminosos. Balcones con asadores y los mejores amenities. Piscina con vista 360°, Gimnasio, Sala de Juegos y Salón de usos múltiples, Livings exteriores, y sector de asadores con vistas a la ciudad y la montaña.\n\n  Su ubicación permite que todos los departamentos tengan iluminación natural y vistas a las montañas o al centro de la ciudad. Tupungato 180.",
-    "price": "USD 35.000",
-    "observation": "+ cuotas fijas en pesos",
+    "price": "Entrega 35%",
+    "observation": "+ cuotas en pesos",
     "pdfUrl": "https://drive.google.com/file/d/1_tJrKSeeXojtpolxqSGXuVSCrd1bHTdg/view?usp=sharing",
     "featuredTitle": "CONSTRUCCIÓN PREMIUM",
-    "featuredDescription": "Pocelanato 60x60 / Muros internos de material / Calefacción Top / Iluminación Led",
+    "featuredDescription": "Pocelanato 60x60 / Muros internos de material / Calefacción central Ariston / Iluminación led",
     "photo1": "/veneto-6/information-1.jpg",
     "photo2": "/veneto-6/information-2.jpg",
     "photo3": "/veneto-6/information-3.jpg"
@@ -105,51 +105,45 @@
       "slides": [
         {
           "image": "/veneto-6/amenties-detail-image-1.jpg"
-        },
-        {
-          "image": "/veneto-6/amenties-detail-image-2.jpg"
         }
       ],
       "lists": []
     },
     "architecture": {
       "title": "ARQUITECTURA MODERNA Y DE VANGUARDIA",
-      "text": "VENETO VIII está concebido para equilibrar tu día a día con espacios ideados para disfrutar el tiempo libre y hacer tu vida más agradable y entretenida.",
+      "text": "VENETO VI está concebido para equilibrar tu día a día con espacios ideados para disfrutar el tiempo libre y hacer tu vida más agradable y entretenida.",
       "slides": [
         {
           "image": "/veneto-6/amenties-architecture-image-1.jpg"
-        },
-        {
-          "image": "/veneto-6/amenties-architecture-image-2.jpg"
         }
       ],
       "lists": [
         {
-          "text": "Elegante Hall de Acceso."
+          "text": "Elegante hall de acceso."
         },
         {
-          "text": "Ascensores de alta velocidad"
+          "text": "Ascensores de alta velocidad."
         },
         {
-          "text": "Piscina Panorámica."
+          "text": "Piscina panorámica."
         },
         {
-          "text": "Gimnasio."
+          "text": "Gimnasio y área de meditación."
         },
         {
-          "text": "Terraza Verde con Livings."
+          "text": "Terraza verde con livings."
         },
         {
-          "text": "Quincho Panorámico."
+          "text": "Quincho panorámico con asadores."
         },
         {
-          "text": "Asadores en terraza y balcones propios."
+          "text": "Balcones con asadores propios."
         },
         {
-          "text": "Locales comerciales en planta baja."
+          "text": "Sala de juegos."
         },
         {
-          "text": "Hall de distribución central vanguardista."
+          "text": "Salón de usos múltiples."
         }
       ]
     }
@@ -230,7 +224,8 @@
     "duration": "18 MESES",
     "durationTitle": "Duración",
     "durationDescription": "Es el tiempo que durá la inversión para ser dueño de tu propiedad luego de hacer la seña inicial.",
-    "rentability": "15.28%*",
+    "rentabilityTitle": "rentabilidad",
+    "rentability": "GRAN OPORTUNIDAD",
     "rentabilityDescription": "Según una valuación de mercado de los materiales y la mano de obra, al final de tendrás % de rentabilidad de tu inversión."
   },
   "advances": {
@@ -249,6 +244,6 @@
     "title": "",
     "text": "",
     "image": "",
-    "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27241.42236061333!2d-64.50892293650732!3d-31.40922718213771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d6640d6777c71%3A0x75c24ab6cb121bed!2sVilla%20Carlos%20Paz%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1603236940199!5m2!1ses!2sar"
+    "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.601421236886!2d-64.49876648454568!3d-31.42510588140131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d6645e4950389%3A0x1c5e8003bc2aabdb!2sTupungato%20180%2C%20X5152%20Villa%20Carlos%20Paz%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1604520749241!5m2!1ses-419!2sar"
   }
 }

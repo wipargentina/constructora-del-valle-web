@@ -79,7 +79,7 @@ export default function Information(props) {
                   <IconRentability />
                 </div>
                 <div className='investment-body'>
-                  <div className='subtitle'>Rentabilidad</div>
+                  <div className='subtitle'>{investment.rentabilityTitle}</div>
                   <div className='title'>{investment.rentability}</div>
                   <ButtonMoreInformation status={status} />
                 </div>

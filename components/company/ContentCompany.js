@@ -10,7 +10,8 @@ export default function ContentCompany() {
             <h1>Constructora del Valle S.A.</h1>
             <p>
               Somos una empresa de la ciudad de Las Varillas, que opera como
-              desarrollador inmobiliario residencial en la Provincia de Córdoba.
+              desarrollador inmobiliario residencial y turístico en la Provincia
+              de Córdoba desde hace ya más de 20 años.
             </p>
             <h3>Misión</h3>
             <p>
@@ -22,7 +23,7 @@ export default function ContentCompany() {
               La estrategia de crecimiento integra la búsqueda y adquisición de
               tierras, el diseño de los productos, las acciones de marketing y
               ventas, el planeamiento financiero, la compra de insumos, el
-              gerenciamiento de la construcción y los servicios de posventa
+              gerenciamiento de la construcción y los servicios de posventa.
             </p>
             <h3>Valores</h3>
             <h2>Confiabilidad</h2>

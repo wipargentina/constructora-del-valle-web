@@ -15,9 +15,9 @@ export default function CompanyCTA() {
               <img className='logo' src='/Logo-wh.svg' alt='logo' />
               <h1>Construyendo futuro.</h1>
               <p>
-                Somos una empresa con mas de 20 años de trayectoria de la ciudad
+                Somos una empresa con más de 20 años de trayectoria de la ciudad
                 de Las Varillas, que opera como desarrollador inmobiliario
-                residencial en la Provincia de Córdoba. <br />
+                residencial y turístico en la Provincia de Córdoba. <br />
                 Honestos, trabajadores, confiables y un producto de excelente
                 calidad, son las características que nos identifican
               </p>

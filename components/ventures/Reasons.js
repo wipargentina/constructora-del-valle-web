@@ -10,7 +10,7 @@ export default function Reasons() {
   return (
     <div className='reasons'>
       <div className='container'>
-        <h1>Razones para elegir en veneto</h1>
+        <h1>Razones para elegir veneto</h1>
         <div className='row mb-5'>
           <div className='col-md-11'>
             <div className='row'>
@@ -37,8 +37,10 @@ export default function Reasons() {
                     </div>
                     <div className='title'>Diseño</div>
                     <div className='text'>
-                      Materiales de última generación. Hall de ingreso de
-                      vanguardia. Paseo Comercial.
+                      Desarrollos con el respaldo de un equipo
+                      interdisciplinario de profesionales y empresas de primera
+                      línea en el país. Arte, Confort, Diseño y Calidad,
+                      confluyen para generar un producto diferente.
                     </div>
                   </div>
                 </div>
@@ -68,8 +70,8 @@ export default function Reasons() {
                     <div className='title'>Eco-eficiente</div>
                     <div className='text'>
                       Incorporando nuevas tecnologías y materiales capaces de
-                      ofrecer alta comodidad optimizando elconsumo de recursos y
-                      aportando al ahorro y medio ambiente.
+                      ofrecer alta comodidad optimizando el consumo de recursos
+                      y aportando al ahorro y medio ambiente.
                     </div>
                   </div>
                 </div>
@@ -95,11 +97,14 @@ export default function Reasons() {
                     <div className='icon'>
                       <IconQuality />
                     </div>
-                    <div className='title'>Calidad</div>
+                    <div className='title'>Calidad Constructiva</div>
                     <div className='text'>
-                      Rentabilidad superior. Una inversión estratégica.
-                      Excelente precio en relación al mercado. Grandes
-                      descuentos inversionistas mayoristas. Excelentes retornos.
+                      Cada espacio interior está diseñado para asegurar tu
+                      confort y comodidad, las terminaciones han sido
+                      seleccionadas de acuerdo a los más altos estándares de
+                      calidad. Servicios conectados al edificio y un
+                      equipamiento de primer nivel te brindarán una sensación
+                      única de comodidad.
                     </div>
                   </div>
                 </div>

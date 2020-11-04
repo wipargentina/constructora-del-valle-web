@@ -39,6 +39,12 @@ $product-hero-heigth-mobile: 385px;
           color: white;
           align-self: flex-end;
           margin-bottom: 4px;
+          .logo {
+            margin-bottom: 20px;
+            img {
+              width: 400px;
+            }
+          }
           .badge {
             border: 1px solid white;
             border-radius: 4px;
@@ -116,6 +122,12 @@ $product-hero-heigth-mobile: 385px;
             color: white;
             align-self: flex-end;
             margin-bottom: 4px;
+            .logo {
+              margin-bottom: 20px;
+              img {
+                width: 300px;
+              }
+            }
             .badge {
               border: 1px solid white;
               border-radius: 4px;

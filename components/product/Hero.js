@@ -11,6 +11,11 @@ export default function Hero(props) {
       <div className='hero-content'>
         <div className='container'>
           <div className='info'>
+            {hero.logo && (
+              <div className='logo'>
+                <img src={hero.logo} alt='logo' />
+              </div>
+            )}
             <div className={hero.badge}>{hero.status}</div>
             <h1 className='big-title'>
               <span>{hero.title}</span> <small>{hero.location}</small>

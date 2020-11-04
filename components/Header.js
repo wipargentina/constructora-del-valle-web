@@ -23,7 +23,7 @@ export default function Header() {
               </Link>
             </div>
             <div className='nav-item'>
-              <Link href='/veneto-8' passHref>
+              <Link href='/veneto-8-fontana-di-veneto' passHref>
                 <Nav.Link>Veneto VIII</Nav.Link>
               </Link>
             </div>
@@ -37,11 +37,6 @@ export default function Header() {
                 <Nav.Link>Veneto VI</Nav.Link>
               </Link>
             </div>
-            {/* <div className='nav-item'>
-              <Link href='/emprendimientos' passHref>
-                <Nav.Link>+ Emprendimientos</Nav.Link>
-              </Link>
-            </div> */}
             <NavDropdown title='+ Emprendimientos' id='basic-nav-dropdown'>
               <Link href='/veneto-5' passHref>
                 <NavDropdown.Item>Veneto V</NavDropdown.Item>
@@ -63,15 +58,12 @@ export default function Header() {
               </Link>
             </div>
           </Nav>
-          <Nav>
-            <Nav className='Link' href='#phone'>
-              <div className='nav-item'>
-                <div className='nav-link d-flex align-items-center'>
-                  <img src='/icons/phone.svg' alt='' height='16' />
-                  <span className='ml-2'>0810 777 8002</span>
-                </div>
+          <Nav className='Link mt-0' href='#phone'>
+            <div className='nav-item'>
+              <div className='nav-link'>
+                <img src='/logo-veneto.svg' alt='logo veneto' height='30' />
               </div>
-            </Nav>
+            </div>
           </Nav>
         </Navbar.Collapse>
       </div>

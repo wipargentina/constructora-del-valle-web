@@ -2,12 +2,12 @@
   "head": {
     "title": "Veneto VIII - Villa Carlos Paz",
     "description": "Nuevo Emprendimiento en Villa Carlos Paz",
-    "image": "/veneto-8/hero.jpg"
+    "image": "/veneto-8-fontana-di-veneto/hero.jpg"
   },
   "status": {
     "information": true,
     "amenities": true,
-    "typologies": true,
+    "typologies": false,
     "investment": true,
     "advances": false,
     "video": true,
@@ -16,10 +16,11 @@
   "hero": {
     "title": "Veneto VIII",
     "location": "Villa Carlos Paz",
-    "image": "/veneto-8/hero.jpg",
-    "status": "Lanzamiento",
+    "image": "/veneto-8-fontana-di-veneto/hero.jpg",
+    "status": "LANZAMIENTO",
     "badge": "badge badge-danger",
-    "bookmark": "Oportunidad única por pre lanzamiento"
+    "bookmark": "Oportunidad única por pre lanzamiento",
+    "logo": "/veneto-8-fontana-di-veneto/logo-fontana-di-veneto.png"
   },
   "menu": {
     "statusText": "lanzamiento",
@@ -28,15 +29,15 @@
   },
   "information": {
     "title": "Una oportunidad única de inversión",
-    "text": "Un desarrollo inmobiliario residencial y con fines turísticos, ubicado estratégicamente sobre la Calle 9 de Julio, a tan solo 20 metros del nuevo puente peatonal de la Ciudad de **Villa Carlos Paz**.\n\n Esta ubicación privilegiada, propone defender el valor del m2 y generar una alta rentabilidad por ser uno puntos más apetecibles de la ciudad, posicionado entre Centro Nuevo y el Centro Viejo.",
-    "price": "USD 35.000",
-    "observation": "+ cuotas fijas en pesos",
+    "text": "Un desarrollo inmobiliario residencial y con fines turísticos, ubicado estratégicamente sobre la Calle 9 de Julio 355, a tan solo 20 metros del nuevo puente peatonal de la Ciudad de **Villa Carlos Paz**.\n\n Esta ubicación privilegiada, propone defender el valor del m2 y generar una alta rentabilidad por ser uno puntos más apetecibles de la ciudad, posicionado entre Centro Nuevo y el Centro Viejo.",
+    "price": "Entrega 35%",
+    "observation": "+ cuotas en pesos",
     "pdfUrl": "https://drive.google.com/file/d/1-JvaFwwQzPF2NXSUvDZNKRPgzmVo-8bH/view?usp=sharing",
     "featuredTitle": "PLAN INVERSOR: DOLAR LADRILLO",
     "featuredDescription": "INTERÉS ANUAL DE HASTA UN 7.5% EN DÓLARES",
-    "photo1": "/veneto-8/information-1.jpg",
-    "photo2": "/veneto-8/information-2.jpg",
-    "photo3": "/veneto-8/information-3.jpg"
+    "photo1": "/veneto-8-fontana-di-veneto/information-1.jpg",
+    "photo2": "/veneto-8-fontana-di-veneto/information-2.jpg",
+    "photo3": "/veneto-8-fontana-di-veneto/information-3.jpg"
   },
   "amenities": {
     "summaryStatus": true,
@@ -51,11 +52,11 @@
     },
     "quality": {
       "title": "CALIDAD CONSTRUCTIVA Y COMPROMISO MEDIOAMBIENTAL",
-      "text": "Además de la calidad constructiva que nos caracteriza, adoptamos el **compromiso veneto**, donde hemos incorporando nuevas tecnologías y materialescapaces de ofrecer alta comodidad optimizando el consumo de recursos, aportando a la eficiencia energética y cuiadado del medio ambiente.",
+      "text": "Además de la calidad constructiva que nos caracteriza, adoptamos el **compromiso veneto**, donde hemos incorporando nuevas tecnologías y materialescapaces de ofrecer alta comodidad optimizando el consumo de recursos, aportando a la eficiencia energética y cuidado del medio ambiente.",
       "gallery": {
-        "image1": "/veneto-8/amenties-gallery-1.jpg",
-        "image2": "/veneto-8/amenties-gallery-2.jpg",
-        "image3": "/veneto-8/amenties-gallery-3.jpg"
+        "image1": "/veneto-8-fontana-di-veneto/amenties-gallery-1.jpg",
+        "image2": "/veneto-8-fontana-di-veneto/amenties-gallery-2.jpg",
+        "image3": "/veneto-8-fontana-di-veneto/amenties-gallery-3.jpg"
       },
       "lists": [
         {
@@ -107,10 +108,13 @@
       "text": "Cada espacio interior está diseñado para asegurar tu confort y comodidad, las terminaciones han sido seleccionadas de acuerdo a los más altos estándares de calidad. Servicios conectados al edificio y un equipamiento de primer nivel te brindarán una sensación única de comodidad.",
       "slides": [
         {
-          "image": "/veneto-8/amenties-detail-image-1.jpg"
+          "image": "/veneto-8-fontana-di-veneto/amenties-detail-image-1.jpg"
         },
         {
-          "image": "/veneto-8/amenties-detail-image-2.jpg"
+          "image": "/veneto-8-fontana-di-veneto/amenties-detail-image-2.jpg"
+        },
+        {
+          "image": "/veneto-8-fontana-di-veneto/amenties-detail-image-3.jpg"
         }
       ],
       "lists": []
@@ -120,10 +124,10 @@
       "text": "VENETO VIII está concebido para equilibrar tu día a día con espacios ideados para disfrutar el tiempo libre y hacer tu vida más agradable y entretenida.",
       "slides": [
         {
-          "image": "/veneto-8/amenties-architecture-image-1.jpg"
+          "image": "/veneto-8-fontana-di-veneto/amenties-architecture-image-1.jpg"
         },
         {
-          "image": "/veneto-8/amenties-architecture-image-2.jpg"
+          "image": "/veneto-8-fontana-di-veneto/amenties-architecture-image-2.jpg"
         }
       ],
       "lists": [
@@ -234,22 +238,23 @@
     }
   ],
   "investment": {
-    "type": "Desarrollo en pozo",
+    "type": "DESARROLLO EN POZO",
     "typeDescription": "Significa que la edificación está en proceso, y tenés la oportunidad de acceder a una unidad con importantes descuentos.",
     "duration": "36 MESES",
     "durationTitle": "Duración",
     "durationDescription": "Es el tiempo estimado para la concluisión del emprendimiento y la entrega de posesión de tu departamento.",
-    "rentability": "15.28%*",
-    "rentabilityDescription": "El beneficio de un emprendimiento en pozo es que conforme pasen los meses, tu inversión  se revaloriza cada vez  más, y más."
+    "rentabilityTitle": "Inversión",
+    "rentability": "ESTRELLA",
+    "rentabilityDescription": "Descuento de hasta un 30% en unidades seleccionadas."
   },
   "advances": {
     "title": "Avances de Obra Json",
     "slides": [
       {
-        "image": "/veneto-8/amenties-detail-image-1.jpg"
+        "image": "/veneto-8-fontana-di-veneto/amenties-detail-image-1.jpg"
       },
       {
-        "image": "/veneto-8/amenties-detail-image-2.jpg"
+        "image": "/veneto-8-fontana-di-veneto/amenties-detail-image-2.jpg"
       }
     ]
   },
@@ -259,8 +264,8 @@
   },
   "location": {
     "title": "Villa Carlos Paz",
-    "text": "VENETO VIII se encuentra en la exclusiva Calle 9 de Julio, a pasos del nuevo puente peatonal y costanera, con una vista desde sus balcones y terraza única.Tanto de día como de noche, la atmósfera del lugar es inigualable.",
-    "image": "/veneto-8/location-image.jpg",
-    "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27241.42236061333!2d-64.50892293650732!3d-31.40922718213771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d6640d6777c71%3A0x75c24ab6cb121bed!2sVilla%20Carlos%20Paz%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1603236940199!5m2!1ses!2sar"
+    "text": "FONTANA DI VENETO se encuentra en la exclusiva Calle 9 de Julio 355, a pasos del nuevo puente peatonal y costanera, con una vista desde sus balcones y terraza única. Tanto de día como de noche, la atmósfera del lugar es inigualable ya que en temporada se convierte en calle peatonal.",
+    "image": "/veneto-8-fontana-di-veneto/location-image.jpg",
+    "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.789491012533!2d-64.50600718454582!3d-31.41992548140286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d663f6f765529%3A0xca9df63d10c5c004!2s9%20de%20Julio%20355%2C%20X5152%20Villa%20Carlos%20Paz%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1604518092344!5m2!1ses-419!2sar"
   }
 }

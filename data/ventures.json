@@ -6,16 +6,17 @@
       "visible": true,
       "title": "Veneto Village",
       "address": "direccion 1234",
-      "location": "Villa Parque Siquiman",
+      "location": "Villa Parque Síquiman",
       "units": "",
       "typologies": "Dptos de 1 y 2 dormitorios - Cocheras",
-      "investment": "Venta Directa / Entrega Inmediata / Financiación Propia",
+      "investment": "Venta Directa / Entrega Inmediata / Villa Parque Síquiman",
       "amenities": "",
       "image": "/ventures/veneto-village.jpg",
       "url": "/veneto-village",
       "badge": "badge badge-warning",
       "badgeText": "Últimas Unidades",
-      "bookmark": "Sistema de Construcción Premium           "
+      "bookmark": "Sistema de Construcción Premium",
+      "logo": ""
     },
     {
       "id": 2,
@@ -26,13 +27,14 @@
       "location": "Villa Carlos Paz",
       "units": "",
       "typologies": "Dptos de 1 y 2 dormitorios - Cocheras",
-      "investment": "Desarrollo en pozo / 36 meses / Rentabilidad 15/28%",
+      "investment": "Desarrollo en pozo / 36 meses / Villa Carlos Paz",
       "amenities": "",
       "image": "/ventures/veneto-8.jpg",
-      "url": "/veneto-8",
+      "url": "/veneto-8-fontana-di-veneto",
       "badge": "badge badge-danger",
-      "badgeText": "Lanzamiento",
-      "bookmark": "Oportunidad única por pre lanzamiento"
+      "badgeText": "LANZAMIENTO",
+      "bookmark": "Oportunidad única por pre lanzamiento",
+      "logo": "/veneto-8-fontana-di-veneto/logo-fontana-di-veneto.png"
     },
     {
       "id": 3,
@@ -43,13 +45,14 @@
       "location": "La Falda",
       "units": "",
       "typologies": "Dptos de 1 y 2 dormitorios - Cocheras",
-      "investment": "Desarrollo en pozo / 36 meses / Rentabilidad 15/28%",
+      "investment": "Desarrollo en pozo / 2022 / La Falda",
       "amenities": "",
       "image": "/ventures/veneto-7.jpg",
       "url": "/veneto-7",
       "badge": "badge badge-success",
-      "badgeText": "En Pozo",
-      "bookmark": "Oportunidad Exclusiva en la Falda"
+      "badgeText": "Disponible",
+      "bookmark": "Oportunidad Exclusiva en la Falda",
+      "logo": ""
     },
     {
       "id": 4,
@@ -60,13 +63,14 @@
       "location": "Villa Carlos Paz",
       "units": "",
       "typologies": "Dptos de 1 y 2 dormitorios - Cocheras",
-      "investment": "Desarrollo en pozo / 36 meses / Rentabilidad 15/28%",
+      "investment": "Desarrollo en pozo / 2022 / Villa Carlos Paz",
       "amenities": "",
       "image": "/ventures/veneto-6.jpg",
       "url": "/veneto-6",
-      "badge": "badge badge-warning",
-      "badgeText": "Últimas Unidades",
-      "bookmark": "Oportunidad Exclusiva Dptos. con Descuentos"
+      "badge": "badge badge-success",
+      "badgeText": "Disponible",
+      "bookmark": "Oportunidad Exclusiva Dptos. con Descuentos",
+      "logo": ""
     },
     {
       "id": 5,
@@ -77,13 +81,14 @@
       "location": "Villa Carlos Paz",
       "units": "",
       "typologies": "Dptos de 1 y 2 dormitorios - Cocheras",
-      "investment": "Desarrollo en pozo / 36 meses / Rentabilidad 15/28%",
+      "investment": "Desarrollo en pozo / 2022 / Villa Carlos Paz",
       "amenities": "",
       "image": "/ventures/veneto-5.jpg",
       "url": "/veneto-5",
       "badge": "badge badge-warning",
       "badgeText": "Últimas Unidades",
-      "bookmark": ""
+      "bookmark": "",
+      "logo": ""
     },
     {
       "id": 6,
@@ -94,13 +99,14 @@
       "location": "Villa Carlos Paz",
       "units": "",
       "typologies": "Dptos de 1 y 2 dormitorios - Cocheras",
-      "investment": "Desarrollo en pozo / 36 meses / Rentabilidad 15/28%",
+      "investment": "80% Construído / Villa Carlos Paz",
       "amenities": "",
       "image": "/ventures/veneto-4.jpg",
       "url": "/veneto-4",
       "badge": "badge badge-dark",
       "badgeText": "Todo Vendido",
-      "bookmark": ""
+      "bookmark": "",
+      "logo": ""
     },
     {
       "id": 7,
@@ -117,7 +123,8 @@
       "url": "",
       "badge": "badge badge-dark",
       "badgeText": "Todo vendido",
-      "bookmark": ""
+      "bookmark": "",
+      "logo": ""
     },
     {
       "id": 8,
@@ -134,24 +141,26 @@
       "url": "",
       "badge": "badge badge-dark",
       "badgeText": "Todo vendido",
-      "bookmark": ""
+      "bookmark": "",
+      "logo": ""
     },
     {
       "id": 9,
       "status": "finished",
       "visible": true,
       "title": "Veneto III",
-      "address": "direccion 1234",
+      "address": "Bialet Massé 435",
       "location": "Villa Carlos Paz",
       "units": "40 unidades",
       "typologies": "Dptos de 1 y 2 dormitorios - Cocheras",
       "investment": "Venta Directa / Entrega Inmediata / Financiación Propia",
-      "amenities": "Sum - Piscina con Solarium - Gimnasio- Sala de Juegos - Asadores - Duchas Escocesas.",
+      "amenities": "Sum - Piscina con Solarium - Gimnasio- Sala de Juegos - Asadores.",
       "image": "/ventures/veneto-3.jpg",
       "url": "",
       "badge": "badge badge-dark",
       "badgeText": "Todo vendido",
-      "bookmark": ""
+      "bookmark": "",
+      "logo": ""
     },
     {
       "id": 10,
@@ -159,7 +168,7 @@
       "visible": true,
       "title": "Veneto Village Torre I",
       "address": "Frente al Lago",
-      "location": "Villa Parque Siquiman",
+      "location": "Villa Parque Síquiman",
       "units": "64 unidades",
       "typologies": "",
       "investment": "Venta Directa / Entrega Inmediata / Financiación Propia",
@@ -168,7 +177,8 @@
       "url": "",
       "badge": "badge badge-dark",
       "badgeText": "Todo vendido",
-      "bookmark": ""
+      "bookmark": "",
+      "logo": ""
     },
     {
       "id": 11,
@@ -176,7 +186,7 @@
       "visible": true,
       "title": "Veneto Village Torre II",
       "address": "Frente al Lago",
-      "location": "Villa Parque Siquiman",
+      "location": "Villa Parque Síquiman",
       "units": "64 unidades",
       "typologies": "",
       "investment": "Venta Directa / Entrega Inmediata / Financiación Propia",
@@ -185,24 +195,26 @@
       "url": "",
       "badge": "badge badge-dark",
       "badgeText": "Todo vendido",
-      "bookmark": ""
+      "bookmark": "",
+      "logo": ""
     },
     {
       "id": 12,
       "status": "finished",
       "visible": true,
       "title": "San José I",
-      "address": "Sargento Cabral 254",
+      "address": "EEUU 311",
       "location": "Villa Carlos Paz",
-      "units": "17 unidades",
-      "typologies": "",
+      "units": "11 unidades",
+      "typologies": "Dptos de 1 y 2 dormitorios - Cocheras",
       "investment": "Venta Directa / Entrega Inmediata / Financiación Propia",
       "amenities": "",
       "image": "/ventures/san-jose-1.jpg",
       "url": "",
       "badge": "badge badge-dark",
       "badgeText": "Todo vendido",
-      "bookmark": ""
+      "bookmark": "",
+      "logo": ""
     },
     {
       "id": 13,
@@ -219,7 +231,8 @@
       "url": "",
       "badge": "badge badge-dark",
       "badgeText": "Todo vendido",
-      "bookmark": ""
+      "bookmark": "",
+      "logo": ""
     },
     {
       "id": 14,
@@ -236,7 +249,8 @@
       "url": "",
       "badge": "badge badge-dark",
       "badgeText": "Todo vendido",
-      "bookmark": ""
+      "bookmark": "",
+      "logo": ""
     },
     {
       "id": 15,
@@ -253,14 +267,15 @@
       "url": "",
       "badge": "badge badge-dark",
       "badgeText": "Todo vendido",
-      "bookmark": ""
+      "bookmark": "",
+      "logo": ""
     },
     {
       "id": 16,
       "status": "finished",
       "visible": true,
       "title": "Traful I",
-      "address": "Juan B. Justo 929 - Villa Carlos Paz",
+      "address": "Juan B. Justo 929",
       "location": "Villa Carlos Paz",
       "units": "6 unidades",
       "typologies": "",
@@ -270,14 +285,15 @@
       "url": "",
       "badge": "badge badge-dark",
       "badgeText": "Todo vendido",
-      "bookmark": ""
+      "bookmark": "",
+      "logo": ""
     },
     {
       "id": 17,
       "status": "finished",
       "visible": true,
       "title": "Traful II",
-      "address": "Los Cóndores 700 - Villa Carlos Paz",
+      "address": "Los Cóndores 700",
       "location": "Villa Carlos Paz",
       "units": "10 unidades",
       "typologies": "Dptos de 1 y 2 dormitorios - Cocheras",
@@ -287,7 +303,8 @@
       "url": "",
       "badge": "badge badge-dark",
       "badgeText": "Todo vendido",
-      "bookmark": ""
+      "bookmark": "",
+      "logo": ""
     },
     {
       "id": 18,
@@ -304,7 +321,8 @@
       "url": "",
       "badge": "badge badge-dark",
       "badgeText": "Todo vendido",
-      "bookmark": ""
+      "bookmark": "",
+      "logo": ""
     },
     {
       "id": 19,
@@ -321,7 +339,8 @@
       "url": "",
       "badge": "badge badge-dark",
       "badgeText": "Todo vendido",
-      "bookmark": ""
+      "bookmark": "",
+      "logo": ""
     },
     {
       "id": 20,
@@ -338,7 +357,8 @@
       "url": "",
       "badge": "badge badge-dark",
       "badgeText": "Todo vendido",
-      "bookmark": ""
+      "bookmark": "",
+      "logo": ""
     }
   ]
 }

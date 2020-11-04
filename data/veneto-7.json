@@ -8,7 +8,7 @@
     "information": true,
     "amenities": true,
     "typologies": false,
-    "investment": true,
+    "investment": false,
     "advances": true,
     "video": false,
     "location": true
@@ -17,7 +17,7 @@
     "title": "Veneto VII",
     "location": "La Falda",
     "image": "/veneto-7/hero.jpg",
-    "status": "En Pozo",
+    "status": "Disponible",
     "badge": "badge badge-success",
     "bookmark": "Oportunidad exclusiva en La Falda"
   },
@@ -28,12 +28,12 @@
   },
   "information": {
     "title": "VENETO, en la capital nacional del Tango",
-    "text": "Entre rincones naturales, festivales típicos, postas religiosas y emblemas históricos, La Falda es un paraje serrano imponente para visitar en el Valle de Punilla. Descubrir de qué se trata esta “Ciudad Serrana” es un placer en pleno contacto con la naturaleza. Por su especial microclima, La Falda es perfecta para aquellos que prefieren esa “tranquilidad de pueblo”, paseos en bici y caminatas.",
-    "price": "USD 35.000",
-    "observation": "+ cuotas fijas en pesos",
+    "text": "Entre rincones naturales, festivales típicos, postas religiosas y emblemas históricos, La Falda es un paraje serrano imponente para visitar en el Valle de Punilla. Descubrir de qué se trata esta “Ciudad Serrana” es un placer en pleno contacto con la naturaleza. Por su especial microclima, La Falda es perfecta para aquellos que prefieren la comodidad de una ciudad pequeña, combinada con una importante oferta nocturna, cultural, gastronómica y una de las mejores vistas de las sierras de Córdoba.",
+    "price": "Entrega 35%",
+    "observation": "+ cuotas en pesos",
     "pdfUrl": "https://drive.google.com/file/d/1UsaqULhiad78hd94evsiQOBQhOR5hkKQ/view?usp=sharing",
     "featuredTitle": "CONSTRUCCIÓN PREMIUM",
-    "featuredDescription": "Pocelanato 60x60 / Muros internos de material / Calefacción Top / Iluminación Led",
+    "featuredDescription": "Un emprendimiento diferente",
     "photo1": "/veneto-7/information-1.jpg",
     "photo2": "/veneto-7/information-2.jpg",
     "photo3": "/veneto-7/information-3.jpg"
@@ -45,7 +45,7 @@
     "architectureStatus": true,
     "summary": {
       "title": "Un emprendimiento único en La Falda",
-      "text": "23 Departamentos, con unidades de 1, 2 y 3 dormitorios Ideal para inversión con espacios amplios y luminosos.\n\n Departamentos externos con Balcones con asadores propios.\n\n Pileta con vista 360°. SUM. Gimnasio. Play Room. \n\n Su ubicación permite que todos los departamentos tengan iluminación natural y vistas al exterior. Excelente Vista 360º.",
+      "text": "23 Departamentos, con unidades de 1, 2 y 3 dormitorios Ideal para inversión con espacios amplios y luminosos.\n\n Departamentos externos con Balcones con asadores propios.\n\n Pileta con vista panorámica. SUM. Gimnasio. Sala de juegos. \n\n Su ubicación permite que todos los departamentos tengan iluminación natural y vistas al exterior. Excelente vista 360º. \n\n Amplias cocheras y locales comerciales.",
       "images": [],
       "lists": []
     },
@@ -86,13 +86,7 @@
           "text": "Sistema de seguridad por cámaras."
         },
         {
-          "text": "Instalación eléctrica con circuitos diferenciados. AA/CC y Cocina eléctrica"
-        },
-        {
-          "text": "Calefacción central con calderas Ariston."
-        },
-        {
-          "text": "Sistema de paneles solares para agua sanitaria."
+          "text": "Instalación eléctrica con circuitos diferenciados. AA/CC y cocina eléctrica"
         },
         {
           "text": "Sistema de medición de consumo de agua por unidad."
@@ -114,7 +108,7 @@
     },
     "architecture": {
       "title": "ARQUITECTURA MODERNA Y DE VANGUARDIA",
-      "text": "VENETO VIII está concebido para equilibrar tu día a día con espacios ideados para disfrutar el tiempo libre y hacer tu vida más agradable y entretenida.",
+      "text": "VENETO VII está concebido para equilibrar tu día a día con espacios ideados para disfrutar el tiempo libre y hacer tu vida más agradable y entretenida.",
       "slides": [
         {
           "image": "/veneto-7/amenties-architecture-image-1.jpg"
@@ -122,37 +116,34 @@
       ],
       "lists": [
         {
-          "text": "Elegante Salones Comerciales en Ingreso."
+          "text": "Elegantes salones comerciales en ingreso."
         },
         {
           "text": "Ascensores de alta velocidad"
         },
         {
-          "text": "Piscina Panorámica."
+          "text": "Piscina panorámica."
         },
         {
-          "text": "Gimnasio y Área de entrenamiento."
+          "text": "Gimnasio y área de entrenamiento."
         },
         {
-          "text": "Terraza Verde con Livings Materos."
+          "text": "Terraza verde con livings materos."
         },
         {
-          "text": "Quincho Panorámico."
+          "text": "Quincho panorámico con asadores."
         },
         {
           "text": "Asadores en terraza y balcones propios."
         },
         {
-          "text": "Amplios Balcones para disfrutar la vista."
+          "text": "Amplios balcones para disfrutar la vista."
         },
         {
           "text": "Hall de ingreso vanguardista."
         },
         {
-          "text": "Amplios Balcones para disfrutar la vista."
-        },
-        {
-          "text": "Salas de Juegos y Kid área para los más chicos."
+          "text": "Salas de juegos y kid área para los más chicos."
         }
       ]
     }
@@ -228,12 +219,13 @@
     }
   ],
   "investment": {
-    "type": "Desarrollo en pozo",
+    "type": "DESARROLLO EN POZO",
     "typeDescription": "Significa que la edificación está en proceso, y tenés la oportunidad de acceder a una unidad con importantes descuentos.",
-    "duration": "24 MESES",
-    "durationTitle": "Duración",
+    "duration": "2022",
+    "durationTitle": "entrega",
     "durationDescription": "Es el tiempo que durá la inversión para ser dueño de tu propiedad luego de hacer la seña inicial.",
-    "rentability": "15.28%*",
+    "rentabilityTitle": "zona turística",
+    "rentability": "GRAN PROYECCIÓN",
     "rentabilityDescription": "Según una valuación de mercado de los materiales y la mano de obra, al final de tendrás % de rentabilidad de tu inversión."
   },
   "advances": {
@@ -252,6 +244,6 @@
     "title": "",
     "text": "",
     "image": "",
-    "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27241.42236061333!2d-64.50892293650732!3d-31.40922718213771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d6640d6777c71%3A0x75c24ab6cb121bed!2sVilla%20Carlos%20Paz%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1603236940199!5m2!1ses!2sar"
+    "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1708.2857512601447!2d-64.48239132975738!3d-31.093844122648253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d82ffa6b49eaf%3A0x9833f973d2bf0f4c!2sSarmiento%20%26%20Saavedra%2C%20La%20Falda%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1604520230529!5m2!1ses-419!2sar"
   }
 }

@@ -18,7 +18,7 @@ export default function Footer() {
                   <IconPhone />
                 </div>
                 <div>
-                  <a href='tel:08107778002'>0810 777 8002</a> -
+                  <a href='tel:08107778002'>0810 777 8002</a> -{' '}
                   <a href='tel:03533456232'>(03533) 456232</a>
                 </div>
               </li>

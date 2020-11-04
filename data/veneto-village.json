@@ -28,12 +28,12 @@
   },
   "information": {
     "title": "Un paraíso único a 10’ de la ciudad",
-    "text": "VENETO como marca de edificios genera un diferencial respecto a cualquier otro desarrollo en la zona, VENETO VILLAGE, es un Compleo Turístico ubicado a 10 minutos de Villa Carlos Paz, camino a Cosquín. Donde se alzan a los pies del lago San Roque 4 torres con más de 60 departamentos cada una, 120 metros de costa exclusiva para Deportes Náuticos, Spa, Club House, un área deportiva de lujo, con canchas de fútbol, tenis, paddle, basquet y bochas, y los mejores amenities con piletas exteriores, interiores, spá, sauna y demás de sus vistas insuperables.",
-    "price": "USD 50.000",
-    "observation": "+ 12 cuotas",
+    "text": "VENETO como marca de edificios genera un diferencial respecto a cualquier otro desarrollo en la zona, VENETO VILLAGE, es un Compleo Turístico ubicado a 10 minutos de Villa Carlos Paz, camino a Cosquín. Donde se alzan a los pies del lago San Roque 4 torres con más de 60 departamentos cada una, 120 metros de costa exclusiva para Deportes Náuticos, Spa, Club House, un área deportiva de lujo, con canchas de fútbol, tenis, paddle, basquet y bochas, y los mejores amenities con piletas exteriores, interiores, spá, sauna y además de sus vistas insuperables.",
+    "price": "¡ÚLTIMAS UNIDADES!",
+    "observation": "",
     "pdfUrl": "https://drive.google.com/file/d/1-JvaFwwQzPF2NXSUvDZNKRPgzmVo-8bH/view?usp=sharing",
     "featuredTitle": "CONSTRUCCIÓN PREMIUM",
-    "featuredDescription": "Pocelanato 60x60 / Muros internos de material / Calefacción Top / Iluminación Led",
+    "featuredDescription": "Últimas unidades de 1 y 2 dormitorios. Con guardería náutica.",
     "photo1": "/veneto-village/information-1.jpg",
     "photo2": "/veneto-village/information-2.jpg",
     "photo3": "/veneto-village/information-3.jpg"
@@ -114,7 +114,7 @@
     },
     "architecture": {
       "title": "BAJADA AL LAGO Y GUARDERÍA NÁUTICA",
-      "text": "VENETO VIII está concebido para equilibrar tu día a día con espacios ideados para disfrutar el tiempo libre y hacer tu vida más agradable y entretenida.",
+      "text": "VENETO VILLAGE está concebido para equilibrar tu día a día con espacios ideados para disfrutar el tiempo libre y hacer tu vida más agradable y entretenida.",
       "slides": [
         {
           "image": "/veneto-village/amenties-architecture-image-1.jpg"
@@ -125,22 +125,34 @@
           "text": "Increíbles lobys con obras de arte y mobiliarios de primer nivel."
         },
         {
-          "text": "Cuardería náutica."
+          "text": "Guardería náutica."
         },
         {
-          "text": "Piscinas con vista a las montañas."
+          "text": "Área deportiva."
         },
         {
-          "text": "Club House, masajes y spá."
+          "text": "Piscinas exteriores con vista a las montañas."
         },
         {
-          "text": "Sala de conferencias."
+          "text": "Minimercado con productos regionales."
+        },
+        {
+          "text": "Club House - Spa."
+        },
+        {
+          "text": "Sala de masajes, sauna y jacuzzi."
+        },
+        {
+          "text": "Piscina interior climatizada."
         },
         {
           "text": "Restaurante."
         },
         {
-          "text": "Minimercado con productos regionales."
+          "text": "Salón de eventos."
+        },
+        {
+          "text": "Sala de conferencias."
         }
       ]
     }
@@ -216,12 +228,13 @@
     }
   ],
   "investment": {
-    "type": "Inversión Premium",
+    "type": "INVERSIÓN PREMIUM",
     "typeDescription": "",
     "durationTitle": "Entrega",
     "duration": "INMEDIATA",
     "durationDescription": "",
-    "rentability": "22-31%*",
+    "rentabilityTitle": "Emprendimiento",
+    "rentability": "ÚNICO",
     "rentabilityDescription": ""
   },
   "advances": {
@@ -243,6 +256,6 @@
     "title": "",
     "text": "",
     "image": "",
-    "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27241.42236061333!2d-64.50892293650732!3d-31.40922718213771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d6640d6777c71%3A0x75c24ab6cb121bed!2sVilla%20Carlos%20Paz%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1603236940199!5m2!1ses!2sar"
+    "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1703.7513497473803!2d-64.47492626075487!3d-31.345104369464863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d64ff1031bd43%3A0x2829ae46a3019256!2sVeneto%20Village%20-%20Club%20Vacacional!5e0!3m2!1ses!2sar!4v1604517063159!5m2!1ses!2sar"
   }
 }

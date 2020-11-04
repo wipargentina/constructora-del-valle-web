@@ -22,7 +22,7 @@ export default function Contact(props) {
               <div className='info'>
                 <div className='info-item'>
                   <IconEmail />
-                  <span>ventas@venetoconstruccion.com.ar</span>
+                  <span>contacto@constructoradelvalle.com</span>
                 </div>
                 <div className='info-item'>
                   <IconPhone />
@@ -30,12 +30,14 @@ export default function Contact(props) {
                 </div>
                 <div className='info-item'>
                   <IconWhatsapp />
-                  <span>+54 358 4015 151</span>
+                  <span>+54 9 3533 43-1541</span>
                 </div>
                 <div className='info-item'>
                   <a
-                    href='https://wa.me/543533456232'
+                    href='https://wa.me/5493533431541'
                     className='btn btn-success'
+                    target='_blank'
+                    rel='noopener noreferrer'
                   >
                     <IconWhatsapp />
                     Consultanos

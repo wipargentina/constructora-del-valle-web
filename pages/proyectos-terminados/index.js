@@ -43,7 +43,7 @@ export default function ProyectosTerminados() {
                         )}
                         <div className='card-address'>
                           <b>Dirección</b> <br />
-                          {project.address}
+                          {project.address} - {project.location}
                         </div>
                       </div>
                     </div>

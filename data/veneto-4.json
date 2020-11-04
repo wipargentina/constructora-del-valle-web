@@ -28,9 +28,9 @@
   },
   "information": {
     "title": "Frente al puente peatonal",
-    "text": "Ofrece un diseño distintivo e innovador pensado para disfrutar de amenities, ambientes amplios y cómodos, haciendo un escenario ideal para disfrutar, entretenerse y descansar.",
-    "price": "USD 35.000",
-    "observation": "+ cuotas fijas en pesos",
+    "text": "Ofrece un diseño distintivo e innovador pensado para disfrutar de amenities, ambientes amplios y cómodos, haciendo un escenario ideal para disfrutar, entretenerse y descansar. En frente a costanera y nuevo puente peatonal. Una ubicación privilegiada en Villa Carlos Paz.",
+    "price": "",
+    "observation": "",
     "pdfUrl": "",
     "featuredTitle": "CONSTRUCCIÓN PREMIUM",
     "featuredDescription": "Pocelanato 60x60 / Muros internos de material / Calefacción Top / Iluminación Led",
@@ -45,7 +45,7 @@
     "architectureStatus": true,
     "summary": {
       "title": "Resúmen",
-      "text": "Ubicado en el corazón de la ciudad, propone una vida cerca de todo lo que necesitas, situado sobre la costanera del lago San Roque y a 50 metros del Nuevo Puente Peatonal, atractivo central de la calle peatonal 9 de Julio.",
+      "text": "Ubicado en el corazón de la ciudad, propone una vida cerca de todo lo que necesitas, situado sobre la costanera del lago San Roque, frente al Nuevo Puente Peatonal, atractivo central de la calle peatonal 9 de Julio.",
       "images": [],
       "lists": []
     },
@@ -119,13 +119,13 @@
       ],
       "lists": [
         {
-          "text": "Elegante Hall de Acceso."
+          "text": "Elegante hall de acceso."
         },
         {
           "text": "Ascensores de alta velocidad"
         },
         {
-          "text": "Piscina Panorámica."
+          "text": "Piscina panorámica."
         },
         {
           "text": "Gimnasio."
@@ -134,22 +134,16 @@
           "text": "Terraza Verde con Livings Exteriores."
         },
         {
-          "text": "Quincho Panorámico."
+          "text": "Quincho panorámico con asadores."
         },
         {
-          "text": "Asadores en terraza y balcones propios."
-        },
-        {
-          "text": "Locales comerciales en planta baja."
-        },
-        {
-          "text": "Hall de distribución central vanguardista."
-        },
-        {
-          "text": "Amplias oficinas en planta baja."
+          "text": "Balcones con asadores propios."
         },
         {
           "text": "Explanada de ingreso jerarquizada."
+        },
+        {
+          "text": "Amplios locales comerciales en planta baja."
         },
         {
           "text": "Amenities exclusivos."
@@ -230,10 +224,11 @@
   "investment": {
     "type": "Desarrollo en pozo",
     "typeDescription": "",
-    "duration": "18 MESES",
-    "durationTitle": "Duración",
+    "duration": "2021",
+    "durationTitle": "Entrega",
     "durationDescription": "",
-    "rentability": "15.28%*",
+    "rentabilityTitle": "edificio",
+    "rentability": "DESTACADO",
     "rentabilityDescription": ""
   },
   "advances": {
@@ -252,6 +247,6 @@
     "title": "",
     "text": "",
     "image": "",
-    "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27241.42236061333!2d-64.50892293650732!3d-31.40922718213771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d6640d6777c71%3A0x75c24ab6cb121bed!2sVilla%20Carlos%20Paz%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1603236940199!5m2!1ses!2sar"
+    "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.8091444475276!2d-64.50531838454584!3d-31.419384081403003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d663f7fa85ccf%3A0x6175f141697f6739!2sVENETO%204%20-%20Edificio%20Veneto%20IV!5e0!3m2!1ses-419!2sar!4v1604522683885!5m2!1ses-419!2sar"
   }
 }

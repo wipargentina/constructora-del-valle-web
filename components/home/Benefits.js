@@ -6,55 +6,54 @@ export default function Benefits() {
       <div className='container'>
         <h1>¿Por qué invertir en Veneto?</h1>
         <div className='row justify-content-center'>
-          <div className='col-xl-8'>
+          <div className='col-xl-8 mt-3'>
             <ul>
               <li>
                 <p>
-                  Precio de compra diferencial{' '}
-                  <b>19% por debajo del mercado.</b>
+                  Precio de compra diferencial en relación precio, calidad y
+                  ubicación en m2 por debajo del mercado.
                 </p>
               </li>
               <li>
                 <p>
-                  <b>Compra de contado</b>, que genera un ahorro del ajuste por
-                  ICC y/o inflación respecto de otras alternativas.
+                  Compra de contado, con importantes descuentos, y que genera un
+                  ahorro del ajuste por ICC.
+                </p>
+              </li>
+              <li>
+                <p>Revalorización de la zona.</p>
+              </li>
+              <li>
+                <p>
+                  Obra en proceso de construcción con planos y habilitaciones
+                  aprobadas
                 </p>
               </li>
               <li>
                 <p>
-                  <b>Revalorización de la zona superior al 9% anual.</b>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <b>
-                    Desarrollo en pozo con planos y habilitaciones aprobadas.
-                  </b>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <b>Sistema de Construcción Tradicional Premium.</b> Calidad en
-                  terminaciones y detalle. Mejor valor de reventa.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Selección de unidades de 50² a 85m² promedio que facilitan la
-                  posterior venta y defienden mejor el valor por m².
+                  Selección de unidades de 50m² a 87m² propios habitables y
+                  libres de muro + Balcón + Cochera + Metros Comunes, factor que
+                  facilita la posterior venta y deﬁenden mejor el valor por m².
                 </p>
               </li>
               <li>
                 <p>
                   La venta futura con las unidades terminadas permitirá defender
-                  el valor de venta, maximizando el retorno para el inversor.
+                  el valor de inversión, maximizando el retorno de la misma.
                 </p>
               </li>
               <li>
                 <p>
-                  Edificios con características de{' '}
-                  <b>Arte, Tecnología, Diseño y Calidad</b> que lo hacen
-                  superior y más atractivo frente a la competencia.
+                  Ediﬁcio con características de Arte, Confort, Diseño y Calidad
+                  que lo convierten en un producto diferente y único.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Ubicación estratégica con accesos rápidos para vehículos,
+                  además de una explanada peatonal, el paseo comercial FONTANA
+                  DI VENETO y una cafetería de calidad que jerarquiza el
+                  producto.
                 </p>
               </li>
               <li>
@@ -62,15 +61,9 @@ export default function Benefits() {
               </li>
               <li>
                 <p>
-                  <b>Ubicaciones Premium</b>, en zonas gastronómica y de
-                  esparcimiento más importante de la ciudad, con vistas únicas
-                  al lago y costanera.
-                </p>
-              </li>
-              <li>
-                <p>
-                  <b>Rentabilidad</b>, zonas mas demandadas tanto para venta
-                  como para alquiler
+                  Ubicación Premium, en una de las zonas gastronómicas más
+                  importante de Villa Carlos Paz, con vistas únicas al lago y
+                  costanera. Zona más demandada tanto para renta como uso.
                 </p>
               </li>
               <li>
@@ -82,7 +75,7 @@ export default function Benefits() {
             </ul>
             <div className='text-center mt-3'>
               <Link href='/emprendimientos'>
-                <a className='btn btn-primary'>Ver proyectos de inversiòn</a>
+                <a className='btn btn-primary'>Ver proyectos de inversión</a>
               </Link>
             </div>
           </div>

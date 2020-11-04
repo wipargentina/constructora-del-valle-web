@@ -8,7 +8,12 @@ export default function VenturesCard(props) {
     <Link href={venture.url}>
       <a>
         <div className={venture.id > 2 ? 'card portrait' : 'card landscape'}>
-          <img src={venture.image} alt={venture.title} loading='lazy' />
+          <img
+            src={venture.image}
+            alt={venture.title}
+            loading='lazy'
+            className='image'
+          />
           <div className='card-overlay'></div>
           <div className='card-content'>
             <div className='card-bookmark'>
@@ -23,6 +28,11 @@ export default function VenturesCard(props) {
             </div>
 
             <div className='card-info'>
+              {venture.logo && (
+                <div className='card-logo'>
+                  <img src={venture.logo} alt='logo' />
+                </div>
+              )}
               <div className={`card-badge ${venture.badge}`}>
                 {venture.badgeText}
               </div>
