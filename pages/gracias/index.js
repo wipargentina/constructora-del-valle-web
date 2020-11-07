@@ -8,7 +8,7 @@ export default function index() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Gracias</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <div className='tanks'>
