@@ -131,10 +131,17 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className='row'>
-          <div className='col credits'>
+        <div className='credits'>
+          <div className='copyright'>
             © 2020 Constructora del Valle S.A. Todos los Derechos Reservados
           </div>
+          <a
+            href='https://wipargentina.com/?utm_source=web&utm_medium=link&utm_campaign=constructora_del_valle'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <img src='/wip-white.svg' alt='wip' height='16' />
+          </a>
         </div>
       </div>
     </footer>

@@ -57,6 +57,9 @@ footer {
     .credits {
       padding-bottom: 20px;
       font-size: 0.75rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
   }
 }
@@ -73,6 +76,11 @@ footer {
       height: 500px;
       // display: flex;
       // align-items: center;
+      .credits {
+        .copyright {
+          display: none;
+        }
+      }
     }
   }
 }
