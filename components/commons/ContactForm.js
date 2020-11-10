@@ -8,19 +8,16 @@ const ContactForm = (props) => {
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
   const [location, setLocation] = useState('');
-  const [message, setMessage] = useState('');
-  const [tags, setTags] = useState('vivienda');
-  const [subject, setSubject] = useState(
-    props.subject ? `Me interesa ${props.subject}` : ''
+  const [state, setState] = useState('');
+  const [message, setMessage] = useState(
+    props.subject ? `Me interesa saber más sobre ${props.subject}` : ''
   );
+  const [finalidad, setFinalidad] = useState('vivienda');
   const [sending, setSending] = useState(false);
   const router = useRouter();
 
-  //console.log(fname);
-
   const handleSubmit = (e) => {
     e.preventDefault();
-    //console.log(fname);
 
     setSending(true);
 
@@ -31,19 +28,20 @@ const ContactForm = (props) => {
       phone: phone,
       message: message,
       location: location,
-      tags: tags,
-      subject: subject
+      state: state,
+      finalidad: finalidad
     };
+
+    //console.log(data);
+
     axios
-      .post(
-        'https://constructora-del-valle.wipargentina.com/backend/test.php',
-        data
-      )
+      .post('https://test.veneto.constructoradelvalle.com/landing/api', data)
       .then((res) => {
-        console.log(data);
+        //console.log(data);
         console.log(res);
         if (res.status === 200) {
           window.location.assign('/gracias');
+          //console.log(res.status);
         }
       })
       .catch((err) => {
@@ -57,6 +55,7 @@ const ContactForm = (props) => {
           <div className='col-sm-6'>
             <div className='form-group'>
               <input
+                name='fname'
                 className='form-control'
                 type='text'
                 placeholder='Nombre'
@@ -69,6 +68,7 @@ const ContactForm = (props) => {
           <div className='col-sm-6'>
             <div className='form-group'>
               <input
+                name='lname'
                 className='form-control'
                 type='text'
                 placeholder='Apellido'
@@ -81,6 +81,7 @@ const ContactForm = (props) => {
           <div className='col-sm-6'>
             <div className='form-group'>
               <input
+                name='email'
                 className='form-control'
                 type='text'
                 placeholder='Email'
@@ -93,6 +94,7 @@ const ContactForm = (props) => {
           <div className='col-sm-6'>
             <div className='form-group'>
               <input
+                name='phone'
                 className='form-control'
                 type='text'
                 placeholder='Teléfono'
@@ -105,6 +107,7 @@ const ContactForm = (props) => {
           <div className='col-sm-6'>
             <div className='form-group'>
               <input
+                name='location'
                 className='form-control'
                 type='text'
                 placeholder='Localidad'
@@ -117,22 +120,23 @@ const ContactForm = (props) => {
           <div className='col-sm-6'>
             <div className='form-group'>
               <input
+                name='state'
                 className='form-control'
                 type='text'
-                placeholder='¿Qué tema te interesa?'
-                value={subject}
-                onChange={(e) => setSubject(e.target.value)}
+                placeholder='Provincia'
+                onChange={(e) => setState(e.target.value)}
               />
             </div>
           </div>
           <div className='col-12 mb-3'>
             <div className='form-group'>
               <textarea
-                className='form-control '
                 name='message'
+                className='form-control '
                 id=''
                 rows='6'
-                placeholder='Comentario'
+                placeholder='¿Qué tema te interesa?'
+                value={message}
                 onChange={(e) => setMessage(e.target.value)}
               ></textarea>
             </div>
@@ -146,13 +150,13 @@ const ContactForm = (props) => {
                 <input
                   className='custom-control-input'
                   type='radio'
-                  name='tags'
-                  id='tags-1'
+                  name='finalidad'
+                  id='vivienda'
                   value='vivienda'
-                  onChange={(e) => setTags(e.target.value)}
-                  checked={tags === 'vivienda'}
+                  onChange={(e) => setFinalidad(e.target.value)}
+                  checked={finalidad === 'vivienda'}
                 />
-                <label className='custom-control-label' htmlFor='tags-1'>
+                <label className='custom-control-label' htmlFor='vivienda'>
                   Quiero Vivir
                 </label>
               </div>
@@ -160,13 +164,13 @@ const ContactForm = (props) => {
                 <input
                   className='custom-control-input'
                   type='radio'
-                  name='tags'
-                  id='tags-2'
-                  onChange={(e) => setTags(e.target.value)}
+                  name='finalidad'
+                  id='inversor'
+                  onChange={(e) => setFinalidad(e.target.value)}
                   value='inversor'
-                  checked={tags === 'inversor'}
+                  checked={finalidad === 'inversor'}
                 />
-                <label className='custom-control-label' htmlFor='tags-2'>
+                <label className='custom-control-label' htmlFor='inversor'>
                   Quiero Invertir
                 </label>
               </div>

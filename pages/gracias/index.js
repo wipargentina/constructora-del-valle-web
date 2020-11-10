@@ -15,12 +15,17 @@ export default function index() {
         <div className='container'>
           <div className='row justify-content-center'>
             <div className='col-md-8'>
-              <h1>Gracias por comunicarte con nosotros</h1>
+              <h1>¡Muchas gracias por contactarte!</h1>
+              <h4>Tu información ya fue asignada a nuestros representantes.</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Perspiciatis omnis laboriosam id dolorum veniam eveniet quos
-                commodi sunt. Nihil, nam.
+                Realmente apreciamos tu interés en completar el formulario y
+                dejarnos tus datos. <br /> En breve nos pondremos en contacto, a
+                fin de suministrarte más información sobre tu consulta.
               </p>
+
+              <h3>
+                Te invitamos a que conozcas todos nuestros emprendimientos
+              </h3>
             </div>
           </div>
         </div>
