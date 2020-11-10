@@ -22,9 +22,23 @@ export default function OurVentures() {
                           alt={venture.title}
                           loading='lazy'
                         />
-                        <div className='card-badge'>
+                        {/* <div className='card-badge'>
                           <div className={`${venture.badge}`}>
                             {venture.badgeText}
+                          </div>
+                        </div> */}
+                        <div className='card-info'>
+                          {venture.logo && (
+                            <>
+                              <div className='card-logo'>
+                                <img src={venture.logo} alt='logo' />
+                              </div>
+                            </>
+                          )}
+                          <div className='card-badge'>
+                            <div className={`${venture.badge}`}>
+                              {venture.badgeText}
+                            </div>
                           </div>
                         </div>
                       </div>

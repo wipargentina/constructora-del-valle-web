@@ -25,21 +25,30 @@
           height: 380px;
           object-fit: cover;
         }
-        .card-badge {
+        .card-info {
           position: absolute;
           bottom: 0;
           width: 100%;
-          height: 50px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
+          .card-logo {
+            text-align: center;
+            margin-bottom: 30px;
+            img {
+              width: 260px;
+            }
+          }
+          .card-badge {
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
-          .badge {
-            border: 1px solid white;
-            border-radius: 4px;
-            padding: 6px 8px;
-            font-weight: 500;
-            letter-spacing: -0.02rem;
+            .badge {
+              border: 1px solid white;
+              border-radius: 4px;
+              padding: 6px 8px;
+              font-weight: 500;
+              letter-spacing: -0.02rem;
+            }
           }
         }
       }
