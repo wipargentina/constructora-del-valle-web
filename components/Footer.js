@@ -36,32 +36,6 @@ export default function Footer() {
                   contacto@constructoradelvalle.com
                 </a>
               </li>
-              <li>
-                <div className='icon'>
-                  <IconFacebook />
-                </div>{' '}
-                <a
-                  id='btn-facebook'
-                  href='https://www.facebook.com/ConstructoradelValleOficial'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  ConstructoradelValleOficial
-                </a>
-              </li>
-              <li>
-                <div className='icon'>
-                  <IconInstagram />
-                </div>{' '}
-                <a
-                  id='btn-instagram'
-                  href='https://www.instagram.com/constructoradelvallesa/'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  constructoradelvallesa
-                </a>
-              </li>
             </ul>
           </div>
           <div className='col-md-3'>
@@ -99,7 +73,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href='/veneto-8'>
+                <Link href='/veneto-8-fontana-di-veneto'>
                   <a>Veneto VIII</a>
                 </Link>
               </li>
@@ -111,22 +85,33 @@ export default function Footer() {
             </ul>
           </div>
           <div className='col-md-3 d-none d-md-block'>
-            <div className='title'>Navegación</div>
+            <div className='title'>Seguinos en las Redes</div>
             <ul>
               <li>
-                <Link href='/'>
-                  <a>Nav</a>
-                </Link>
+                <div className='icon'>
+                  <IconFacebook />
+                </div>{' '}
+                <a
+                  id='btn-facebook'
+                  href='https://www.facebook.com/ConstructoradelValleOficial'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  ConstructoradelValleOficial
+                </a>
               </li>
               <li>
-                <Link href='/'>
-                  <a>Nav</a>
-                </Link>
-              </li>
-              <li>
-                <Link href='/'>
-                  <a>Nav</a>
-                </Link>
+                <div className='icon'>
+                  <IconInstagram />
+                </div>{' '}
+                <a
+                  id='btn-instagram'
+                  href='https://www.instagram.com/constructoradelvallesa/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  constructoradelvallesa
+                </a>
               </li>
             </ul>
           </div>

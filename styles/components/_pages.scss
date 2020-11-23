@@ -1,6 +1,14 @@
 .page404 {
-  height: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 160px 0;
+  text-align: center;
+  h1 {
+    margin-bottom: 20px;
+  }
+  h4 {
+    margin-bottom: 40px;
+    line-height: 2.4rem;
+  }
+  p {
+    margin-bottom: 30px;
+  }
 }

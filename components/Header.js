@@ -11,9 +11,12 @@ export default function Header() {
             </Navbar.Brand>
           </Nav.Link>
         </Link>
-        {/* <a href='/' className='navbar-brand'>
-          <img className='logo' src='/Logo.svg' alt='logo' />
-        </a> */}
+        <img
+          src='/logo-veneto.svg'
+          alt='logo veneto'
+          height='24'
+          className='d-sm-none'
+        />
         <Navbar.Toggle aria-controls='navbar-nav' />
         <Navbar.Collapse id='navbar-nav'>
           <Nav className='mx-auto'>
@@ -58,7 +61,7 @@ export default function Header() {
               </Link>
             </div>
           </Nav>
-          <Nav className='Link mt-0' href='#phone'>
+          <Nav className='Link mt-0 d-none d-sm-block' href='#phone'>
             <div className='nav-item'>
               <div className='nav-link'>
                 <img src='/logo-veneto.svg' alt='logo veneto' height='30' />

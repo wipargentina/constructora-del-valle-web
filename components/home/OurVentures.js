@@ -5,7 +5,7 @@ import data from '../../data/ventures.json';
 export default function OurVentures() {
   const ventures = data.data;
   return (
-    <section className='our-ventures'>
+    <section id='our-ventures' className='our-ventures'>
       <div className='container'>
         <h1 className='soft mb-5'>Nuestros Emprendimientos</h1>
         <div className='row'>
