@@ -5,10 +5,17 @@ import IconTimer from '@components/icons/IconTimer';
 import IconRentability from '@components/icons/IconRentability';
 import ButtonMoreInformation from './ButtonMoreInformation';
 
+import { useRouter } from 'next/router';
+
 export default function Information(props) {
   const information = props.information;
   const investment = props.investment;
   const status = props.status;
+
+  const { basePath } = useRouter();
+  const router = useRouter();
+  const path = (basePath + router.pathname).slice(1);
+
   return (
     <section id='information' className='information'>
       <div className='container'>
@@ -31,8 +38,8 @@ export default function Information(props) {
                 <div>
                   {information.pdfUrl && (
                     <a
-                      id={`pdf`}
-                      className='btn btn-outline-danger my-3 my-xl-0'
+                      id={`pdf-${path}`}
+                      className='btn btn-outline-danger my-3 my-xl-0 d-block d-lg-inline'
                       href={information.pdfUrl}
                       target='_blank'
                       rel='noopener noreferrer'
@@ -40,13 +47,25 @@ export default function Information(props) {
                       Descargar PDF
                     </a>
                   )}
+                  {information.planosUrl && (
+                    <a
+                      id={`planes-${path}`}
+                      className='btn btn-outline-primary my-3 my-xl-0 ml-lg-2 d-block d-lg-inline'
+                      href={information.planosUrl}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      Descargar Planos
+                    </a>
+                  )}
                   <Scroll
+                    id={`consult-${path}`}
                     to='contact'
                     spy={true}
                     smooth={true}
                     offset={-100}
                     duration={599}
-                    className='btn btn-primary ml-sm-3'
+                    className='btn btn-primary ml-lg-2 d-block d-lg-inline'
                   >
                     Consulta inmediata
                   </Scroll>
