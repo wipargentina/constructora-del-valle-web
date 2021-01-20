@@ -39,7 +39,7 @@ export default function Information(props) {
                   {information.pdfUrl && (
                     <a
                       id={`pdf-${path}`}
-                      className='btn btn-outline-danger my-3 my-xl-0 d-block d-lg-inline'
+                      className='btn btn-outline-danger my-3 my-xl-0 d-block d-lg-inline download-pdf'
                       href={information.pdfUrl}
                       target='_blank'
                       rel='noopener noreferrer'
@@ -50,7 +50,7 @@ export default function Information(props) {
                   {information.planosUrl && (
                     <a
                       id={`planes-${path}`}
-                      className='btn btn-outline-primary my-3 my-xl-0 ml-lg-2 d-block d-lg-inline'
+                      className='btn btn-outline-primary my-3 my-xl-0 ml-lg-2 d-block d-lg-inline download-pdf'
                       href={information.planosUrl}
                       target='_blank'
                       rel='noopener noreferrer'
