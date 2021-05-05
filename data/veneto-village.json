@@ -51,7 +51,7 @@
     },
     "quality": {
       "title": "CALIDAD CONSTRUCTIVA Y COMPROMISO MEDIOAMBIENTAL",
-      "text": "Además de la calidad constructiva que nos caracteriza, adoptamos el **compromiso veneto**, donde hemos incorporando nuevas tecnologías y materialescapaces de ofrecer alta comodidad optimizando el consumo de recursos y aportando al ahorro y medio ambiente.",
+      "text": "Además de la calidad constructiva que nos caracteriza, adoptamos el **compromiso veneto**, donde hemos incorporando nuevas tecnologías y materiales capaces de ofrecer alta comodidad optimizando el consumo de recursos y aportando al ahorro y medio ambiente.",
       "gallery": {
         "image1": "/veneto-village/amenties-gallery-1.jpg",
         "image2": "/veneto-village/amenties-gallery-2.jpg",
@@ -80,7 +80,7 @@
           "text": "Puertas de ingreso de vidrio templado con cerradura magnética."
         },
         {
-          "text": "Plata propia de tratamiento de agua."
+          "text": "Planta propia de tratamiento de agua."
         },
         {
           "text": "Amplias cocheras con parking para bicis y motos."
@@ -245,6 +245,18 @@
       },
       {
         "image": "/veneto-village/advances-image-2.jpg"
+      },
+      {
+        "image": "/veneto-village/advances-image-3.jpg"
+      },
+      {
+        "image": "/veneto-village/advances-image-4.jpg"
+      },
+      {
+        "image": "/veneto-village/advances-image-5.jpg"
+      },
+      {
+        "image": "/veneto-village/advances-image-6.jpg"
       }
     ]
   },

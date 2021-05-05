@@ -14,8 +14,8 @@ export default function Header() {
         <img
           src='/logo-veneto.svg'
           alt='logo veneto'
-          height='24'
-          className='d-sm-none'
+          height='30'
+          className='d-xl-none ml-auto mr-3'
         />
         <Navbar.Toggle aria-controls='navbar-nav' />
         <Navbar.Collapse id='navbar-nav'>
