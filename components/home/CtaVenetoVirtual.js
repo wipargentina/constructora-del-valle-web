@@ -18,7 +18,7 @@ export default function CtaVenetoVirtual() {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <img src='/home/360-veneto-3.jpg' alt='' />
+              <img src='/home/360-veneto-3.gif' alt='' />
             </a>
           </div>
         </div>
