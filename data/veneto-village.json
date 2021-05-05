@@ -241,22 +241,34 @@
     "title": "Veneto Village",
     "slides": [
       {
-        "image": "/veneto-village/advances-image-1.jpg"
+        "image": "/veneto-village/advances-image-1.webp"
       },
       {
-        "image": "/veneto-village/advances-image-2.jpg"
+        "image": "/veneto-village/advances-image-2.webp"
       },
       {
-        "image": "/veneto-village/advances-image-3.jpg"
+        "image": "/veneto-village/advances-image-3.webp"
       },
       {
-        "image": "/veneto-village/advances-image-4.jpg"
+        "image": "/veneto-village/advances-image-4.webp"
       },
       {
-        "image": "/veneto-village/advances-image-5.jpg"
+        "image": "/veneto-village/advances-image-5.webp"
       },
       {
-        "image": "/veneto-village/advances-image-6.jpg"
+        "image": "/veneto-village/advances-image-6.webp"
+      },
+      {
+        "image": "/veneto-village/advances-image-7.webp"
+      },
+      {
+        "image": "/veneto-village/advances-image-8.webp"
+      },
+      {
+        "image": "/veneto-village/advances-image-9.webp"
+      },
+      {
+        "image": "/veneto-village/advances-image-10.webp"
       }
     ]
   },
