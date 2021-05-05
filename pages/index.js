@@ -6,6 +6,7 @@ import ProjectsFinished from '@components/commons/ProjectsFinished';
 import Benefits from '@components/home/Benefits';
 import CompanyCTA from '@components/commons/CompanyCTA';
 import Contact from '@components/commons/Contact';
+import CtaVenetoVirtual from '../components/home/CtaVenetoVirtual';
 
 export default function Home() {
   return (
@@ -14,10 +15,11 @@ export default function Home() {
         <title>Constructora del Valle S.A.</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <div className='home'>
+      <div id='top' className='home'>
         <Slides />
         <Experience />
         <OurVentures />
+        <CtaVenetoVirtual />
         <ProjectsFinished />
         <Benefits />
         <CompanyCTA />

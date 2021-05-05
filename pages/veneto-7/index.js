@@ -22,7 +22,7 @@ export default function Veneto7() {
         <meta name='description' content={data.head.description} />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <div className='product'>
+      <div id='top' className='product'>
         <Hero data={data.hero} />
         <Menu status={data.status} menu={data.menu} />
         {data.status.information && (

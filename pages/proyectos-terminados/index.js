@@ -12,7 +12,7 @@ export default function ProyectosTerminados() {
         <title>Proyectos Terminados</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <section className='projects-finished mb-5'>
+      <section id='top' className='projects-finished mb-5'>
         <div className='container'>
           <h1 className='text-center my-5'>Proyectos terminados</h1>
           <div className='row'>

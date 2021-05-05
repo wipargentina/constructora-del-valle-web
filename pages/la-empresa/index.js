@@ -10,7 +10,7 @@ export default function LaEmpresa() {
         <title>La Empresa</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <section className='company'>
+      <section id='top' className='company'>
         <HeroCompany />
         <ContentCompany />
       </section>

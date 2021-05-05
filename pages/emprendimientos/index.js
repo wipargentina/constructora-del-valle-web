@@ -12,7 +12,7 @@ export default function Home() {
         <title>Emprendimientos</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <section className='ventures'>
+      <section id='top' className='ventures'>
         <Ventures />
       </section>
       <div className='commons'>

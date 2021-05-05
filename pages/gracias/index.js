@@ -11,7 +11,7 @@ export default function index() {
         <title>Gracias</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <div className='tanks'>
+      <div id='top' className='tanks'>
         <div className='container'>
           <div className='row justify-content-center'>
             <div className='col-md-8'>
